@@ -1,7 +1,7 @@
 ISSN,journal_title,publisher,URL,data_journal_type
 2574-5417,Big Earth Data,Taylor & Francis,https://www.tandfonline.com/journals/tbed20,mixed
-1809-127X,Pensoft,Check List,https://checklist.pensoft.net/,pure
-1698-0476,Museu de Ciéncies Naturals de Barcelona,Arxius de Miscel·lània Zoològica,https://museucienciesjournals.cat/en/amz,pure
+1809-127X,Check List,Pensoft,https://checklist.pensoft.net/,pure
+1698-0476,Arxius de Miscel·lània Zoològica,Museu de Ciències Naturals de Barcelona,https://museucienciesjournals.cat/en/amz,pure
 1941-4927,NCHS Data Briefs,Centers for Disease Control and Preventions (CDC),https://www.cdc.gov/nchs/products/databriefs.htm,pure
 1758-0463,Database: The Journal of Biological Databases and Curation,Oxford University Press,https://academic.oup.com/database,pure
 2709-4715,Gigabyte,BGI and Oxford University Press,https://gigabytejournal.com/,pure
@@ -25,7 +25,7 @@ ISSN,journal_title,publisher,URL,data_journal_type
 1471-2261,BMC Cardiovascular Disorders,BioMed Central (Springer Nature),https://bmccardiovascdisord.biomedcentral.com/,mixed
 2661-801X,BMC Chemistry,BioMed Central (Springer Nature),https://bmcchem.biomedcentral.com/,mixed
 1472-6882,BMC Complementary and Alternative Medicine,BioMed Central (Springer Nature),https://bmccomplementmedtherapies.biomedcentral.com/,mixed
-1472-6785,BMC Ecology,BioMed Central (Springer Nature),https://bmcbiotechnol.biomedcentral.com/,mixed
+1472-6785,BMC Ecology,BioMed Central (Springer Nature),https://bmcecol.biomedcentral.com/,mixed
 1471-227X,BMC Emergency Medicine,BioMed Central (Springer Nature),https://bmcemergmed.biomedcentral.com/,mixed
 1472-6823,BMC Endocrine Disorders,BioMed Central (Springer Nature),https://bmcendocrdisord.biomedcentral.com/,mixed
 1471-2148,BMC Evolutionary Biology,BioMed Central (Springer Nature),https://bmcecolevol.biomedcentral.com/,mixed
@@ -78,14 +78,13 @@ ISSN,journal_title,publisher,URL,data_journal_type
 2306-5729,Data,MDPI,https://www.mdpi.com/journal/data,mixed
 2352-3409,Data in Brief,Elsevier,https://www.sciencedirect.com/journal/data-in-brief,pure
 1683-1470,Data Science Journal,Ubiquity Press,https://datascience.codata.org/,mixed
-1758-0463,Database,Oxford University Press,https://academic.oup.com/database,mixed
 1866-3516,Earth System Science Data,Copernicus,https://www.earth-system-science-data.net/,pure
 1440-1703,Ecological Research,Blackwell Publishing (Wiley),https://esj-journals.onlinelibrary.wiley.com/journal/14401703,mixed
 1939-9170,Ecology,John Wiley & Sons (Wiley),https://esajournals.onlinelibrary.wiley.com/journal/19399170,mixed
 2639-5916,Ecosystems and People,Taylor & Francis,https://www.tandfonline.com/journals/tbsm22,mixed
 2050-084X,eLife,eLife Sciences Publications,https://elifesciences.org/,mixed
 2041-9139,EvoDevo,BioMed Central (Springer Nature),https://evodevojournal.biomedcentral.com/,mixed
-2046-1402,F1000Research,F1000 Research,https://f1000research.com/,mixed
+2046-1402,F1000Research,F1000Research,https://f1000research.com/,mixed
 2197-5620,Forest Ecosystems,Elsevier,https://www.sciencedirect.com/journal/forest-ecosystems,mixed
 2312-6604,Freshwater Metadata Journal,University of Natural Resources and Life Sciences Vienna,http://data.freshwaterbiodiversity.eu/fmj/,pure
 1756-994X,Genome Medicine,BioMed Central (Springer Nature),https://genomemedicine.biomedcentral.com/,mixed
@@ -141,5 +140,5 @@ ISSN,journal_title,publisher,URL,data_journal_type
 1365-313X,The Plant Journal,Blackwell Publishing (Wiley),https://onlinelibrary.wiley.com/journal/1365313x,mixed
 2578-2703,The Plant Phenome Journal,John Wiley & Sons (Wiley),https://acsess.onlinelibrary.wiley.com/journal/25782703,mixed
 2603-431X,Viticulture Data Journal,Pensoft Publishers,https://vdj.pensoft.net/,pure
-2398-502X,Wellcome Open Research,F1000 Research,https://wellcomeopenresearch.org/,mixed
+2398-502X,Wellcome Open Research,F1000Research,https://wellcomeopenresearch.org/,mixed
 
