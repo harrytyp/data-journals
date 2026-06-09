@@ -1,6 +1,461 @@
 {
-  "generated": "2026-06-09T16:09:45.194332",
+  "generated": "2026-06-09T16:15:10.836291",
   "existing_count": 146,
-  "candidates": [],
-  "notes": "All candidates need manual verification. 'verified' means ISSN resolves in OpenAlex as a journal — NOT that it qualifies as a data journal."
+  "total_candidates": 32,
+  "confirmed_journals": 29,
+  "unconfirmed": 3,
+  "candidates": [
+    {
+      "issn": "0031-9104",
+      "journal_title": "Physics and Chemistry of Liquids",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "matched_works": 12,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 2878,
+      "cited_by_count": 25856,
+      "verified": true
+    },
+    {
+      "issn": "2995-4274",
+      "journal_title": "IEEE data descriptions.",
+      "publisher": "?",
+      "url": "",
+      "matched_works": 9,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 146,
+      "cited_by_count": 136,
+      "verified": true
+    },
+    {
+      "issn": "1549-9596",
+      "journal_title": "Journal of Chemical Information and Modeling",
+      "publisher": "American Chemical Society",
+      "url": "",
+      "matched_works": 8,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 9495,
+      "cited_by_count": 373417,
+      "verified": true
+    },
+    {
+      "issn": "2045-2322",
+      "journal_title": "Scientific Reports",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "matched_works": 4,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 298561,
+      "cited_by_count": 7766605,
+      "verified": true
+    },
+    {
+      "issn": "0002-7863",
+      "journal_title": "Journal of the American Chemical Society",
+      "publisher": "American Chemical Society",
+      "url": "",
+      "matched_works": 3,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 220678,
+      "cited_by_count": 15621069,
+      "verified": true
+    },
+    {
+      "issn": "1075-122X",
+      "journal_title": "The Breast Journal",
+      "publisher": "Wiley",
+      "url": "",
+      "matched_works": 3,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 4896,
+      "cited_by_count": 73780,
+      "verified": true
+    },
+    {
+      "issn": "0925-2312",
+      "journal_title": "Neurocomputing",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 3,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 27556,
+      "cited_by_count": 806011,
+      "verified": true
+    },
+    {
+      "issn": "2072-4292",
+      "journal_title": "Remote Sensing",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "matched_works": 3,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 42073,
+      "cited_by_count": 1090485,
+      "verified": true
+    },
+    {
+      "issn": "0143-1161",
+      "journal_title": "International Journal of Remote Sensing",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "matched_works": 3,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 14837,
+      "cited_by_count": 589167,
+      "verified": true
+    },
+    {
+      "issn": "2076-3417",
+      "journal_title": "Applied Sciences",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data paper\"",
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 89080,
+      "cited_by_count": 1078113,
+      "verified": true
+    },
+    {
+      "issn": "0927-0256",
+      "journal_title": "Computational Materials Science",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 14207,
+      "cited_by_count": 437299,
+      "verified": true
+    },
+    {
+      "issn": "2075-4418",
+      "journal_title": "Diagnostics",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 18843,
+      "cited_by_count": 218431,
+      "verified": true
+    },
+    {
+      "issn": "0952-1976",
+      "journal_title": "Engineering Applications of Artificial Intelligence",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 13854,
+      "cited_by_count": 308035,
+      "verified": true
+    },
+    {
+      "issn": "2635-098X",
+      "journal_title": "Digital Discovery",
+      "publisher": "Royal Society of Chemistry",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 1112,
+      "cited_by_count": 9820,
+      "verified": true
+    },
+    {
+      "issn": "1433-7851",
+      "journal_title": "Angewandte Chemie International Edition",
+      "publisher": "Wiley",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 80984,
+      "cited_by_count": 6532858,
+      "verified": true
+    },
+    {
+      "issn": "2666-3864",
+      "journal_title": "Cell Reports Physical Science",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 2567,
+      "cited_by_count": 50278,
+      "verified": true
+    },
+    {
+      "issn": "0044-8249",
+      "journal_title": "Angewandte Chemie",
+      "publisher": "Wiley",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 141599,
+      "cited_by_count": 1814468,
+      "verified": true
+    },
+    {
+      "issn": "0944-1344",
+      "journal_title": "Environmental Science and Pollution Research",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 48703,
+      "cited_by_count": 1342661,
+      "verified": true
+    },
+    {
+      "issn": "0033-5177",
+      "journal_title": "Quality & Quantity",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 5009,
+      "cited_by_count": 123265,
+      "verified": true
+    },
+    {
+      "issn": "0263-2241",
+      "journal_title": "Measurement",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 21283,
+      "cited_by_count": 424860,
+      "verified": true
+    },
+    {
+      "issn": "0924-2716",
+      "journal_title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 4971,
+      "cited_by_count": 319044,
+      "verified": true
+    },
+    {
+      "issn": "2155-5435",
+      "journal_title": "ACS Catalysis",
+      "publisher": "American Chemical Society",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 17158,
+      "cited_by_count": 1180870,
+      "verified": true
+    },
+    {
+      "issn": "1420-3049",
+      "journal_title": "Molecules",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 64405,
+      "cited_by_count": 1743473,
+      "verified": true
+    },
+    {
+      "issn": "0010-4825",
+      "journal_title": "Computers in Biology and Medicine",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 12008,
+      "cited_by_count": 301169,
+      "verified": true
+    },
+    {
+      "issn": "0731-7085",
+      "journal_title": "Journal of Pharmaceutical and Biomedical Analysis",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 17671,
+      "cited_by_count": 473250,
+      "verified": true
+    },
+    {
+      "issn": "0031-3203",
+      "journal_title": "Pattern Recognition",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 16355,
+      "cited_by_count": 733816,
+      "verified": true
+    },
+    {
+      "issn": "0167-7322",
+      "journal_title": "Journal of Molecular Liquids",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 28638,
+      "cited_by_count": 717615,
+      "verified": true
+    },
+    {
+      "issn": "0167-7055",
+      "journal_title": "Computer Graphics Forum",
+      "publisher": "Wiley",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 7326,
+      "cited_by_count": 194240,
+      "verified": true
+    },
+    {
+      "issn": "0021-9665",
+      "journal_title": "Journal of Chromatographic Science",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "journal",
+      "works_count": 10017,
+      "cited_by_count": 144716,
+      "verified": true
+    },
+    {
+      "issn": "2331-8422",
+      "journal_title": "ArXiv.org",
+      "publisher": "?",
+      "url": "",
+      "matched_works": 3,
+      "sources": [
+        "\"data paper\"",
+        "\"data descriptor\""
+      ],
+      "type": "repository",
+      "works_count": 468338,
+      "cited_by_count": 698432,
+      "verified": false
+    },
+    {
+      "issn": "1556-5068",
+      "journal_title": "SSRN Electronic Journal",
+      "publisher": "RELX Group (Netherlands)",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data paper\"",
+        "\"data descriptor\""
+      ],
+      "type": "repository",
+      "works_count": 1618151,
+      "cited_by_count": 5436182,
+      "verified": false
+    },
+    {
+      "issn": "2573-2293",
+      "journal_title": "ChemRxiv",
+      "publisher": "?",
+      "url": "",
+      "matched_works": 2,
+      "sources": [
+        "\"data descriptor\""
+      ],
+      "type": "repository",
+      "works_count": 60643,
+      "cited_by_count": 72362,
+      "verified": false
+    }
+  ],
+  "methodology": "1) OpenAlex-Works mit 'data paper'/'data descriptor' im Titel → nach Journal gruppiert → nur Journals mit ≥2 Treffern.\n2) Verlagsscan: Ubiquity Press, Pensoft, MDPI → Journals mit 'data' im Titel.\n\nALLE Kandidaten brauchen manuelle Prüfung pro CONTRIBUTING.md!"
 }

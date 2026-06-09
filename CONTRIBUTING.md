@@ -101,22 +101,40 @@ Ask these questions to determine `pure` vs `mixed`:
 
 ## Automated Discovery
 
-This repository includes a script for automatically discovering potential data journals using scholarly APIs:
+This repository includes a script for suggesting candidate data journals not yet in the registry.
 
 ### `scripts/discover_candidates.py`
 
-This script queries the **Crossref API** and **OpenAlex API** to find journals that publish data papers. It identifies candidates by:
+The script uses two strategies:
 
-1. **Crossref**: Searching for works with type "data-paper" or containing "data paper" or "data descriptor" in the title/abstract, then extracting the source journal ISSN
-2. **OpenAlex**: Searching for journals whose descriptions mention "data journal" or "data paper"
+**Strategie 1 (Primär): Data-Paper-Titel → Journal-Aggregation**
+Findet Publikationen in OpenAlex, deren Titel Begriffe wie "Data Paper" oder "Data Note" enthalten — das sind typische Titel von Data-Paper-Artikeln. Diese werden nach Journal-ISSN gruppiert. Journals, die regelmäßig solche Artikel veröffentlichen, sind wahrscheinlich Data Journals.
 
-### Running
+*Ergebnis:* Derzeit ~4.300 "Data Paper"-Works, gruppiert in ~109 Journals. Davon ca. 30 nicht im Registry.
 
-```bash
-python scripts/discover_candidates.py
-```
+**Strategie 2 (Ergänzend): Verlagsscan**
+Durchsucht bekannte Data-Journal-Verlage (Ubiquity Press, Pensoft, MDPI) nach Journals mit "Data" im Titel.
 
-This produces `data/candidates.json` — a list of candidate journals that should be manually verified before adding to the registry.
+### Wichtige Einschränkung
+
+Eine rein automatische Erkennung von Data Journals ist nicht zuverlässig möglich, weil:
+- Es keine standardisierte Metadaten-Kennzeichnung für "Data Journal" gibt
+- Crossref/OpenAlex keinen spezifischen "data-paper"-Publikationstyp haben
+- Begriffe wie "Data Descriptor" in der Chemie eine andere Bedeutung haben (Moleküldeskriptoren)
+
+Die beste Methode bleibt: **Automatische Vorauswahl → menschliche Prüfung.**
+
+### Regelmäßiger Lauf
+
+Ein GitHub Actions Workflow läuft wöchentlich und erstellt ein Issue mit Kandidaten.
+
+### Manuelle Prüfung
+
+So prüfst du einen Kandidaten:
+1. Rufe die Journal-Homepage auf
+2. Suche in den Author Guidelines nach "Data Paper", "Data Note", "Data Descriptor" als Artikeltyp
+3. Prüfe, ob Data Papers peer-reviewed und zitierfähig sind
+4. Füge bei Erfüllung aller Kriterien via PR hinzu
 
 ---
 

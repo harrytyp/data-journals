@@ -1,38 +1,36 @@
 #!/usr/bin/env python3
 """
-Data Journal Discovery Script v3 — Targeted approach
+Data Journal Discovery Script
 
-Strategies (ordered by reliability):
-1. DOAJ API: search journals with "data paper" or "data descriptor" in description/tags
-2. OpenAlex: find works with "data paper" in title AND "data journal" in source description
-3. Known publisher lists: check Pensoft, Ubiquity Press, Elsevier for new data journals
-4. Crossref: find journals whose title contains "data journal" patterns
+Strategie:
+  Wir suchen NICHT nach "data journal" im Titel von Journals.
+  Stattdessen suchen wir nach Publikationen, deren Titel "Data Paper"
+  oder "Data Descriptor" enthalten (das sind die typischen Artikel-Titel
+  von Data Journals). Dann gruppieren wir nach Journal-ISSN und sehen,
+  welche Journals regelmäßig solche Artikel publizieren.
 
-Outputs JSON candidates for manual review.
+Ergänzend: Suche nach Journals bei bekannten Data-Journal-Verlagen,
+deren Titel "Data" enthalten und die noch nicht im Registry sind.
+
+Usage:
+    python scripts/discover_candidates.py
 """
 
-import csv
-import json
-import os
-import sys
-import time
-import urllib.parse
+import csv, json, os, sys, time, urllib.parse
 from datetime import datetime
-
 try:
     import requests
 except ImportError:
-    sys.exit("Install requests: pip install requests")
+    sys.exit("Benötigt 'requests': pip install requests")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.realpath(os.path.join(HERE, ".."))
 CSV_PATH = os.path.join(ROOT, "data_journals_characteristics.csv")
 CANDIDATES_PATH = os.path.join(ROOT, "data", "candidates.json")
-UA = "DataJournalRegistry/1.0 (https://harrytyp.github.io/data-journals)"
+UA = "DataJournalRegistry/1.0 (https://github.com/harrytyp/data-journals)"
 
 
-def load_existing_issns():
-    """Return set of normalized ISSNs already in registry."""
+def load_existing():
     s = set()
     try:
         with open(CSV_PATH, encoding="utf-8") as f:
@@ -45,235 +43,216 @@ def load_existing_issns():
     return s
 
 
-def is_new(raw, existing):
-    return raw.replace("-", "").upper().strip() not in existing if raw else False
+def strategy_data_paper_titles(existing):
+    """
+    Strategie 1 (Primär):
+    Finde Works in OpenAlex, deren Titel "Data Paper" oder ähnlich lauten.
+    Das sind typische Data-Paper-Artikel. Gruppiere nach Journal (ISSN).
+    Journals mit mehreren Treffern sind vielversprechend.
+    """
+    print("\n=== Strategie 1: Data-Paper-Titel → nach Journal gruppieren ===")
+    seen = {}  # normalized ISSN → candidate
+    queries = {
+        '"data paper"': 'title.search:data+paper',
+        '"data note"': 'title.search:data+note+AND+NOT+database',
+        '"data brief"': 'title.search:data+brief',
+    }
+
+    for label, oa_filter in queries.items():
+        try:
+            cursor = "*"
+            page = 0
+            journal_counts = {}
+
+            while cursor and page < 5:  # max 5 Seiten = ~500 Works
+                url = (f"https://api.openalex.org/works?"
+                       f"filter={oa_filter},type:article&per_page=100&cursor={cursor}"
+                       f"&select=primary_location,publication_year&sort=publication_year:desc")
+                r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
+                if r.status_code != 200:
+                    print(f"  Fehler {r.status_code}")
+                    break
+                data = r.json()
+                results = data.get("results", [])
+                meta = data.get("meta", {})
+                cursor = meta.get("next_cursor")
+                page += 1
+
+                for w in results:
+                    loc = w.get("primary_location") or {}
+                    src = loc.get("source") or {}
+                    issn_list = src.get("issn") or []
+                    if not issn_list:
+                        continue
+                    issn = issn_list[0]
+                    n_issn = issn.replace("-", "").upper()
+                    journal_counts[n_issn] = journal_counts.get(n_issn, 0) + 1
+
+                    if n_issn not in seen:
+                        seen[n_issn] = {
+                            "issn": issn,
+                            "journal_title": src.get("display_name", "?"),
+                            "publisher": src.get("host_organization_name", "") or "?",
+                            "url": src.get("homepage_url", "") or "",
+                            "matched_works": 0,
+                            "sources": [],
+                        }
+                    if label not in seen[n_issn]["sources"]:
+                        seen[n_issn]["sources"].append(label)
+
+                time.sleep(0.3)
+
+            # Update counts
+            for n_issn, c in seen.items():
+                c["matched_works"] = journal_counts.get(n_issn, 0)
+
+            # Gesamtzahl
+            total = data.get("meta", {}).get("count", 0)
+            print(f"  '{label}': {total} Works gefunden, {len(journal_counts)} unique Journals")
+
+        except Exception as e:
+            print(f"  Fehler: {e}")
+
+    # Nur neue (nicht im Registry) UND mind. 2 Matches
+    candidates = [c for c in seen.values()
+                  if c["issn"].replace("-", "").upper() not in existing
+                  and c["matched_works"] >= 2]
+
+    # Sortieren: meisten Matches zuerst
+    candidates.sort(key=lambda c: -c["matched_works"])
+
+    print(f"  => {len(candidates)} neuer Kandidat(en) mit ≥2 Data-Paper-Werken")
+    return candidates
 
 
-def doaj_discover(existing):
-    """Query DOAJ API for journals related to data papers."""
-    print("\n=== DOAJ Discovery ===")
+def strategy_publisher_data_journals(existing):
+    """
+    Strategie 2 (Ergänzend):
+    Bekannte Verlage mit Data-Journal-Programmen durchsuchen.
+    """
+    print("\n=== Strategie 2: Verlagsspezifische Suche ===")
     candidates = {}
     seen = set()
 
-    # DOAJ API v3 — search by keyword (path-based: /api/v3/search/journals/{query})
-    for keyword in ['data paper', 'data journal', 'data brief', 'data descriptor']:
-        params = {
-            "pageSize": 50,
-            "page": 1,
-        }
-        try:
-            encoded = urllib.parse.quote(keyword)
-            r = requests.get(
-                f"https://doaj.org/api/v3/search/journals/{encoded}",
-                params=params,
-                headers={"User-Agent": UA},
-                timeout=20,
-            )
-            if r.status_code != 200:
-                print(f"  DOAJ error {r.status_code} for '{keyword}'")
-                continue
-
-            data = r.json()
-            results = data.get("results", [])
-            total = data.get("total", 0)
-            print(f"  '{keyword}': {total} total, showing {len(results)}")
-
-            for j in results:
-                bib = j.get("bibjson", j) or {}
-                pissn = (bib.get("pissn") or "").strip()
-                eissn = (bib.get("eissn") or "").strip()
-                issn = pissn or eissn
-                if not issn or not is_new(issn, existing):
-                    continue
-                if not issn or not is_new(issn, existing):
-                    continue
-                n = issn.replace("-", "").upper()
-                if n in seen:
-                    continue
-                seen.add(n)
-
-                title = (bib.get("title") or "").strip()
-                publisher = (bib.get("publisher") or j.get("publisher") or "").strip()
-                homepage = (bib.get("url") or j.get("homepage_url") or "").strip()
-                subjects = []
-                for subj in (j.get("subject") or []):
-                    if isinstance(subj, dict):
-                        subjects.append(subj.get("term", ""))
-                    elif isinstance(subj, str):
-                        subjects.append(subj)
-
-                candidates[n] = {
-                    "issn": issn,
-                    "journal_title": title,
-                    "publisher": publisher,
-                    "url": homepage or "",
-                    "source": f"doaj-keyword:{keyword}",
-                    "evidence": f"DOAJ keyword search: '{keyword}'",
-                    "doaj_subjects": subjects[:5],
-                }
-
-            time.sleep(0.5)
-        except Exception as e:
-            print(f"  Error: {e}")
-
-    return list(candidates.values())
-
-
-def openalex_data_paper_titles(existing):
-    """
-    Find works whose title includes 'data paper' or 'data descriptor',
-    then extract the source journal. Count works per journal to find
-    dedicated data journal venues.
-    """
-    print("\n=== OpenAlex: Journals publishing data-paper-titled works ===")
-    candidates = {}
-    journal_counts = {}
-
-    for query in ['"data paper"', '"data descriptor"', '"data article"']:
-        try:
-            params = {
-                "filter": f"title_and_abstract.search:{urllib.parse.quote(query)}",
-                "per_page": 50,
-                "sort": "publication_year:desc",
-                "select": "id,primary_location,publication_year,type",
-            }
-            r = requests.get(
-                "https://api.openalex.org/works",
-                params=params,
-                headers={"User-Agent": UA},
-                timeout=20,
-            )
-            if r.status_code != 200:
-                print(f"  OpenAlex error {r.status_code} for '{query}'")
-                continue
-
-            data = r.json()
-            results = data.get("results", [])
-            total = data.get("meta", {}).get("count", 0)
-            print(f"  '{query}': {total} works (page: {len(results)})")
-
-            for w in results:
-                loc = w.get("primary_location", {}) or {}
-                src = loc.get("source")
-                if not src:
-                    continue
-                issn_list = src.get("issn", [])
+    # Ubiquity Press: bekannt für Open Data Journals
+    try:
+        r = requests.get(
+            "https://api.openalex.org/sources",
+            params={
+                "filter": "publisher:Ubiquity+Press",
+                "search": "data",
+                "per_page": 25,
+                "select": "id,display_name,issn,homepage_url",
+            },
+            headers={"User-Agent": UA}, timeout=20
+        )
+        if r.status_code == 200:
+            for src in r.json().get("results", []):
+                issn_list = src.get("issn") or []
                 if not issn_list:
                     continue
                 issn = issn_list[0]
                 n = issn.replace("-", "").upper()
-                journal_counts[n] = journal_counts.get(n, 0) + 1
-                if n not in candidates:
-                    candidates[n] = {
-                        "issn": issn,
-                        "journal_title": src.get("display_name", "?"),
-                        "publisher": src.get("host_organization_name", "") or "?",
-                        "url": src.get("homepage_url", "") or "",
-                        "data_paper_works": 0,
-                        "matched_terms": [],
-                    }
-                if query not in candidates[n]["matched_terms"]:
-                    candidates[n]["matched_terms"].append(query)
+                if n in existing or n in seen:
+                    continue
+                seen.add(n)
+                name = src.get("display_name", "")
+                candidates[n] = {
+                    "issn": issn,
+                    "journal_title": name,
+                    "publisher": "Ubiquity Press",
+                    "url": src.get("homepage_url", "") or "",
+                    "source": "publisher-ubiquity-press",
+                    "evidence": f"Ubiquity-Press-Journal mit 'data' im Titel: {name}",
+                }
+        time.sleep(0.3)
+    except Exception as e:
+        print(f"  Fehler Ubiquity Press: {e}")
 
-            time.sleep(0.3)
-        except Exception as e:
-            print(f"  Error: {e}")
-
-    # Update counts
-    for n, c in candidates.items():
-        c["data_paper_works"] = journal_counts.get(n, 0)
-        c["evidence"] = f"OpenAlex: {c['data_paper_works']} works matching {', '.join(c['matched_terms'])}"
-
-    # Filter: journals with at least 3 data-paper works are promising
-    promising = [c for c in candidates.values() if c["data_paper_works"] >= 3 and is_new(c["issn"], existing)]
-    others = [c for c in candidates.values() if c["data_paper_works"] < 3 or not is_new(c["issn"], existing)]
-
-    print(f"  Promising candidates (≥3 data-paper works): {len(promising)}")
-    return promising + others
-
-
-def title_pattern_discovery(existing):
-    """
-    Find journals whose title follows data journal naming conventions.
-    Query OpenAlex sources by title pattern.
-    """
-    print("\n=== Title Pattern Discovery ===")
-    candidates = {}
-    seen = set()
-
-    patterns = [
-        '"Data Journal"',
-        '"Data Papers"',
-        '"Data in"',
-        '"Data Brief"',
-        '"Journal of Data"',
-        '"Research Data"',
-        '"Open Data"',
-        '"Data Science" AND journal',
-    ]
-
-    for pattern in patterns:
+    # Pensoft: bekannt für Data Journals (Biodiversity Data Journal etc.)
+    for pub in ["Pensoft Publishers", "Pensoft"]:
         try:
-            params = {
-                "search": pattern,
-                "per_page": 25,
-                "sort": "relevance",
-                "select": "id,display_name,issn,host_organization_name,homepage_url,type",
-            }
             r = requests.get(
                 "https://api.openalex.org/sources",
-                params=params,
-                headers={"User-Agent": UA},
-                timeout=20,
+                params={
+                    "filter": f"publisher:{urllib.parse.quote(pub)}",
+                    "search": "data",
+                    "per_page": 25,
+                    "select": "id,display_name,issn,homepage_url",
+                },
+                headers={"User-Agent": UA}, timeout=20
             )
-            if r.status_code != 200:
-                print(f"  OpenAlex error {r.status_code} for '{pattern}'")
-                continue
+            if r.status_code == 200:
+                for src in r.json().get("results", []):
+                    issn_list = src.get("issn") or []
+                    if not issn_list:
+                        continue
+                    issn = issn_list[0]
+                    n = issn.replace("-", "").upper()
+                    if n in existing or n in seen:
+                        continue
+                    seen.add(n)
+                    name = src.get("display_name", "")
+                    candidates[n] = {
+                        "issn": issn,
+                        "journal_title": name,
+                        "publisher": pub,
+                        "url": src.get("homepage_url", "") or "",
+                        "source": "publisher-pensoft",
+                        "evidence": f"Pensoft-Journal mit 'data' im Titel: {name}",
+                    }
+            time.sleep(0.3)
+        except Exception as e:
+            print(f"  Fehler {pub}: {e}")
 
-            sources = r.json().get("results", [])
-            for src in sources:
-                if src.get("type") not in ("journal", None):
-                    continue
-                issn_list = src.get("issn", [])
+    # MDPI "Data" Journal und verwandte
+    try:
+        r = requests.get(
+            "https://api.openalex.org/sources",
+            params={
+                "filter": "publisher:MDPI",
+                "search": "data",
+                "per_page": 25,
+                "select": "id,display_name,issn,homepage_url",
+            },
+            headers={"User-Agent": UA}, timeout=20
+        )
+        if r.status_code == 200:
+            for src in r.json().get("results", []):
+                issn_list = src.get("issn") or []
                 if not issn_list:
                     continue
                 issn = issn_list[0]
-                if not is_new(issn, existing):
-                    continue
                 n = issn.replace("-", "").upper()
-                if n in seen:
+                if n in existing or n in seen:
                     continue
                 seen.add(n)
+                name = src.get("display_name", "")
                 candidates[n] = {
                     "issn": issn,
-                    "journal_title": src.get("display_name", "?"),
-                    "publisher": src.get("host_organization_name", "") or "?",
+                    "journal_title": name,
+                    "publisher": "MDPI",
                     "url": src.get("homepage_url", "") or "",
-                    "source": "title-pattern",
-                    "evidence": f"OpenAlex source search: '{pattern}'",
+                    "source": "publisher-mdpi",
+                    "evidence": f"MDPI-Journal mit 'data' im Titel: {name}",
                 }
+        time.sleep(0.3)
+    except Exception as e:
+        print(f"  Fehler MDPI: {e}")
 
-            time.sleep(0.3)
-        except Exception as e:
-            print(f"  Error: {e}")
-
+    print(f"  => {len(candidates)} neuer Kandidat(en) von Verlagen")
     return list(candidates.values())
 
 
-def verify_candidates(candidates):
-    """Verify via OpenAlex, add metadata. Sort by promise."""
-    print(f"\n=== Verifying {len(candidates)} candidates ===")
-    results = []
-
+def verify(candidates):
+    """Verifiziere via OpenAlex und reichere Metadaten an."""
+    print(f"\n=== Verifiziere {len(candidates)} Kandidaten ===")
     for c in candidates:
-        issn = c.get("issn", "")
-        if not issn:
-            continue
+        issn = c["issn"]
         try:
             r = requests.get(
                 f"https://api.openalex.org/sources?filter=issn:{issn}",
-                headers={"User-Agent": UA},
-                timeout=15,
+                headers={"User-Agent": UA}, timeout=15
             )
             if r.status_code == 200:
                 srcs = r.json().get("results", [])
@@ -287,61 +266,66 @@ def verify_candidates(candidates):
                     c["verified"] = False
             else:
                 c["verified"] = False
-            time.sleep(0.15)
+            time.sleep(0.2)
         except Exception as e:
             c["verified"] = False
             c["verify_error"] = str(e)
-        results.append(c)
-
-    return results
+    return candidates
 
 
 def main():
     print("=" * 60)
-    print("Data Journal Discovery v3")
-    print(f"Date: {datetime.now().isoformat()}")
+    print("Data Journal Discovery")
+    print(f"  Datum: {datetime.now().isoformat()}")
+    print(f"  Methode: Data-Paper-Titel → Journal-Aggregation + Verlagsscan")
     print("=" * 60)
 
-    existing = load_existing_issns()
-    print(f"\nExisting: {len(existing)} ISSNs")
+    existing = load_existing()
+    print(f"  Bereits im Registry: {len(existing)} ISSNs")
 
-    # Run strategies
-    doaj = doaj_discover(existing)
-    oa_titles = openalex_data_paper_titles(existing)
-    patterns = title_pattern_discovery(existing)
+    # Strategien
+    titles = strategy_data_paper_titles(existing)
+    publishers = strategy_publisher_data_journals(existing)
 
-    # Merge by ISSN
-    seen = {}
-    for clist in [doaj, oa_titles, patterns]:
-        for c in clist:
-            n = c["issn"].replace("-", "").upper()
-            if n not in seen:
-                seen[n] = c
-            else:
-                seen[n]["source"] += f", {c['source']}"
+    # Merge
+    merged = {}
+    for c in titles + publishers:
+        n = c["issn"].replace("-", "").upper()
+        if n not in merged:
+            merged[n] = c
+        else:
+            if c.get("matched_works", 0) > merged[n].get("matched_works", 0):
+                merged[n]["matched_works"] = c.get("matched_works", 0)
+            merged[n]["source"] = merged[n].get("source", "") + ", " + c.get("source", "")
+            # Combine evidence
+            existing_ev = merged[n].get("evidence", "")
+            new_ev = c.get("evidence", "")
+            if new_ev and new_ev not in existing_ev:
+                merged[n]["evidence"] = existing_ev + " | " + new_ev if existing_ev else new_ev
 
-    all_candidates = list(seen.values())
-    print(f"\nTotal unique candidates: {len(all_candidates)}")
+    all_candidates = list(merged.values())
 
-    # Verify
-    verified = verify_candidates(all_candidates)
-    journals = [c for c in verified if c.get("verified")]
-    others = [c for c in verified if not c.get("verified")]
+    # Verifiziere
+    verified = verify(all_candidates)
+    confirmed = [c for c in verified if c.get("verified")]
+    unconfirmed = [c for c in verified if not c.get("verified")]
 
-    print(f"  Confirmed journals: {len(journals)}")
-    print(f"  Unconfirmed: {len(others)}")
+    # Sort: matched_works absteigend
+    confirmed.sort(key=lambda c: -c.get("matched_works", 0))
 
-    # Sort: works_count descending for journals
-    journals.sort(key=lambda c: c.get("works_count", 0), reverse=True)
-
+    # Ausgabe
     result = {
         "generated": datetime.now().isoformat(),
         "existing_count": len(existing),
-        "candidates": journals + others,
-        "notes": (
-            "All candidates need manual verification. "
-            "'verified' means ISSN resolves in OpenAlex as a journal — "
-            "NOT that it qualifies as a data journal."
+        "total_candidates": len(all_candidates),
+        "confirmed_journals": len(confirmed),
+        "unconfirmed": len(unconfirmed),
+        "candidates": confirmed + unconfirmed,
+        "methodology": (
+            "1) OpenAlex-Works mit 'data paper'/'data descriptor' im Titel → "
+            "nach Journal gruppiert → nur Journals mit ≥2 Treffern.\n"
+            "2) Verlagsscan: Ubiquity Press, Pensoft, MDPI → Journals mit 'data' im Titel.\n\n"
+            "ALLE Kandidaten brauchen manuelle Prüfung pro CONTRIBUTING.md!"
         ),
     }
 
@@ -349,18 +333,20 @@ def main():
     with open(CANDIDATES_PATH, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    print(f"\nSaved to {CANDIDATES_PATH}")
+    print(f"\n=> {CANDIDATES_PATH}")
 
-    if journals:
+    # Top-Liste
+    if confirmed:
         print(f"\n{'='*60}")
-        print("CANDIDATE DATA JOURNALS (top by works count):")
-        print(f"{'='*60}")
-        for c in journals[:30]:
-            dp = c.get("data_paper_works", 0)
-            wc = c.get("works_count", 0)
-            print(f"  {c['issn']:<10} {c['journal_title'][:55]:<55} w:{wc:<6}", end="")
-            if dp:
-                print(f" dp:{dp}", end="")
+        print("TOP-KANDIDATEN (neue Journals, nicht im Registry):")
+        print("=" * 60)
+        for c in confirmed[:20]:
+            mw = c.get("matched_works", 0)
+            wc = c.get("works_count", 0) or 0
+            print(f"  {c['issn']:<12} {c['journal_title'][:58]:<58}")
+            print(f"  {'':>12} Verlag: {c.get('publisher','?'):<30} Works:{wc:<8}", end="")
+            if mw:
+                print(f" DataPaper:{mw}", end="")
             print()
 
     return 0
