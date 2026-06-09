@@ -1,0 +1,996 @@
+[
+{
+"ISSN": "2574-5417",
+"journal_title": "Big Earth Data",
+"publisher": "Taylor & Francis",
+"URL": "https://www.tandfonline.com/journals/tbed20",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1809-127X",
+"journal_title": "Check List",
+"publisher": "Pensoft",
+"URL": "https://checklist.pensoft.net/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1698-0476",
+"journal_title": "Arxius de Miscel·lània Zoològica",
+"publisher": "Museu de Ciències Naturals de Barcelona",
+"URL": "https://museucienciesjournals.cat/en/amz",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1941-4927",
+"journal_title": "NCHS Data Briefs",
+"publisher": "Centers for Disease Control and Preventions (CDC)",
+"URL": "https://www.cdc.gov/nchs/products/databriefs.htm",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1758-0463",
+"journal_title": "Database: The Journal of Biological Databases and Curation",
+"publisher": "Oxford University Press",
+"URL": "https://academic.oup.com/database",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2709-4715",
+"journal_title": "Gigabyte",
+"publisher": "BGI and Oxford University Press",
+"URL": "https://gigabytejournal.com/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2572-4754",
+"journal_title": "Gates Open Research",
+"publisher": "F1000Research",
+"URL": "https://gatesopenresearch.org/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2732-5121",
+"journal_title": "Open Research Europe",
+"publisher": "F1000Research",
+"URL": "https://open-research-europe.ec.europa.eu/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2363-4952",
+"journal_title": "RIDE - A review journal for digital editions and resources",
+"publisher": "Institut für Dokumentologie und Editorik",
+"URL": "https://ride.i-d-e.de/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2059-481X",
+"journal_title": "Journal of Open Humanities Data",
+"publisher": "Ubiquity Press",
+"URL": "https://openhumanitiesdata.metajnl.com/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2296-7745",
+"journal_title": "Frontiers in Marine Science",
+"publisher": "Frontiers",
+"URL": "https://www.frontiersin.org/journals/marine-science",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2054-345X",
+"journal_title": "Human Genome Variation",
+"publisher": "Springer Nature",
+"URL": "https://www.nature.com/hgv/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2032-6378",
+"journal_title": "Journal of Astronomical Data",
+"publisher": "Vrije Universiteit Brussel",
+"URL": "http://journalofastronomicaldata.be/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1297-966X",
+"journal_title": "Annals of Forest Science",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://annforsci.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "0092-640X",
+"journal_title": "Atomic Data and Nuclear Data Tables",
+"publisher": "Elsevier",
+"URL": "https://www.sciencedirect.com/journal/atomic-data-and-nuclear-data-tables",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1314-2828",
+"journal_title": "Biodiversity Data Journal",
+"publisher": "Pensoft Publishers",
+"URL": "https://bdj.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2242-1300",
+"journal_title": "BioInvasions Records",
+"publisher": "Regional Euro-Asian Biological Invasions Centre",
+"URL": "https://www.reabic.net/journals/bir/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2042-6410",
+"journal_title": "Biology of Sex Differences",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bsd.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2253",
+"journal_title": "BMC Anesthesiology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcanesthesiol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2105",
+"journal_title": "BMC Bioinformatics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcbioinformatics.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1741-7007",
+"journal_title": "BMC Biology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcbiol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6750",
+"journal_title": "BMC Biotechnology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcbiotechnol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2407",
+"journal_title": "BMC Cancer",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmccancer.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2261",
+"journal_title": "BMC Cardiovascular Disorders",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmccardiovascdisord.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2661-801X",
+"journal_title": "BMC Chemistry",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcchem.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6882",
+"journal_title": "BMC Complementary and Alternative Medicine",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmccomplementmedtherapies.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6785",
+"journal_title": "BMC Ecology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcecol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-227X",
+"journal_title": "BMC Emergency Medicine",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcemergmed.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6823",
+"journal_title": "BMC Endocrine Disorders",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcendocrdisord.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2148",
+"journal_title": "BMC Evolutionary Biology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcecolevol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-230X",
+"journal_title": "BMC Gastroenterology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcgastroenterol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2156",
+"journal_title": "BMC Genomic Data",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcgenomdata.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2164",
+"journal_title": "BMC Genomics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcgenomics.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2318",
+"journal_title": "BMC Geriatrics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcgeriatr.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6963",
+"journal_title": "BMC Health Services Research",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmchealthservres.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2172",
+"journal_title": "BMC Immunology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcimmunol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2334",
+"journal_title": "BMC Infectious Diseases",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcinfectdis.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6920",
+"journal_title": "BMC Medical Education",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmededuc.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6939",
+"journal_title": "BMC Medical Ethics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmedethics.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1755-8794",
+"journal_title": "BMC Medical Genomics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmedgenomics.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2342",
+"journal_title": "BMC Medical Imaging",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmedimaging.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6947",
+"journal_title": "BMC Medical Informatics and Decision Making",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmedinformdecismak.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2288",
+"journal_title": "BMC Medical Research Methodology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmedresmethodol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1741-7015",
+"journal_title": "BMC Medicine",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmedicine.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2180",
+"journal_title": "BMC Microbiology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmicrobiol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2121",
+"journal_title": "BMC Molecular and Cell Biology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmolcellbiol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2661-8850",
+"journal_title": "BMC Molecular and Cell Biology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmolcellbiol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2474",
+"journal_title": "BMC Musculoskeletal Disorders",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcmusculoskeletdisord.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2369",
+"journal_title": "BMC Nephrology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcnephrol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2377",
+"journal_title": "BMC Neurology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcneurol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2202",
+"journal_title": "BMC Neuroscience",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcneurosci.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6955",
+"journal_title": "BMC Nursing",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcnurs.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2415",
+"journal_title": "BMC Ophthalmology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcophthalmol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6831",
+"journal_title": "BMC Oral Health",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcoralhealth.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-684X",
+"journal_title": "BMC Palliative Care",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpalliatcare.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2431",
+"journal_title": "BMC Pediatrics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpediatr.biomedcentral.com/submission-guidelines/preparing-your-manuscript",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2050-6511",
+"journal_title": "BMC Pharmacology and Toxicology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpharmacoltoxicol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2229",
+"journal_title": "BMC Plant Biology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcplantbiol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2393",
+"journal_title": "BMC Pregnancy and Childbirth",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpregnancychildbirth.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2296",
+"journal_title": "BMC Primary Care",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcprimcare.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-244X",
+"journal_title": "BMC Psychiatry",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpsychiatry.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2050-7283",
+"journal_title": "BMC Psychology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpsychology.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2458",
+"journal_title": "BMC Public Health",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpublichealth.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2466",
+"journal_title": "BMC Pulmonary Medicine",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcpulmmed.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1756-0500",
+"journal_title": "BMC Research Notes",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcresnotes.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2052-1847",
+"journal_title": "BMC Sports Science Medicine and Rehabilitation",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcsportsscimedrehabil.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2482",
+"journal_title": "BMC Surgery",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcsurg.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-2490",
+"journal_title": "BMC Urology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcurol.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1746-6148",
+"journal_title": "BMC Veterinary Research",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcvetres.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1472-6874",
+"journal_title": "BMC Women s Health",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmcwomenshealth.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2056-3132",
+"journal_title": "BMC Zoology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://bmczool.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1999-3110",
+"journal_title": "Botanical Studies",
+"publisher": "Springer Open (Springer Nature)",
+"URL": "https://as-botanicalstudies.springeropen.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2045-3701",
+"journal_title": "Cell & Bioscience",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://cellandbioscience.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2405-8300",
+"journal_title": "Chemical Data Collections",
+"publisher": "Elsevier",
+"URL": "https://www.sciencedirect.com/journal/chemical-data-collections",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2045-709X",
+"journal_title": "Chiropractic & Manual Therapies",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://chiromt.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1278-3366",
+"journal_title": "Cybergeo",
+"publisher": "OpenEdition",
+"URL": "https://journals.openedition.org/cybergeo/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2306-5729",
+"journal_title": "Data",
+"publisher": "MDPI",
+"URL": "https://www.mdpi.com/journal/data",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2352-3409",
+"journal_title": "Data in Brief",
+"publisher": "Elsevier",
+"URL": "https://www.sciencedirect.com/journal/data-in-brief",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1683-1470",
+"journal_title": "Data Science Journal",
+"publisher": "Ubiquity Press",
+"URL": "https://datascience.codata.org/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1866-3516",
+"journal_title": "Earth System Science Data",
+"publisher": "Copernicus",
+"URL": "https://www.earth-system-science-data.net/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1440-1703",
+"journal_title": "Ecological Research",
+"publisher": "Blackwell Publishing (Wiley)",
+"URL": "https://esj-journals.onlinelibrary.wiley.com/journal/14401703",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1939-9170",
+"journal_title": "Ecology",
+"publisher": "John Wiley & Sons (Wiley)",
+"URL": "https://esajournals.onlinelibrary.wiley.com/journal/19399170",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2639-5916",
+"journal_title": "Ecosystems and People",
+"publisher": "Taylor & Francis",
+"URL": "https://www.tandfonline.com/journals/tbsm22",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2050-084X",
+"journal_title": "eLife",
+"publisher": "eLife Sciences Publications",
+"URL": "https://elifesciences.org/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2041-9139",
+"journal_title": "EvoDevo",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://evodevojournal.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2046-1402",
+"journal_title": "F1000Research",
+"publisher": "F1000Research",
+"URL": "https://f1000research.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2197-5620",
+"journal_title": "Forest Ecosystems",
+"publisher": "Elsevier",
+"URL": "https://www.sciencedirect.com/journal/forest-ecosystems",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2312-6604",
+"journal_title": "Freshwater Metadata Journal",
+"publisher": "University of Natural Resources and Life Sciences Vienna",
+"URL": "http://data.freshwaterbiodiversity.eu/fmj/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1756-994X",
+"journal_title": "Genome Medicine",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://genomemedicine.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2049-6060",
+"journal_title": "Geoscience Data Journal",
+"publisher": "Blackwell Publishing (Wiley)",
+"URL": "https://rmets.onlinelibrary.wiley.com/journal/20496060",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1991-9603",
+"journal_title": "Geoscientific Model Development",
+"publisher": "Copernicus",
+"URL": "https://www.geoscientific-model-development.net/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2047-217X",
+"journal_title": "GigaScience",
+"publisher": "Oxford University Press",
+"URL": "https://academic.oup.com/gigascience",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2194-7899",
+"journal_title": "Health & Justice",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://healthandjusticejournal.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1479-7364",
+"journal_title": "Human Genomics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://humgenomics.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2110-7017",
+"journal_title": "International Economics",
+"publisher": "Elsevier",
+"URL": "https://www.journals.elsevier.com/international-economics",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1464-3685",
+"journal_title": "International Journal of Epidemiology",
+"publisher": "Oxford University Press",
+"URL": "https://academic.oup.com/ije/pages/About",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2196-2804",
+"journal_title": "International Journal of Food Contamination",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://foodcontaminationjournal.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1363-5387",
+"journal_title": "Internet Archaeology",
+"publisher": "Council for British Archaeology",
+"URL": "https://intarch.ac.uk/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2046-0481",
+"journal_title": "Irish Veterinary Journal",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://irishvetjournal.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2414-3146",
+"journal_title": "IUCrData",
+"publisher": "International Union of Crystallography",
+"URL": "https://iucrdata.iucr.org/x/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2191-5040",
+"journal_title": "Journal of Applied Volcanology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://appliedvolc.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2041-1480",
+"journal_title": "Journal of Biomedical Semantics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://jbiomedsem.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1520-5134",
+"journal_title": "Journal of Chemical & Engineering Data",
+"publisher": "American Chemical Society",
+"URL": "https://pubs.acs.org/journal/jceaax",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1758-2946",
+"journal_title": "Journal of Cheminformatics",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://jcheminf.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1537-2537",
+"journal_title": "Journal of Environmental Quality",
+"publisher": "John Wiley & Sons (Wiley)",
+"URL": "https://acsess.onlinelibrary.wiley.com/journal/15372537",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1745-6673",
+"journal_title": "Journal of Occupational Medicine and Toxicology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://occup-med.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2049-1565",
+"journal_title": "Journal of Open Archaeology Data",
+"publisher": "Ubiquity Press",
+"URL": "https://openarchaeologydata.metajnl.com/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2050-9863",
+"journal_title": "Journal of Open Psychology Data",
+"publisher": "Ubiquity Press",
+"URL": "https://openpsychologydata.metajnl.com/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2049-9647",
+"journal_title": "Journal of Open Research Software",
+"publisher": "Ubiquity Press",
+"URL": "https://openresearchsoftware.metajnl.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1529-7845",
+"journal_title": "Journal of Physical and Chemical Reference Data",
+"publisher": "American Institute of Physics",
+"URL": "https://aip.scitation.org/jpr/info/focus",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1550-2783",
+"journal_title": "Journal of the International Society of Sports Nutrition",
+"publisher": "Taylor & Francis",
+"URL": "https://www.tandfonline.com/journals/rssn20",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2534-9708",
+"journal_title": "Metabarcoding and Metagenomics",
+"publisher": "Pensoft Publishers",
+"URL": "https://mbmg.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2578-9430",
+"journal_title": "microPublication Biology",
+"publisher": "Caltech Library",
+"URL": "https://www.micropublication.org/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1943-7706",
+"journal_title": "Molecular Plant - Microbe Interactions",
+"publisher": "APS Publications",
+"URL": "https://apsjournals.apsnet.org/journal/mpmi",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2051-3933",
+"journal_title": "Movement Ecology",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://movementecologyjournal.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1314-4049",
+"journal_title": "MycoKeys",
+"publisher": "Pensoft Publishers",
+"URL": "https://mycokeys.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1314-3301",
+"journal_title": "Nature Conservation",
+"publisher": "Pensoft Publishers",
+"URL": "https://natureconservation.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1314-2488",
+"journal_title": "NeoBiota",
+"publisher": "Pensoft Publishers",
+"URL": "https://neobiota.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1559-0089",
+"journal_title": "Neuroinformatics",
+"publisher": "Springer (Springer Nature)",
+"URL": "https://www.springer.com/journal/12021/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "0090-3752",
+"journal_title": "Nuclear Data Sheets",
+"publisher": "Elsevier",
+"URL": "https://www.sciencedirect.com/journal/nuclear-data-sheets",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1362-4962",
+"journal_title": "Nucleic Acids Research",
+"publisher": "Oxford University Press",
+"URL": "https://academic.oup.com/nar",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2367-8194",
+"journal_title": "One Ecosystem",
+"publisher": "Pensoft Publishers",
+"URL": "https://oneecosystem.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2352-6378",
+"journal_title": "Open Data Journal for Agricultural Research",
+"publisher": "Wageningen University & Research Library",
+"URL": "https://odjar.org/index",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2363-7501",
+"journal_title": "Open Geospatial Data Software and Standards",
+"publisher": "Springer Open (Springer Nature)",
+"URL": "https://opengeospatialdata.springeropen.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2054-7102",
+"journal_title": "Open Health Data",
+"publisher": "Ubiquity Press",
+"URL": "https://openhealthdata.metajnl.com/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2056-5542",
+"journal_title": "Open Journal of Bioresources",
+"publisher": "Ubiquity Press",
+"URL": "https://openbioresources.metajnl.com/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2471-2906",
+"journal_title": "Phytobiomes Journal",
+"publisher": "APS Publications",
+"URL": "https://apsjournals.apsnet.org/journal/pbiomes",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1314-2003",
+"journal_title": "PhytoKeys",
+"publisher": "Pensoft Publishers",
+"URL": "https://phytokeys.pensoft.net/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1943-7684",
+"journal_title": "Phytopathology",
+"publisher": "APS Publications",
+"URL": "https://apsjournals.apsnet.org/journal/phyto",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1471-9053",
+"journal_title": "Plant and Cell Physiology",
+"publisher": "Oxford University Press",
+"URL": "https://academic.oup.com/pcp",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1943-7692",
+"journal_title": "Plant Disease",
+"publisher": "APS Publications",
+"URL": "https://apsjournals.apsnet.org/journal/pdis",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1746-4811",
+"journal_title": "Plant Methods",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://plantmethods.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2452-3666",
+"journal_title": "Research Data Journal for the Humanities and Social Sciences",
+"publisher": "Brill",
+"URL": "https://brill.com/view/journals/rdj/rdj-overview.xml",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2367-7163",
+"journal_title": "Research Ideas and Outcomes",
+"publisher": "Pensoft Publishers",
+"URL": "https://riojournal.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2052-4463",
+"journal_title": "Scientific Data",
+"publisher": "Springer Nature",
+"URL": "https://www.nature.com/sdata/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1747-597X",
+"journal_title": "Substance Abuse Treatment Prevention and Policy",
+"publisher": "BioMed Central (Springer Nature)",
+"URL": "https://substanceabusepolicy.biomedcentral.com/",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1538-4365",
+"journal_title": "The Astrophysical Journal Supplement Series",
+"publisher": "IOP",
+"URL": "https://journals.aas.org/astrophysical-supplement-series/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "1741-3176",
+"journal_title": "The International Journal of Robotics Research",
+"publisher": "SAGE Publishing",
+"URL": "https://journals.sagepub.com/home/IJR",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "1365-313X",
+"journal_title": "The Plant Journal",
+"publisher": "Blackwell Publishing (Wiley)",
+"URL": "https://onlinelibrary.wiley.com/journal/1365313x",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2578-2703",
+"journal_title": "The Plant Phenome Journal",
+"publisher": "John Wiley & Sons (Wiley)",
+"URL": "https://acsess.onlinelibrary.wiley.com/journal/25782703",
+"data_journal_type": "mixed"
+},
+{
+"ISSN": "2603-431X",
+"journal_title": "Viticulture Data Journal",
+"publisher": "Pensoft Publishers",
+"URL": "https://vdj.pensoft.net/",
+"data_journal_type": "pure"
+},
+{
+"ISSN": "2398-502X",
+"journal_title": "Wellcome Open Research",
+"publisher": "F1000Research",
+"URL": "https://wellcomeopenresearch.org/",
+"data_journal_type": "mixed"
+}
+]

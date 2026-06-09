@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Journal Registry</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2308090a'/><text x='16' y='22' font-family='system-ui' font-size='18' font-weight='700' fill='%235e6ad2' text-anchor='middle'>DJ</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V5 */
+
+:root {
+  --color-paper: #08090a;
+  --color-paper-2: #0f1011;
+  --color-paper-3: #141516;
+  --color-ink: #e8edf5;
+  --color-muted: #8898b4;
+  --color-neutral: #5a647a;
+  --color-rule: rgba(255,255,255,0.06);
+  --color-rule-strong: rgba(255,255,255,0.10);
+  --color-accent: #5e6ad2;
+  --color-accent-hover: #7170ff;
+  --color-pure: #22d3ee;
+  --color-mixed: #fbbf24;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.04);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { overflow-x: hidden; font-size: 16px; }
+body {
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Layout */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-rule);
+  margin-bottom: 32px;
+  gap: 16px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  background: var(--color-paper-3);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-accent-hover);
+  box-shadow: 0 0 8px rgba(94,106,210,0.15);
+}
+.brand-text h1 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: var(--color-ink);
+  line-height: 1.2;
+}
+.brand-text span {
+  font-size: 12px;
+  color: var(--color-neutral);
+  font-weight: 400;
+  display: block;
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.stats-badge {
+  font-size: 12px;
+  color: var(--color-muted);
+  background: var(--color-paper-3);
+  border: 1px solid var(--color-rule);
+  border-radius: 9999px;
+  padding: 4px 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hero h2 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.hero p {
+  font-size: 15px;
+  color: var(--color-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Search */
+.search-section {
+  margin-bottom: 24px;
+}
+.search-wrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.search-wrapper svg {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--color-neutral);
+  pointer-events: none;
+}
+.search-input {
+  width: 100%;
+  padding: 12px 14px 12px 44px;
+  background: var(--color-paper-3);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-md);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-input::placeholder { color: var(--color-neutral); }
+.search-input:focus { border-color: var(--color-accent); }
+
+/* Filter bar */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.filter-bar label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-muted);
+  margin-right: 4px;
+}
+.filter-pill {
+  padding: 5px 14px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+  background: transparent;
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-sans);
+}
+.filter-pill:hover {
+  border-color: var(--color-accent);
+  color: var(--color-ink);
+}
+.filter-pill.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+.filter-pill.pure-pill.active { background: #22d3ee; border-color: #22d3ee; color: #08090a; }
+.filter-pill.mixed-pill.active { background: #fbbf24; border-color: #fbbf24; color: #08090a; }
+.publisher-filter {
+  margin-left: auto;
+  padding: 5px 12px;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  background: var(--color-paper-3);
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  outline: none;
+  max-width: 200px;
+}
+.publisher-filter:focus { border-color: var(--color-accent); }
+
+/* Table */
+.table-container {
+  background: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.table-wrapper {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-neutral);
+  border-bottom: 1px solid var(--color-rule);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  background: var(--color-paper-2);
+  transition: color 0.15s;
+}
+thead th:hover { color: var(--color-ink); }
+thead th .sort-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 10px;
+  opacity: 0.4;
+}
+thead th.sort-active .sort-arrow { opacity: 1; color: var(--color-accent); }
+tbody tr {
+  border-bottom: 1px solid var(--color-rule);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(255,255,255,0.02); }
+td {
+  padding: 10px 16px;
+  vertical-align: middle;
+}
+td.col-issn {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+td.col-title {
+  font-weight: 500;
+  color: var(--color-ink);
+}
+td.col-publisher {
+  color: var(--color-muted);
+  font-size: 13px;
+}
+td.col-type {
+  white-space: nowrap;
+}
+.type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.type-badge.pure {
+  background: rgba(34,211,238,0.12);
+  color: #22d3ee;
+}
+.type-badge.mixed {
+  background: rgba(251,191,36,0.12);
+  color: #fbbf24;
+}
+.type-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.type-badge.pure::before { background: #22d3ee; }
+.type-badge.mixed::before { background: #fbbf24; }
+td.col-url a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 13px;
+}
+td.col-url a:hover { text-decoration: underline; }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 16px;
+  border-top: 1px solid var(--color-rule);
+}
+.page-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+  font-size: 13px;
+  font-family: var(--font-sans);
+  transition: all 0.15s;
+  min-width: 32px;
+  text-align: center;
+}
+.page-btn:hover { border-color: var(--color-accent); color: var(--color-ink); }
+.page-btn.active { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
+.page-btn:disabled { opacity: 0.3; cursor: default; }
+.page-btn:disabled:hover { border-color: var(--color-rule-strong); color: var(--color-muted); }
+.page-info {
+  font-size: 13px;
+  color: var(--color-neutral);
+  margin: 0 8px;
+}
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 640px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px 24px 16px;
+  border-bottom: 1px solid var(--color-rule);
+  gap: 16px;
+}
+.modal-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 1.3;
+}
+.modal-close {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-neutral);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+  transition: all 0.15s;
+}
+.modal-close:hover { color: var(--color-ink); border-color: var(--color-accent); }
+.modal-body { padding: 20px 24px 24px; }
+.detail-grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 12px 16px;
+}
+.detail-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-neutral);
+  padding-top: 2px;
+}
+.detail-value {
+  font-size: 14px;
+  color: var(--color-ink);
+  word-break: break-word;
+}
+.detail-value a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.detail-value a:hover { text-decoration: underline; }
+.modal-section {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-rule);
+}
+.modal-section h4 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-muted);
+  margin-bottom: 10px;
+}
+.detail-source {
+  font-size: 13px;
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+.detail-source a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.detail-source a:hover { text-decoration: underline; }
+
+/* No results */
+.no-results {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--color-neutral);
+}
+.no-results p { font-size: 15px; margin-bottom: 4px; }
+.no-results .hint { font-size: 13px; color: var(--color-neutral); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 32px 0;
+  border-top: 1px solid var(--color-rule);
+  margin-top: 40px;
+}
+footer p {
+  font-size: 12px;
+  color: var(--color-neutral);
+}
+footer a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+footer a:hover { text-decoration: underline; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container { padding: 0 16px; }
+  header { flex-wrap: wrap; padding: 12px 0; margin-bottom: 24px; }
+  .brand-text span { display: none; }
+  .hero h2 { font-size: 22px; }
+  .hero p { font-size: 14px; }
+  .table-container { border-radius: var(--radius-md); }
+  table { font-size: 13px; }
+  thead th { padding: 10px 10px; font-size: 11px; }
+  td { padding: 8px 10px; }
+  td.col-issn { font-size: 11px; }
+  td.col-publisher { display: none; }
+  td.col-url { display: none; }
+  .filter-bar { flex-direction: row; flex-wrap: wrap; }
+  .publisher-filter { margin-left: 0; max-width: 100%; width: 100%; margin-top: 4px; }
+  .modal { max-width: 100%; margin: 12px; }
+  .detail-grid { grid-template-columns: 100px 1fr; }
+}
+
+@media (max-width: 480px) {
+  .brand-text h1 { font-size: 15px; }
+  .brand-icon { width: 30px; height: 30px; font-size: 12px; }
+  .stats-badge { font-size: 11px; padding: 3px 10px; }
+}
+
+/* Edit button */
+.edit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--color-accent);
+  text-decoration: none;
+  padding: 6px 14px;
+  border: 1px solid var(--color-rule-strong);
+  border-radius: var(--radius-sm);
+  transition: all 0.15s;
+}
+.edit-link:hover {
+  background: rgba(94,106,210,0.08);
+  border-color: var(--color-accent);
+}
+
+/* Row click hint */
+.row-hint { font-size: 11px; color: var(--color-neutral); margin-left: 4px; opacity: 0; transition: opacity 0.15s; }
+tbody tr:hover .row-hint { opacity: 1; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">DJ</div>
+      <div class="brand-text">
+        <h1>Data Journal Registry</h1>
+        <span>An open catalogue of data journals worldwide</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="stats-badge" id="statsBadge">— journals</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h2>Registry of Data Journals</h2>
+    <p>A curated, community-maintained directory of journals that publish data papers, based on Kindling &amp; Strecker (2022).</p>
+  </div>
+
+  <!-- Search -->
+  <div class="search-section">
+    <div class="search-wrapper">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="Search by title, ISSN, or publisher..." autocomplete="off">
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filter-bar">
+    <label>Type:</label>
+    <button class="filter-pill active" data-filter="all">All</button>
+    <button class="filter-pill pure-pill" data-filter="pure">Pure</button>
+    <button class="filter-pill mixed-pill" data-filter="mixed">Mixed</button>
+    <select class="publisher-filter" id="publisherFilter">
+      <option value="">All publishers</option>
+    </select>
+  </div>
+
+  <!-- Table -->
+  <div class="table-container">
+    <div class="table-wrapper">
+      <table id="journalTable">
+        <thead>
+          <tr>
+            <th data-sort="ISSN">ISSN <span class="sort-arrow"></span></th>
+            <th data-sort="journal_title">Title <span class="sort-arrow"></span></th>
+            <th data-sort="publisher">Publisher <span class="sort-arrow"></span></th>
+            <th data-sort="data_journal_type">Type <span class="sort-arrow"></span></th>
+            <th data-sort="">URL</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      Based on <a href="https://doi.org/10.5281/zenodo.7082126" target="_blank">Kindling &amp; Strecker (2022)</a> ·
+      <a href="https://github.com/harrytyp/data-journals" target="_blank">GitHub</a> ·
+      <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0-1.0</a>
+    </p>
+  </footer>
+</div>
+
+<!-- Detail Modal -->
+<div class="modal-overlay" id="detailModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="modalTitle">Journal</h3>
+      <button class="modal-close" id="modalClose">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+// Data
+let journals = [];
+let filtered = [];
+let currentPage = 1;
+const pageSize = 25;
+let sortField = 'journal_title';
+let sortDir = 'asc';
+let currentFilter = 'all';
+let currentSearch = '';
+let currentPublisher = '';
+
+// Load data
+fetch('data/journals.json')
+  .then(r => r.json())
+  .then(data => {
+    journals = data;
+    document.getElementById('statsBadge').textContent = journals.length + ' journals';
+    populatePublishers();
+    applyFilters();
+  })
+  .catch(err => {
+    document.getElementById('statsBadge').textContent = 'Error loading data';
+    console.error(err);
+  });
+
+function populatePublishers() {
+  const pubs = [...new Set(journals.map(j => j.publisher).filter(Boolean))].sort();
+  const sel = document.getElementById('publisherFilter');
+  pubs.forEach(p => {
+    const opt = document.createElement('option');
+    opt.value = p;
+    opt.textContent = p;
+    sel.appendChild(opt);
+  });
+}
+
+// Sorting
+let sortState = {};
+function toggleSort(field) {
+  if (sortField === field) {
+    sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortField = field;
+    sortDir = 'asc';
+  }
+  updateSortIndicators();
+  renderTable();
+}
+
+function updateSortIndicators() {
+  document.querySelectorAll('thead th[data-sort]').forEach(th => {
+    const field = th.dataset.sort;
+    const arrow = th.querySelector('.sort-arrow');
+    th.classList.remove('sort-active');
+    if (field === sortField) {
+      th.classList.add('sort-active');
+      arrow.textContent = sortDir === 'asc' ? ' ▲' : ' ▼';
+    } else {
+      arrow.textContent = '';
+    }
+  });
+}
+
+// Filter + Search + Sort
+function applyFilters() {
+  let result = [...journals];
+
+  // Type filter
+  if (currentFilter !== 'all') {
+    result = result.filter(j => j.data_journal_type === currentFilter);
+  }
+
+  // Publisher filter
+  if (currentPublisher) {
+    result = result.filter(j => j.publisher === currentPublisher);
+  }
+
+  // Search
+  if (currentSearch) {
+    const q = currentSearch.toLowerCase();
+    result = result.filter(j =>
+      (j.ISSN && j.ISSN.toLowerCase().includes(q)) ||
+      (j.journal_title && j.journal_title.toLowerCase().includes(q)) ||
+      (j.publisher && j.publisher.toLowerCase().includes(q))
+    );
+  }
+
+  // Sort
+  if (sortField) {
+    result.sort((a, b) => {
+      let aVal = (a[sortField] || '').toLowerCase();
+      let bVal = (b[sortField] || '').toLowerCase();
+      if (aVal < bVal) return sortDir === 'asc' ? -1 : 1;
+      if (aVal > bVal) return sortDir === 'asc' ? 1 : -1;
+      return 0;
+    });
+  }
+
+  filtered = result;
+  currentPage = 1;
+  renderTable();
+}
+
+// Render
+function renderTable() {
+  const tbody = document.getElementById('tableBody');
+  const total = filtered.length;
+  const totalPages = Math.ceil(total / pageSize) || 1;
+  const start = (currentPage - 1) * pageSize;
+  const page = filtered.slice(start, start + pageSize);
+
+  if (page.length === 0) {
+    tbody.innerHTML = `
+      <tr><td colspan="5">
+        <div class="no-results">
+          <p>No journals match your filters</p>
+          <p class="hint">Try adjusting your search or filter criteria</p>
+        </div>
+      </td></tr>`;
+    renderPagination(totalPages, total);
+    return;
+  }
+
+  let html = '';
+  page.forEach((j, idx) => {
+    const issn = j.ISSN || '—';
+    const title = j.journal_title || '—';
+    const publisher = j.publisher || '—';
+    const type = j.data_journal_type || '—';
+    const url = j.URL || '';
+    const rowId = 'row-' + (start + idx);
+    const safeTitle = title.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const safeIssn = issn.replace(/"/g, '&quot;');
+    html += `<tr id="${rowId}" data-issn="${safeIssn}" data-title="${safeTitle}">
+      <td class="col-issn">${issn}</td>
+      <td class="col-title">${title}</td>
+      <td class="col-publisher">${publisher}</td>
+      <td class="col-type"><span class="type-badge ${type}">${type}</span></td>
+      <td class="col-url">${url ? `<a href="${url}" target="_blank" class="visit-link" onclick="event.stopPropagation()">Visit →</a>` : '—'}</td>
+    </tr>`;
+  });
+  tbody.innerHTML = html;
+  renderPagination(totalPages, total);
+}
+
+function renderPagination(totalPages, total) {
+  // Attach row click handlers
+  document.querySelectorAll('#tableBody tr[id^="row-"]').forEach(row => {
+    row.addEventListener('click', function(e) {
+      if (e.target.closest('.visit-link')) return;
+      const issn = this.dataset.issn;
+      const title = this.dataset.title;
+      openModal(issn, title);
+    });
+  });
+
+  const el = document.getElementById('pagination');
+  if (totalPages <= 1) { el.innerHTML = ''; return; }
+
+  let html = '';
+  html += `<button class="page-btn" onclick="goPage(${currentPage - 1})" ${currentPage <= 1 ? 'disabled' : ''}>‹</button>`;
+
+  let startP = Math.max(1, currentPage - 2);
+  let endP = Math.min(totalPages, startP + 4);
+  if (endP - startP < 4) startP = Math.max(1, endP - 4);
+
+  for (let i = startP; i <= endP; i++) {
+    html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+  }
+
+  html += `<button class="page-btn" onclick="goPage(${currentPage + 1})" ${currentPage >= totalPages ? 'disabled' : ''}>›</button>`;
+  html += `<span class="page-info">${total} journals</span>`;
+  el.innerHTML = html;
+}
+
+function goPage(p) {
+  const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+  if (p < 1 || p > totalPages) return;
+  currentPage = p;
+  renderTable();
+}
+
+// Event listeners
+document.getElementById('searchInput').addEventListener('input', function() {
+  currentSearch = this.value;
+  applyFilters();
+});
+
+document.querySelectorAll('.filter-pill').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    currentFilter = this.dataset.filter;
+    applyFilters();
+  });
+});
+
+document.getElementById('publisherFilter').addEventListener('change', function() {
+  currentPublisher = this.value;
+  applyFilters();
+});
+
+document.querySelectorAll('thead th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const field = th.dataset.sort;
+    if (field) toggleSort(field);
+  });
+});
+
+// Modal
+function openModal(issn, rawTitle) {
+  const title = rawTitle.replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  const j = journals.find(j => j.ISSN === issn && j.journal_title === title);
+  if (!j) return;
+
+  document.getElementById('modalTitle').textContent = j.journal_title || 'Journal';
+  const body = document.getElementById('modalBody');
+
+  const typeClass = j.data_journal_type || '—';
+  body.innerHTML = `
+    <div class="detail-grid">
+      <div class="detail-label">ISSN</div>
+      <div class="detail-value" style="font-family:var(--font-mono)">${j.ISSN || '—'}</div>
+
+      <div class="detail-label">Title</div>
+      <div class="detail-value">${j.journal_title || '—'}</div>
+
+      <div class="detail-label">Publisher</div>
+      <div class="detail-value">${j.publisher || '—'}</div>
+
+      <div class="detail-label">Type</div>
+      <div class="detail-value"><span class="type-badge ${typeClass}">${typeClass}</span></div>
+
+      <div class="detail-label">URL</div>
+      <div class="detail-value">${j.URL ? `<a href="${j.URL}" target="_blank">${j.URL}</a>` : '—'}</div>
+    </div>
+
+    <div class="modal-section">
+      <h4>Classification</h4>
+      <div class="detail-source">
+        <strong>${j.data_journal_type === 'pure' ? 'Pure' : 'Mixed'} data journal.</strong>
+        ${j.data_journal_type === 'pure'
+          ? 'This journal has a strong focus on publishing data papers.'
+          : 'This journal publishes data papers alongside other publication types.'}
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h4>Source</h4>
+      <div class="detail-source">
+        Entry from <a href="https://doi.org/10.5281/zenodo.7082126" target="_blank">Kindling &amp; Strecker (2022)</a>.
+        Last updated via <a href="https://github.com/harrytyp/data-journals" target="_blank">GitHub</a>.
+      </div>
+      <a href="https://github.com/harrytyp/data-journals/edit/main/data_journals_characteristics.csv" target="_blank" class="edit-link">
+        ✎ Suggest an edit
+      </a>
+    </div>
+  `;
+
+  document.getElementById('detailModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+document.getElementById('modalClose').addEventListener('click', closeModal);
+document.getElementById('detailModal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+
+function closeModal() {
+  document.getElementById('detailModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Init sort display
+updateSortIndicators();
+</script>
+</body>
+</html>
