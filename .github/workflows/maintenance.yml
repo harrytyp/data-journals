@@ -1,0 +1,137 @@
+name: Data Journal Registry Maintenance
+
+on:
+  schedule:
+    # Run weekly on Monday at 6:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run discovery script
+        run: python scripts/discover_candidates.py --max 300
+
+      - name: Check for new candidates
+        id: check
+        run: |
+          COUNT=$(python3 -c "import json; d=json.load(open('data/candidates.json')); print(d['verified_candidates'])")
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          echo "Found $COUNT verified candidate(s)"
+
+      - name: Create Issue with candidates
+        if: steps.check.outputs.count != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('data/candidates.json', 'utf8'));
+
+            let body = `## 🔍 Data Journal Discovery Results\n\n`;
+            body += `Generated: ${data.generated}\n\n`;
+            body += `### Verified Candidates (${data.verified_candidates})\n\n`;
+            body += `| ISSN | Title | Publisher | Source |\n`;
+            body += `|------|-------|-----------|--------|\n`;
+
+            const verified = data.candidates.filter(c => c.verified);
+            verified.slice(0, 30).forEach(c => {
+              body += `| ${c.issn || '?'} | ${c.journal_title} | ${c.publisher || '?'} | ${c.source || '?'} |\n`;
+            });
+
+            if (data.unverified_candidates > 0) {
+              body += `\n### Unverified Candidates (${data.unverified_candidates})\n\n`;
+              body += `These require manual ISSN lookup before they can be verified.\n`;
+            }
+
+            body += `\n---\n`;
+            body += `_Run \`python scripts/discover_candidates.py\` locally for full details._\n`;
+            body += `_All candidates require manual verification per the [CONTRIBUTING.md](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md) criteria._\n`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📋 Data Journal candidates (${data.generated.slice(0, 10)})`,
+              body: body,
+              labels: ['discovery', 'candidates']
+            });
+
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate CSV
+        run: |
+          errors=0
+          # Check header
+          HEADER=$(head -1 data_journals_characteristics.csv)
+          EXPECTED="ISSN,journal_title,publisher,URL,data_journal_type"
+          if [ "$HEADER" != "$EXPECTED" ]; then
+            echo "❌ CSV header mismatch"
+            echo "  Expected: $EXPECTED"
+            echo "  Got:      $HEADER"
+            errors=$((errors+1))
+          fi
+
+          # Check each row
+          tail -n +2 data_journals_characteristics.csv | while IFS=',' read -r issn title publisher url type rest; do
+            if [ -z "$issn" ]; then
+              echo "❌ Empty ISSN"
+              errors=$((errors+1))
+            fi
+            if [ "$type" != "pure" ] && [ "$type" != "mixed" ]; then
+              echo "❌ Invalid type '$type' for ISSN $issn"
+              errors=$((errors+1))
+            fi
+          done
+
+          # Check for duplicate ISSNs
+          DUPS=$(tail -n +2 data_journals_characteristics.csv | cut -d',' -f1 | sort | uniq -d)
+          if [ -n "$DUPS" ]; then
+            echo "❌ Duplicate ISSNs found: $DUPS"
+            errors=$((errors+1))
+          fi
+
+          if [ $errors -gt 0 ]; then
+            echo "❌ CSV validation failed with $errors error(s)"
+            exit 1
+          fi
+          echo "✅ CSV validation passed"
+
+      - name: Regenerate JSON from CSV
+        run: python scripts/convert_csv_to_json.py
+
+      - name: Check if JSON changed
+        id: json_changed
+        run: |
+          if ! git diff --quiet -- data/journals.json; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit JSON changes
+        if: steps.json_changed.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/journals.json
+          git commit -m "chore: update data/journals.json from CSV"
+          git push

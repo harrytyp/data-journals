@@ -1,8 +1,12 @@
-# Collection of data journal characteristics (ISSN, Journal title, Publisher, URL, and Data Journal type) 
+# Collection of data journal characteristics (ISSN, Journal title, Publisher, URL, and Data Journal type)
+
+🌐 **Live Registry:** [https://harrytyp.github.io/data-journals/](https://harrytyp.github.io/data-journals/)
 
 The collection is based on a collection of data journal characteristics within research in the project re3data COREF. This initial dataset has been published together with a comprehensive data documentation: Kindling & Strecker (2022) List of data journals. Zenodo. DOI: https://doi.org/10.5281/zenodo.7082126.  
 
 The collection is shared to be supplemented and continued by the community.
+
+> **📖 See [CONTRIBUTING.md](CONTRIBUTING.md) for scope, inclusion criteria, and how to add journals.**
 
 ## Characteristics
 
