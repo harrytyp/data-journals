@@ -1,461 +1,3788 @@
 {
-  "generated": "2026-06-09T16:15:10.836291",
+  "generated": "2026-06-09T16:35:56.478131",
   "existing_count": 146,
-  "total_candidates": 32,
-  "confirmed_journals": 29,
-  "unconfirmed": 3,
+  "total_candidates": 420,
   "candidates": [
     {
-      "issn": "0031-9104",
-      "journal_title": "Physics and Chemistry of Liquids",
-      "publisher": "Taylor & Francis",
+      "issn": "0138-9130",
+      "journal_title": "Scientometrics",
+      "publisher": "Springer Nature (Netherlands)",
       "url": "",
-      "matched_works": 12,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 2878,
-      "cited_by_count": 25856,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 78 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 78
     },
     {
-      "issn": "2995-4274",
-      "journal_title": "IEEE data descriptions.",
+      "issn": "1932-6203",
+      "journal_title": "PLoS ONE",
+      "publisher": "Public Library of Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 74 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 74
+    },
+    {
+      "issn": "2330-1635",
+      "journal_title": "Journal of the Association for Information Science and Technology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 59 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 59
+    },
+    {
+      "issn": "0028-0836",
+      "journal_title": "Nature",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 55 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 55
+    },
+    {
+      "issn": "1532-2882",
+      "journal_title": "Journal of the American Society for Information Science and Technology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 49 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 49
+    },
+    {
+      "issn": "1746-8256",
+      "journal_title": "International Journal of Digital Curation",
+      "publisher": "University of Edinburgh",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 47 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 47
+    },
+    {
+      "issn": "0022-0418",
+      "journal_title": "Journal of Documentation",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 44 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 44
+    },
+    {
+      "issn": "0953-1513",
+      "journal_title": "Learned Publishing",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 36 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 36
+    },
+    {
+      "issn": "0036-8075",
+      "journal_title": "Science",
+      "publisher": "American Association for the Advancement of Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 35 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 35
+    },
+    {
+      "issn": "1053-8119",
+      "journal_title": "NeuroImage",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 35 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 35
+    },
+    {
+      "issn": "0943-7444",
+      "journal_title": "KNOWLEDGE ORGANIZATION",
+      "publisher": "Ergon-Verlag",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 33 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 33
+    },
+    {
+      "issn": "1082-9873",
+      "journal_title": "D-Lib Magazine",
+      "publisher": "Corporation for National Research Initiatives",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 31 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 31
+    },
+    {
+      "issn": "1751-1577",
+      "journal_title": "Journal of Informetrics",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 30 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 30
+    },
+    {
+      "issn": "1364-8152",
+      "journal_title": "Environmental Modelling & Software",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 28 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 28
+    },
+    {
+      "issn": "0010-0870",
+      "journal_title": "College & Research Libraries",
+      "publisher": "Association of College and Research Libraries",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 24 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 24
+    },
+    {
+      "issn": "0027-8424",
+      "journal_title": "Proceedings of the National Academy of Sciences",
+      "publisher": "National Academy of Sciences",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 22 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 22
+    },
+    {
+      "issn": "1544-9173",
+      "journal_title": "PLoS Biology",
+      "publisher": "Public Library of Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 22 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 22
+    },
+    {
+      "issn": "0099-1333",
+      "journal_title": "The Journal of Academic Librarianship",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 22 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 22
+    },
+    {
+      "issn": "2373-9231",
+      "journal_title": "Proceedings of the Association for Information Science and Technology",
       "publisher": "?",
       "url": "",
-      "matched_works": 9,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 146,
-      "cited_by_count": 136,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 20 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 20
     },
     {
-      "issn": "1549-9596",
-      "journal_title": "Journal of Chemical Information and Modeling",
-      "publisher": "American Chemical Society",
+      "issn": "0165-5515",
+      "journal_title": "Journal of Information Science",
+      "publisher": "SAGE Publishing",
       "url": "",
-      "matched_works": 8,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 9495,
-      "cited_by_count": 373417,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 20 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 20
+    },
+    {
+      "issn": "0001-0782",
+      "journal_title": "Communications of the ACM",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 19 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 19
+    },
+    {
+      "issn": "1432-1300",
+      "journal_title": "International Journal on Digital Libraries",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 19 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 19
+    },
+    {
+      "issn": "0306-4573",
+      "journal_title": "Information Processing & Management",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 19 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 19
+    },
+    {
+      "issn": "0009-4978",
+      "journal_title": "Choice Reviews Online",
+      "publisher": "Association of College and Research Libraries",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 18 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 18
+    },
+    {
+      "issn": "0305-1048",
+      "journal_title": "Nucleic Acids Research",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 16 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 16
+    },
+    {
+      "issn": "0043-1397",
+      "journal_title": "Water Resources Research",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 16 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 16
+    },
+    {
+      "issn": "1530-7131",
+      "journal_title": "portal Libraries and the Academy",
+      "publisher": "Johns Hopkins University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 16 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 16
+    },
+    {
+      "issn": "1550-8390",
+      "journal_title": "Proceedings of the American Society for Information Science and Technology",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 16 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 16
+    },
+    {
+      "issn": "0011-183X",
+      "journal_title": "Crop Science",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 15 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 15
+    },
+    {
+      "issn": "2641-3337",
+      "journal_title": "Quantitative Science Studies",
+      "publisher": "The MIT Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 15 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 15
+    },
+    {
+      "issn": "0006-3568",
+      "journal_title": "BioScience",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 14 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 14
+    },
+    {
+      "issn": "0146-9592",
+      "journal_title": "Optics Letters",
+      "publisher": "Optica Publishing Group",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 13 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 13
+    },
+    {
+      "issn": "2162-3309",
+      "journal_title": "Journal of Librarianship and Scholarly Communication",
+      "publisher": "Pacific University Library",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 13 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 13
+    },
+    {
+      "issn": "1574-9541",
+      "journal_title": "Ecological Informatics",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 13 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 13
+    },
+    {
+      "issn": "1313-2970",
+      "journal_title": "ZooKeys",
+      "publisher": "Pensoft Publishers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 13 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 13
+    },
+    {
+      "issn": "0740-3194",
+      "journal_title": "Magnetic Resonance in Medicine",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 13 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 13
+    },
+    {
+      "issn": "0740-8188",
+      "journal_title": "Library & Information Science Research",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 13 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 13
+    },
+    {
+      "issn": "1553-734X",
+      "journal_title": "PLoS Computational Biology",
+      "publisher": "Public Library of Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 12 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 12
+    },
+    {
+      "issn": "0168-1605",
+      "journal_title": "International Journal of Food Microbiology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 12 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 12
+    },
+    {
+      "issn": "0961-0006",
+      "journal_title": "Journal of Librarianship and Information Science",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 11 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 11
+    },
+    {
+      "issn": "1468-4527",
+      "journal_title": "Online Information Review",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 11 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 11
+    },
+    {
+      "issn": "2304-6775",
+      "journal_title": "Publications",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 11 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 11
+    },
+    {
+      "issn": "0302-3427",
+      "journal_title": "Science and Public Policy",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 10 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 10
+    },
+    {
+      "issn": "1570-0844",
+      "journal_title": "Semantic Web",
+      "publisher": "IOS Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 10 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 10
+    },
+    {
+      "issn": "1662-5196",
+      "journal_title": "Frontiers in Neuroinformatics",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 10 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 10
+    },
+    {
+      "issn": "0167-5265",
+      "journal_title": "Information Services & Use",
+      "publisher": "IOS Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "1367-4803",
+      "journal_title": "Bioinformatics",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "0268-4012",
+      "journal_title": "International Journal of Information Management",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "2167-8359",
+      "journal_title": "PeerJ",
+      "publisher": "PeerJ, Inc.",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "0304-3800",
+      "journal_title": "Ecological Modelling",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "1664-1078",
+      "journal_title": "Frontiers in Psychology",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "1094-4087",
+      "journal_title": "Optics Express",
+      "publisher": "Optica Publishing Group",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 9 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 9
+    },
+    {
+      "issn": "0264-0473",
+      "journal_title": "The Electronic Library",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1396-0458",
+      "journal_title": "First Monday",
+      "publisher": "University of Illinois at Chicago",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "0167-739X",
+      "journal_title": "Future Generation Computer Systems",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1877-0509",
+      "journal_title": "Procedia Computer Science",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1536-5050",
+      "journal_title": "Journal of the Medical Library Association JMLA",
+      "publisher": "University Library System, University of Pittsburgh",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "0024-2535",
+      "journal_title": "Library Review",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1521-9615",
+      "journal_title": "Computing in Science & Engineering",
+      "publisher": "AIP Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "2096-7004",
+      "journal_title": "Data Intelligence",
+      "publisher": "The MIT Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "2373-9223",
+      "journal_title": "Bulletin of the Association for Information Science and Technology",
+      "publisher": "Association for Information Science and Technology",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1050-2947",
+      "journal_title": "Physical Review A",
+      "publisher": "American Physical Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1550-8366",
+      "journal_title": "Bulletin of the American Society for Information Science and Technology",
+      "publisher": "Association for Information Science and Technology",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "0024-2519",
+      "journal_title": "The Library Quarterly",
+      "publisher": "University of Chicago Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1361-4533",
+      "journal_title": "New Review of Academic Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 8 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 8
+    },
+    {
+      "issn": "1435-5205",
+      "journal_title": "LIBER Quarterly The Journal of the Association of European Research Libraries",
+      "publisher": "Utrecht University Library Open Access Journals (Publishing Services)",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "0306-3127",
+      "journal_title": "Social Studies of Science",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "0099-0086",
+      "journal_title": "College & Research Libraries News",
+      "publisher": "Association of College and Research Libraries",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "1549-1277",
+      "journal_title": "PLoS Medicine",
+      "publisher": "Public Library of Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "1664-462X",
+      "journal_title": "Frontiers in Plant Science",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "0169-5347",
+      "journal_title": "Trends in Ecology & Evolution",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "1065-9471",
+      "journal_title": "Human Brain Mapping",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "0270-6474",
+      "journal_title": "Journal of Neuroscience",
+      "publisher": "Society for Neuroscience",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "2041-1723",
+      "journal_title": "Nature Communications",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "0002-8231",
+      "journal_title": "Journal of the American Society for Information Science",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "2376-5992",
+      "journal_title": "PeerJ Computer Science",
+      "publisher": "PeerJ, Inc.",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "1061-4036",
+      "journal_title": "Nature Genetics",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 7 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 7
+    },
+    {
+      "issn": "0098-7484",
+      "journal_title": "JAMA",
+      "publisher": "American Medical Association",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0340-0352",
+      "journal_title": "IFLA Journal",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "2288-7474",
+      "journal_title": "Science Editing",
+      "publisher": "Korean Council of Science Editors",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0163-5840",
+      "journal_title": "ACM SIGIR Forum",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0048-7333",
+      "journal_title": "Research Policy",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "2161-3974",
+      "journal_title": "Journal of eScience Librarianship",
+      "publisher": "University of Massachusetts Medical School, Lamar Soutter Library",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0016-7606",
+      "journal_title": "Geological Society of America Bulletin",
+      "publisher": "Geological Society of America",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "1989-9068",
+      "journal_title": "WPOM - Working Papers on Operations Management",
+      "publisher": "Technical University of Valencia",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0031-9007",
+      "journal_title": "Physical Review Letters",
+      "publisher": "American Physical Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0006-3444",
+      "journal_title": "Biometrika",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "1049-0965",
+      "journal_title": "PS Political Science & Politics",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0140-6736",
+      "journal_title": "The Lancet",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0163-5808",
+      "journal_title": "ACM SIGMOD Record",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "1087-0156",
+      "journal_title": "Nature Biotechnology",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0014-4797",
+      "journal_title": "Experimental Agriculture",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0737-8831",
+      "journal_title": "Library Hi Tech",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0028-4793",
+      "journal_title": "New England Journal of Medicine",
+      "publisher": "Massachusetts Medical Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0165-7836",
+      "journal_title": "Fisheries Research",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "1438-8871",
+      "journal_title": "Journal of Medical Internet Research",
+      "publisher": "JMIR Publications",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0885-6087",
+      "journal_title": "Hydrological Processes",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "2041-210X",
+      "journal_title": "Methods in Ecology and Evolution",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "2050-3806",
+      "journal_title": "Aslib Journal of Information Management",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "2158-2440",
+      "journal_title": "SAGE Open",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 6 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 6
+    },
+    {
+      "issn": "0006-341X",
+      "journal_title": "Biometrics",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0162-1459",
+      "journal_title": "Journal of the American Statistical Association",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0143-5124",
+      "journal_title": "Library Management",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0193-0826",
+      "journal_title": "Journal of Library Administration",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "1386-6710",
+      "journal_title": "El Profesional de la Informacion",
+      "publisher": "Ediciones Profesionales de la Informacion SL",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "1662-453X",
+      "journal_title": "Frontiers in Neuroscience",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "2078-2489",
+      "journal_title": "Information",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "2150-8097",
+      "journal_title": "Proceedings of the VLDB Endowment",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "2375-2548",
+      "journal_title": "Science Advances",
+      "publisher": "American Association for the Advancement of Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "1536-9323",
+      "journal_title": "Journal of the Association for Information Systems",
+      "publisher": "Association for Information Systems",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "2053-9517",
+      "journal_title": "Big Data & Society",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0014-2336",
+      "journal_title": "Euphytica",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "1877-0428",
+      "journal_title": "Procedia - Social and Behavioral Sciences",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "2214-7993",
+      "journal_title": "Current Opinion in Food Science",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "2397-3374",
+      "journal_title": "Nature Human Behaviour",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "1936-1955",
+      "journal_title": "Journal of Data and Information Quality",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0033-295X",
+      "journal_title": "Psychological Review",
+      "publisher": "American Psychological Association",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0963-6625",
+      "journal_title": "Public Understanding of Science",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0001-253X",
+      "journal_title": "Aslib Proceedings",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
       "issn": "2045-2322",
       "journal_title": "Scientific Reports",
       "publisher": "Nature Portfolio",
       "url": "",
-      "matched_works": 4,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 298561,
-      "cited_by_count": 7766605,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
-      "issn": "0002-7863",
-      "journal_title": "Journal of the American Chemical Society",
-      "publisher": "American Chemical Society",
-      "url": "",
-      "matched_works": 3,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 220678,
-      "cited_by_count": 15621069,
-      "verified": true
-    },
-    {
-      "issn": "1075-122X",
-      "journal_title": "The Breast Journal",
-      "publisher": "Wiley",
-      "url": "",
-      "matched_works": 3,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 4896,
-      "cited_by_count": 73780,
-      "verified": true
-    },
-    {
-      "issn": "0925-2312",
-      "journal_title": "Neurocomputing",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 3,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 27556,
-      "cited_by_count": 806011,
-      "verified": true
-    },
-    {
-      "issn": "2072-4292",
-      "journal_title": "Remote Sensing",
-      "publisher": "Multidisciplinary Digital Publishing Institute",
-      "url": "",
-      "matched_works": 3,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 42073,
-      "cited_by_count": 1090485,
-      "verified": true
-    },
-    {
-      "issn": "0143-1161",
-      "journal_title": "International Journal of Remote Sensing",
+      "issn": "0098-7913",
+      "journal_title": "Serials Review",
       "publisher": "Taylor & Francis",
       "url": "",
-      "matched_works": 3,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 14837,
-      "cited_by_count": 589167,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
-      "issn": "2076-3417",
-      "journal_title": "Applied Sciences",
-      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "issn": "0194-262X",
+      "journal_title": "Science & Technology Libraries",
+      "publisher": "Taylor & Francis",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data paper\"",
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 89080,
-      "cited_by_count": 1078113,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
-      "issn": "0927-0256",
-      "journal_title": "Computational Materials Science",
-      "publisher": "Elsevier BV",
+      "issn": "1937-5034",
+      "journal_title": "Journal of Library Metadata",
+      "publisher": "Taylor & Francis",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 14207,
-      "cited_by_count": 437299,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
-      "issn": "2075-4418",
-      "journal_title": "Diagnostics",
-      "publisher": "Multidisciplinary Digital Publishing Institute",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 18843,
-      "cited_by_count": 218431,
-      "verified": true
-    },
-    {
-      "issn": "0952-1976",
-      "journal_title": "Engineering Applications of Artificial Intelligence",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 13854,
-      "cited_by_count": 308035,
-      "verified": true
-    },
-    {
-      "issn": "2635-098X",
-      "journal_title": "Digital Discovery",
-      "publisher": "Royal Society of Chemistry",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 1112,
-      "cited_by_count": 9820,
-      "verified": true
-    },
-    {
-      "issn": "1433-7851",
-      "journal_title": "Angewandte Chemie International Edition",
+      "issn": "0066-4200",
+      "journal_title": "Annual Review of Information Science and Technology",
       "publisher": "Wiley",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 80984,
-      "cited_by_count": 6532858,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
-      "issn": "2666-3864",
-      "journal_title": "Cell Reports Physical Science",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 2567,
-      "cited_by_count": 50278,
-      "verified": true
-    },
-    {
-      "issn": "0044-8249",
-      "journal_title": "Angewandte Chemie",
+      "issn": "0002-1962",
+      "journal_title": "Agronomy Journal",
       "publisher": "Wiley",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 141599,
-      "cited_by_count": 1814468,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
     },
     {
-      "issn": "0944-1344",
-      "journal_title": "Environmental Science and Pollution Research",
+      "issn": "0024-2594",
+      "journal_title": "Library trends",
+      "publisher": "Johns Hopkins University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0048-9697",
+      "journal_title": "The Science of The Total Environment",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0740-0020",
+      "journal_title": "Food Microbiology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "1084-8045",
+      "journal_title": "Journal of Network and Computer Applications",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 5 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 5
+    },
+    {
+      "issn": "0957-4174",
+      "journal_title": "Expert Systems with Applications",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1085-7117",
+      "journal_title": "Journal of Agricultural Biological and Environmental Statistics",
       "publisher": "Springer Science+Business Media",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 48703,
-      "cited_by_count": 1342661,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2150-8925",
+      "journal_title": "Ecosphere",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0022-1694",
+      "journal_title": "Journal of Hydrology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0739-1137",
+      "journal_title": "IASSIST Quarterly",
+      "publisher": "University of Alberta Library",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0020-0255",
+      "journal_title": "Information Sciences",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2059-7908",
+      "journal_title": "BMJ Global Health",
+      "publisher": "BMJ",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1758-678X",
+      "journal_title": "Nature Climate Change",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0099-2240",
+      "journal_title": "Applied and Environmental Microbiology",
+      "publisher": "American Society for Microbiology",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0167-9236",
+      "journal_title": "Decision Support Systems",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0889-4906",
+      "journal_title": "English for Specific Purposes",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0009-2541",
+      "journal_title": "Chemical Geology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1861-2032",
+      "journal_title": "Journal on Data Semantics",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0168-1699",
+      "journal_title": "Computers and Electronics in Agriculture",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0030-4018",
+      "journal_title": "Optics Communications",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0896-6273",
+      "journal_title": "Neuron",
+      "publisher": "Cell Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2326-3768",
+      "journal_title": "Advances in Archaeological Practice",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1051-0761",
+      "journal_title": "Ecological Applications",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2169-3536",
+      "journal_title": "IEEE Access",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0895-4356",
+      "journal_title": "Journal of Clinical Epidemiology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0362-5915",
+      "journal_title": "ACM Transactions on Database Systems",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0004-9670",
+      "journal_title": "The Australian Library Journal",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1364-503X",
+      "journal_title": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "publisher": "Royal Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0033-0337",
+      "journal_title": "Program electronic library and information systems",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0103-3786",
+      "journal_title": "Transinformação",
+      "publisher": "Pontifícia Universidade Católica de Campinas",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2048-7754",
+      "journal_title": "Insights the UKSG journal",
+      "publisher": "UKSG",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1462-9011",
+      "journal_title": "Environmental Science & Policy",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2451-1781",
+      "journal_title": "Open Information Science",
+      "publisher": "De Gruyter",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1389-1286",
+      "journal_title": "Computer Networks",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2333-5084",
+      "journal_title": "Earth and Space Science",
+      "publisher": "American Geophysical Union",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0162-2439",
+      "journal_title": "Science Technology & Human Values",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1092-1206",
+      "journal_title": "Issues in Science and Technology Librarianship",
+      "publisher": "Association of College and Research Libraries",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1078-8956",
+      "journal_title": "Nature Medicine",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0897-1889",
+      "journal_title": "Journal of Digital Imaging",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0424-7086",
+      "journal_title": "Medical Entomology and Zoology",
+      "publisher": "Japan Society of Medical Entomology and Zoology",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1042-1467",
+      "journal_title": "Archives and Museum Informatics",
+      "publisher": "Springer Nature",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "0276-7783",
+      "journal_title": "MIS Quarterly",
+      "publisher": "MIS Quarterly",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2169-8953",
+      "journal_title": "Journal of Geophysical Research Biogeosciences",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "2515-2459",
+      "journal_title": "Advances in Methods and Practices in Psychological Science",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 4 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 4
+    },
+    {
+      "issn": "1470-160X",
+      "journal_title": "Ecological Indicators",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1532-0626",
+      "journal_title": "Concurrency and Computation Practice and Experience",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0003-066X",
+      "journal_title": "American Psychologist",
+      "publisher": "American Psychological Association",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0304-4238",
+      "journal_title": "Scientia Horticulturae",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1617-4909",
+      "journal_title": "Personal and Ubiquitous Computing",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1475-1585",
+      "journal_title": "Journal of English for Academic Purposes",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0307-4803",
+      "journal_title": "New Library World",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2324-9773",
+      "journal_title": "Advances in Classification Research Online",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0040-5752",
+      "journal_title": "Theoretical and Applied Genetics",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0096-3941",
+      "journal_title": "Eos",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0168-1923",
+      "journal_title": "Agricultural and Forest Meteorology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0100-1965",
+      "journal_title": "Ciência da Informação",
+      "publisher": "SciELO",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0731-7131",
+      "journal_title": "Technical Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0956-5698",
+      "journal_title": "Records Management Journal",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1548-7091",
+      "journal_title": "Nature Methods",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0012-9658",
+      "journal_title": "Ecology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1525-2027",
+      "journal_title": "Geochemistry Geophysics Geosystems",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0362-028X",
+      "journal_title": "Journal of Food Protection",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1865-0473",
+      "journal_title": "Earth Science Informatics",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0360-9081",
+      "journal_title": "The American Archivist",
+      "publisher": "Society of American Archivists",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0142-7873",
+      "journal_title": "Journal of Plankton Research",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2054-5703",
+      "journal_title": "Royal Society Open Science",
+      "publisher": "Royal Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0898-1221",
+      "journal_title": "Computers & Mathematics with Applications",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0021-8596",
+      "journal_title": "The Journal of Agricultural Science",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0033-8419",
+      "journal_title": "Radiology",
+      "publisher": "Radiological Society of North America",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1474-7596",
+      "journal_title": "Genome biology",
+      "publisher": "BioMed Central",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0894-8755",
+      "journal_title": "Journal of Climate",
+      "publisher": "American Meteorological Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1367-2630",
+      "journal_title": "New Journal of Physics",
+      "publisher": "IOP Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0146-4833",
+      "journal_title": "ACM SIGCOMM Computer Communication Review",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2059-5816",
+      "journal_title": "Digital Library Perspectives",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1570-8268",
+      "journal_title": "Journal of Web Semantics",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0308-597X",
+      "journal_title": "Marine Policy",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0324-8194",
+      "journal_title": "Zagadnienia Informacji Naukowej - Studia Informacyjne",
+      "publisher": "Association of Polish Librarians",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1354-1013",
+      "journal_title": "Global Change Biology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1082-989X",
+      "journal_title": "Psychological Methods",
+      "publisher": "American Psychological Association",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0098-3004",
+      "journal_title": "Computers & Geosciences",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0018-1560",
+      "journal_title": "Higher Education",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0025-1909",
+      "journal_title": "Management Science",
+      "publisher": "Institute for Operations Research and the Management Sciences",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2158-0014",
+      "journal_title": "Brain Connectivity",
+      "publisher": "Mary Ann Liebert, Inc.",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1539-2791",
+      "journal_title": "Neuroinformatics",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1662-5161",
+      "journal_title": "Frontiers in Human Neuroscience",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1350-1763",
+      "journal_title": "Journal of European Public Policy",
+      "publisher": "Routledge",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1877-3435",
+      "journal_title": "Current Opinion in Environmental Sustainability",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0277-6715",
+      "journal_title": "Statistics in Medicine",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0276-3869",
+      "journal_title": "Medical Reference Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1708-3087",
+      "journal_title": "Ecology and Society",
+      "publisher": "Resilience Alliance",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1615-5289",
+      "journal_title": "Universal Access in the Information Society",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1756-1833",
+      "journal_title": "BMJ",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1067-5027",
+      "journal_title": "Journal of the American Medical Informatics Association",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1057-2317",
+      "journal_title": "The International Information & Library Review",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1991-959X",
+      "journal_title": "Geoscientific model development",
+      "publisher": "Copernicus Publications",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0148-0227",
+      "journal_title": "Journal of Geophysical Research Atmospheres",
+      "publisher": "American Geophysical Union",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2689-5870",
+      "journal_title": "Scholarly Assessment Reports",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1541-1672",
+      "journal_title": "IEEE Intelligent Systems",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0036-8733",
+      "journal_title": "Scientific American",
+      "publisher": "Springer Nature",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0003-1305",
+      "journal_title": "The American Statistician",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2055-1045",
+      "journal_title": "Palgrave Communications",
+      "publisher": "Palgrave Macmillan",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0092-8674",
+      "journal_title": "Cell",
+      "publisher": "Cell Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0210-0614",
+      "journal_title": "Revista española de Documentación Científica",
+      "publisher": "Spanish National Research Council",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
     },
     {
       "issn": "0033-5177",
       "journal_title": "Quality & Quantity",
       "publisher": "Springer Science+Business Media",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 5009,
-      "cited_by_count": 123265,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
     },
     {
-      "issn": "0263-2241",
-      "journal_title": "Measurement",
+      "issn": "1745-6916",
+      "journal_title": "Perspectives on Psychological Science",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0950-7051",
+      "journal_title": "Knowledge-Based Systems",
       "publisher": "Elsevier BV",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 21283,
-      "cited_by_count": 424860,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
     },
     {
-      "issn": "0924-2716",
-      "journal_title": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "issn": "1065-075X",
+      "journal_title": "OCLC Systems & Services",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1662-5188",
+      "journal_title": "Frontiers in Computational Neuroscience",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0163-9374",
+      "journal_title": "Cataloging & Classification Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1061-8600",
+      "journal_title": "Journal of Computational and Graphical Statistics",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1753-8947",
+      "journal_title": "International Journal of Digital Earth",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "2575-9752",
+      "journal_title": "Proceedings of the Python in Science Conferences",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1097-6256",
+      "journal_title": "Nature Neuroscience",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0094-3061",
+      "journal_title": "Contemporary Sociology A Journal of Reviews",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1863-2653",
+      "journal_title": "Brain Structure and Function",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "1368-1613",
+      "journal_title": "Information Research an international electronic journal",
+      "publisher": "University of Borås",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
+    },
+    {
+      "issn": "0004-3702",
+      "journal_title": "Artificial Intelligence",
       "publisher": "Elsevier BV",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 4971,
-      "cited_by_count": 319044,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 3 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 3
     },
     {
-      "issn": "2155-5435",
-      "journal_title": "ACS Catalysis",
-      "publisher": "American Chemical Society",
+      "issn": "0891-2017",
+      "journal_title": "Computational Linguistics",
+      "publisher": "Association for Computational Linguistics",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 17158,
-      "cited_by_count": 1180870,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
     },
     {
-      "issn": "1420-3049",
-      "journal_title": "Molecules",
-      "publisher": "Multidisciplinary Digital Publishing Institute",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 64405,
-      "cited_by_count": 1743473,
-      "verified": true
-    },
-    {
-      "issn": "0010-4825",
-      "journal_title": "Computers in Biology and Medicine",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 12008,
-      "cited_by_count": 301169,
-      "verified": true
-    },
-    {
-      "issn": "0731-7085",
-      "journal_title": "Journal of Pharmaceutical and Biomedical Analysis",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 17671,
-      "cited_by_count": 473250,
-      "verified": true
-    },
-    {
-      "issn": "0031-3203",
-      "journal_title": "Pattern Recognition",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 16355,
-      "cited_by_count": 733816,
-      "verified": true
-    },
-    {
-      "issn": "0167-7322",
-      "journal_title": "Journal of Molecular Liquids",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 28638,
-      "cited_by_count": 717615,
-      "verified": true
-    },
-    {
-      "issn": "0167-7055",
-      "journal_title": "Computer Graphics Forum",
+      "issn": "0096-946X",
+      "journal_title": "American Documentation",
       "publisher": "Wiley",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 7326,
-      "cited_by_count": 194240,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
     },
     {
-      "issn": "0021-9665",
-      "journal_title": "Journal of Chromatographic Science",
+      "issn": "1548-7660",
+      "journal_title": "Journal of Statistical Software",
+      "publisher": "Foundation for Open Access Statistics",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0949-877X",
+      "journal_title": "The VLDB Journal",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1745-2473",
+      "journal_title": "Nature Physics",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2514-9288",
+      "journal_title": "Data Technologies and Applications",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2073-4395",
+      "journal_title": "Agronomy",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0740-624X",
+      "journal_title": "Government Information Quarterly",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1947-9077",
+      "journal_title": "International Journal of Digital Library Systems",
+      "publisher": "IGI Global",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0003-1224",
+      "journal_title": "American Sociological Review",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0167-9473",
+      "journal_title": "Computational Statistics & Data Analysis",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0161-6846",
+      "journal_title": "Public Library Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2076-3417",
+      "journal_title": "Applied Sciences",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1741-0398",
+      "journal_title": "Journal of Enterprise Information Management",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0960-6491",
+      "journal_title": "Industrial and Corporate Change",
       "publisher": "Oxford University Press",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "journal",
-      "works_count": 10017,
-      "cited_by_count": 144716,
-      "verified": true
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
     },
     {
-      "issn": "2331-8422",
-      "journal_title": "ArXiv.org",
+      "issn": "1478-0887",
+      "journal_title": "Qualitative Research in Psychology",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1040-2446",
+      "journal_title": "Academic Medicine",
+      "publisher": "Lippincott Williams & Wilkins",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0924-2244",
+      "journal_title": "Trends in Food Science & Technology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1871-1014",
+      "journal_title": "Quaternary Geochronology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2164-8034",
+      "journal_title": "Information & Culture",
+      "publisher": "University of Texas Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0269-8889",
+      "journal_title": "The Knowledge Engineering Review",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0090-5364",
+      "journal_title": "The Annals of Statistics",
+      "publisher": "Institute of Mathematical Statistics",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0171-8630",
+      "journal_title": "Marine Ecology Progress Series",
+      "publisher": "Inter-Research",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0263-774X",
+      "journal_title": "Environment and Planning C Government and Policy",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1981-1640",
+      "journal_title": "Brazilian Journal of Information Science research trends",
       "publisher": "?",
       "url": "",
-      "matched_works": 3,
-      "sources": [
-        "\"data paper\"",
-        "\"data descriptor\""
-      ],
-      "type": "repository",
-      "works_count": 468338,
-      "cited_by_count": 698432,
-      "verified": false
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
     },
     {
-      "issn": "1556-5068",
-      "journal_title": "SSRN Electronic Journal",
-      "publisher": "RELX Group (Netherlands)",
+      "issn": "1071-5819",
+      "journal_title": "International Journal of Human-Computer Studies",
+      "publisher": "Elsevier BV",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data paper\"",
-        "\"data descriptor\""
-      ],
-      "type": "repository",
-      "works_count": 1618151,
-      "cited_by_count": 5436182,
-      "verified": false
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
     },
     {
-      "issn": "2573-2293",
-      "journal_title": "ChemRxiv",
+      "issn": "0021-8901",
+      "journal_title": "Journal of Applied Ecology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1198-9742",
+      "journal_title": "Journal of Scholarly Publishing",
+      "publisher": "University of Toronto Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1940-087X",
+      "journal_title": "Journal of Visualized Experiments",
+      "publisher": "MyJOVE",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2364-2114",
+      "journal_title": "Digital Culture & Society",
+      "publisher": "Transcript Verlag",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0016-7037",
+      "journal_title": "Geochimica et Cosmochimica Acta",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0889-3268",
+      "journal_title": "Journal of Business and Psychology",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0010-096X",
+      "journal_title": "College Composition and Communication",
+      "publisher": "National Council of Teachers of English",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0740-6959",
+      "journal_title": "Profession",
+      "publisher": "Modern Language Association",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0364-152X",
+      "journal_title": "Environmental Management",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0006-3207",
+      "journal_title": "Biological Conservation",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0938-7994",
+      "journal_title": "European Radiology",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0024-3590",
+      "journal_title": "Limnology and Oceanography",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2296-665X",
+      "journal_title": "Frontiers in Environmental Science",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1537-260X",
+      "journal_title": "Academy of Management Learning and Education",
+      "publisher": "Academy of Management",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0363-7425",
+      "journal_title": "Academy of Management Review",
+      "publisher": "Academy of Management",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1046-8188",
+      "journal_title": "ACM Transactions on Information Systems",
       "publisher": "?",
       "url": "",
-      "matched_works": 2,
-      "sources": [
-        "\"data descriptor\""
-      ],
-      "type": "repository",
-      "works_count": 60643,
-      "cited_by_count": 72362,
-      "verified": false
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0032-0889",
+      "journal_title": "PLANT PHYSIOLOGY",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2309-3854",
+      "journal_title": "Journal of Bioresource Management",
+      "publisher": "Bioresource Research Center (BRC), Islamabad",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0309-1325",
+      "journal_title": "Progress in Human Geography",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0022-5142",
+      "journal_title": "Journal of the Science of Food and Agriculture",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1932-2909",
+      "journal_title": "Journal of Web Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2296-701X",
+      "journal_title": "Frontiers in Ecology and Evolution",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1886-6344",
+      "journal_title": "Anuario ThinkEPI",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2047-2382",
+      "journal_title": "Environmental Evidence",
+      "publisher": "BioMed Central",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0906-7590",
+      "journal_title": "Ecography",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0730-725X",
+      "journal_title": "Magnetic Resonance Imaging",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0301-4797",
+      "journal_title": "Journal of Environmental Management",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1445-4408",
+      "journal_title": "Functional Plant Biology",
+      "publisher": "CSIRO Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0741-9058",
+      "journal_title": "Library Hi Tech News",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1553-877X",
+      "journal_title": "IEEE Communications Surveys & Tutorials",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1063-6692",
+      "journal_title": "IEEE/ACM Transactions on Networking",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1543-592X",
+      "journal_title": "Annual Review of Ecology Evolution and Systematics",
+      "publisher": "Annual Reviews",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0378-1097",
+      "journal_title": "FEMS Microbiology Letters",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0925-9724",
+      "journal_title": "Computer Supported Cooperative Work (CSCW)",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0169-023X",
+      "journal_title": "Data & Knowledge Engineering",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1414-2139",
+      "journal_title": "Informação & Informação",
+      "publisher": "State University of Londrina",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1687-8159",
+      "journal_title": "International Journal of Agronomy",
+      "publisher": "Hindawi Publishing Corporation",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1176-3647",
+      "journal_title": "Educational Technology & Society",
+      "publisher": "IEEE Computer Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1697-2473",
+      "journal_title": "Ecosistemas",
+      "publisher": "Spanish Association for Terrestrial Ecology",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0004-5411",
+      "journal_title": "Journal of the ACM",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1045-9227",
+      "journal_title": "IEEE Transactions on Neural Networks",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0007-1013",
+      "journal_title": "British Journal of Educational Technology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0888-8892",
+      "journal_title": "Conservation Biology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0898-9621",
+      "journal_title": "Accountability in Research",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2543-9251",
+      "journal_title": "Data and Information Management",
+      "publisher": "De Gruyter",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0197-9337",
+      "journal_title": "Earth Surface Processes and Landforms",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1918-3178",
+      "journal_title": "Ideas in Ecology and Evolution",
+      "publisher": "Queen's University",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0003-4819",
+      "journal_title": "Annals of Internal Medicine",
+      "publisher": "American College of Physicians",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1742-5662",
+      "journal_title": "Journal of The Royal Society Interface",
+      "publisher": "Royal Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0943-4747",
+      "journal_title": "Yearbook of Medical Informatics",
+      "publisher": "Georg Thieme Verlag",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1639-4488",
+      "journal_title": "Geostandards and Geoanalytical Research",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0193-6484",
+      "journal_title": "Chemistry International",
+      "publisher": "International Union of Pure and Applied Chemistry",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1353-3452",
+      "journal_title": "Science and Engineering Ethics",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0169-2607",
+      "journal_title": "Computer Methods and Programs in Biomedicine",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1715-720X",
+      "journal_title": "Evidence Based Library and Information Practice",
+      "publisher": "University of Alberta",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0142-6001",
+      "journal_title": "Applied Linguistics",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1867-0202",
+      "journal_title": "Business & Information Systems Engineering",
+      "publisher": "Springer Nature",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1013-0799",
+      "journal_title": "Journal of the Korean Society for information Management",
+      "publisher": "Korean Society for Information Management",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2332-7790",
+      "journal_title": "IEEE Transactions on Big Data",
+      "publisher": "IEEE Computer Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0022-3085",
+      "journal_title": "Journal of neurosurgery",
+      "publisher": "American Association of Neurological Surgeons",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2452-1094",
+      "journal_title": "Advances in Radiation Oncology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0971-7218",
+      "journal_title": "Science Technology and Society",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0896-3568",
+      "journal_title": "Journal of Business & Finance Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0892-6638",
+      "journal_title": "The FASEB Journal",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1611-8014",
+      "journal_title": "Ethics in Science and Environmental Politics",
+      "publisher": "Inter-Research",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0013-0133",
+      "journal_title": "The Economic Journal",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0378-1127",
+      "journal_title": "Forest Ecology and Management",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0090-7324",
+      "journal_title": "Reference Services Review",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1556-2646",
+      "journal_title": "Journal of Empirical Research on Human Research Ethics",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1461-023X",
+      "journal_title": "Ecology Letters",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0701-1784",
+      "journal_title": "Canadian Water Resources Journal / Revue canadienne des ressources hydriques",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0277-786X",
+      "journal_title": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "publisher": "SPIE",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0747-5632",
+      "journal_title": "Computers in Human Behavior",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0925-2312",
+      "journal_title": "Neurocomputing",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2504-0537",
+      "journal_title": "Frontiers in Research Metrics and Analytics",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0004-0843",
+      "journal_title": "ARCTIC",
+      "publisher": "Arctic Institute of North America",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0022-2852",
+      "journal_title": "Journal of Molecular Spectroscopy",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1369-118X",
+      "journal_title": "Information Communication & Society",
+      "publisher": "Routledge",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1055-7148",
+      "journal_title": "International Journal of Network Management",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1846-8527",
+      "journal_title": "Libellarium journal for research in the field of information and related sciences",
+      "publisher": "University of Zadar",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2227-9709",
+      "journal_title": "Informatics",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1091-1367",
+      "journal_title": "Journal of Internet Cataloging",
+      "publisher": "Haworth Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0046-9777",
+      "journal_title": "CFA Digest",
+      "publisher": "CFA Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1084-7529",
+      "journal_title": "Journal of the Optical Society of America A",
+      "publisher": "Optica Publishing Group",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0004-9409",
+      "journal_title": "Australian Journal of Agricultural Research",
+      "publisher": "CSIRO Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0002-7162",
+      "journal_title": "The Annals of the American Academy of Political and Social Science",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0021-9436",
+      "journal_title": "Journal of Business Communication",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1935-7893",
+      "journal_title": "Disaster Medicine and Public Health Preparedness",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1161-0301",
+      "journal_title": "European Journal of Agronomy",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0002-8282",
+      "journal_title": "American Economic Review",
+      "publisher": "American Economic Association",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0018-9162",
+      "journal_title": "Computer",
+      "publisher": "IEEE Computer Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1075-5470",
+      "journal_title": "Science Communication",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1609-4069",
+      "journal_title": "International Journal of Qualitative Methods",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2666-3899",
+      "journal_title": "Patterns",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1757-4676",
+      "journal_title": "EMBO Molecular Medicine",
+      "publisher": "Springer Nature",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0018-5345",
+      "journal_title": "HortScience",
+      "publisher": "American Society for Horticultural Science",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0950-5849",
+      "journal_title": "Information and Software Technology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0012-9615",
+      "journal_title": "Ecological Monographs",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1530-9576",
+      "journal_title": "Public Performance & Management Review",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2469-9926",
+      "journal_title": "Physical review. A/Physical review, A",
+      "publisher": "American Physical Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2263-0856",
+      "journal_title": "Revue française des sciences de l’information et de la communication",
+      "publisher": "Société française des sciences de l’information et de la communication",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0066-4162",
+      "journal_title": "Annual Review of Ecology and Systematics",
+      "publisher": "Annual Reviews",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1074-0708",
+      "journal_title": "Journal of Agricultural and Applied Economics",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0148-2963",
+      "journal_title": "Journal of Business Research",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1938-4122",
+      "journal_title": "Digital humanities quarterly",
+      "publisher": "Alliance of Digital Humanities Organizations",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1660-4601",
+      "journal_title": "International Journal of Environmental Research and Public Health",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1811-5209",
+      "journal_title": "Elements",
+      "publisher": "Mineralogical Society of America",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1053-5888",
+      "journal_title": "IEEE Signal Processing Magazine",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0022-2496",
+      "journal_title": "Journal of Mathematical Psychology",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1759-2879",
+      "journal_title": "Research Synthesis Methods",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0094-2405",
+      "journal_title": "Medical Physics",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2234-943X",
+      "journal_title": "Frontiers in Oncology",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2300-6560",
+      "journal_title": "Open Archaeology",
+      "publisher": "De Gruyter Open",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2398-9629",
+      "journal_title": "Nature Sustainability",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0958-2029",
+      "journal_title": "Research Evaluation",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0093-4690",
+      "journal_title": "Journal of Field Archaeology",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0810-9028",
+      "journal_title": "Prometheus",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0035-9254",
+      "journal_title": "Journal of the Royal Statistical Society Series C (Applied Statistics)",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0894-4393",
+      "journal_title": "Social Science Computer Review",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1529-6407",
+      "journal_title": "RBM A Journal of Rare Books Manuscripts and Cultural Heritage",
+      "publisher": "Association of College and Research Libraries",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0022-3077",
+      "journal_title": "Journal of Neurophysiology",
+      "publisher": "American Physiological Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0361-526X",
+      "journal_title": "The Serials Librarian",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0165-4888",
+      "journal_title": "Text - Interdisciplinary Journal for the Study of Discourse",
+      "publisher": "De Gruyter",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1932-4537",
+      "journal_title": "IEEE Transactions on Network and Service Management",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1049-7323",
+      "journal_title": "Qualitative Health Research",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0094-8276",
+      "journal_title": "Geophysical Research Letters",
+      "publisher": "American Geophysical Union",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0740-7459",
+      "journal_title": "IEEE Software",
+      "publisher": "IEEE Computer Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1916-4742",
+      "journal_title": "English Language Teaching",
+      "publisher": "Canadian Center of Science and Education",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2573-0142",
+      "journal_title": "Proceedings of the ACM on Human-Computer Interaction",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1053-1807",
+      "journal_title": "Journal of Magnetic Resonance Imaging",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1554-351X",
+      "journal_title": "Behavior Research Methods",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1054-3139",
+      "journal_title": "ICES Journal of Marine Science",
+      "publisher": "Oxford University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0165-0270",
+      "journal_title": "Journal of Neuroscience Methods",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2638-6100",
+      "journal_title": "Radiology Artificial Intelligence",
+      "publisher": "Radiological Society of North America",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2662-9992",
+      "journal_title": "Humanities and Social Sciences Communications",
+      "publisher": "Palgrave Macmillan",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2096-2223",
+      "journal_title": "China Scientific Data",
+      "publisher": "?",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0308-521X",
+      "journal_title": "Agricultural Systems",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0022-4804",
+      "journal_title": "Journal of Surgical Research",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0030-3941",
+      "journal_title": "Journal of the Optical Society of America",
+      "publisher": "Optica Publishing Group",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1866-3508",
+      "journal_title": "Earth system science data",
+      "publisher": "Copernicus Publications",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1752-0894",
+      "journal_title": "Nature Geoscience",
+      "publisher": "Nature Portfolio",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0376-8929",
+      "journal_title": "Environmental Conservation",
+      "publisher": "Cambridge University Press",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2072-4292",
+      "journal_title": "Remote Sensing",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1386-2588",
+      "journal_title": "Aquatic Ecology",
+      "publisher": "Springer Science+Business Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1360-7804",
+      "journal_title": "Sociological Research Online",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0963-9969",
+      "journal_title": "Food Research International",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0962-8436",
+      "journal_title": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "publisher": "Royal Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1089-7801",
+      "journal_title": "IEEE Internet Computing",
+      "publisher": "IEEE Computer Society",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0899-8418",
+      "journal_title": "International Journal of Climatology",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1045-926X",
+      "journal_title": "Journal of Visual Languages & Computing",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "1664-042X",
+      "journal_title": "Frontiers in Physiology",
+      "publisher": "Frontiers Media",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "0272-4332",
+      "journal_title": "Risk Analysis",
+      "publisher": "Wiley",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
+    },
+    {
+      "issn": "2044-2041",
+      "journal_title": "Inland Waters",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "source": "citation-mining",
+      "evidence": "Zitiert in 2 Papers, die Data-Journal-Reviews zitieren",
+      "co_citations": 2
     }
   ],
-  "methodology": "1) OpenAlex-Works mit 'data paper'/'data descriptor' im Titel → nach Journal gruppiert → nur Journals mit ≥2 Treffern.\n2) Verlagsscan: Ubiquity Press, Pensoft, MDPI → Journals mit 'data' im Titel.\n\nALLE Kandidaten brauchen manuelle Prüfung pro CONTRIBUTING.md!"
+  "methodology": "Citation Mining: Papers, die Candela et al. (2015) und Jiao et al. (2023) zitieren, wurden analysiert. Alle referenzierten Journals wurden extrahiert und nach Häufigkeit sortiert. Journals mit ≥2 Nennungen, die nicht im Registry sind, sind Kandidaten. Diese müssen manuell geprüft werden."
 }
