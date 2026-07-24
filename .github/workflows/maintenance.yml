@@ -25,7 +25,7 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r scripts/requirements.txt
 
       - name: Run discovery script
         run: python scripts/discover_candidates.py --max 300
