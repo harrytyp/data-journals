@@ -82,8 +82,8 @@ jobs:
       - name: Validate CSV
         run: |
           errors=0
-          # Check header
-          HEADER=$(head -1 data_journals_characteristics.csv)
+          # Check header (strip \r for CRLF safety)
+          HEADER=$(head -1 data_journals_characteristics.csv | tr -d '\r')
           EXPECTED="ISSN,journal_title,publisher,URL,data_journal_type"
           if [ "$HEADER" != "$EXPECTED" ]; then
             echo "❌ CSV header mismatch"
@@ -92,8 +92,8 @@ jobs:
             errors=$((errors+1))
           fi
 
-          # Check each row
-          tail -n +2 data_journals_characteristics.csv | while IFS=',' read -r issn title publisher url type rest; do
+          # Check each row (strip \r for CRLF safety)
+          tail -n +2 data_journals_characteristics.csv | tr -d '\r' | while IFS=',' read -r issn title publisher url type rest; do
             if [ -z "$issn" ]; then
               echo "❌ Empty ISSN"
               errors=$((errors+1))
@@ -104,8 +104,8 @@ jobs:
             fi
           done
 
-          # Check for duplicate ISSNs
-          DUPS=$(tail -n +2 data_journals_characteristics.csv | cut -d',' -f1 | sort | uniq -d)
+          # Check for duplicate ISSNs (strip \r for CRLF safety)
+          DUPS=$(tail -n +2 data_journals_characteristics.csv | tr -d '\r' | cut -d',' -f1 | sort | uniq -d)
           if [ -n "$DUPS" ]; then
             echo "❌ Duplicate ISSNs found: $DUPS"
             errors=$((errors+1))
