@@ -2,15 +2,25 @@
 """
 Data Journal Discovery via OpenAlex-Vollabzug
 
-Lädt ALLE ~283K OpenAlex-Sources via API (cursor-basiert),
+Lädt OpenAlex-Sources via API (cursor-basiert),
 filtert auf Journals, bewertet mit einem Signal-basierten Score,
 und gibt Kandidaten aus, die manuell geprüft werden können.
 
-Laufzeit: ~10-15 Minuten für den Vollabzug.
+Usage:
+    python discover_candidates.py [--max N] [--max-pages M]
+
+--max:       Stop scanning once we have at least N candidates (default: 300)
+--max-pages: Hard limit on API pages to prevent runaway scans (default: 2000)
 """
 
-import csv, json, os, sys, time
+import argparse
+import csv
+import json
+import os
+import sys
+import time
 from datetime import datetime
+
 try:
     import requests
 except ImportError:
@@ -135,32 +145,61 @@ def score_source(src):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Discover data journal candidates via OpenAlex API"
+    )
+    parser.add_argument(
+        "--max", type=int, default=300,
+        help="Stop scanning once we have at least N candidates (default: 300)"
+    )
+    parser.add_argument(
+        "--max-pages", type=int, default=2000,
+        help="Hard limit on API pages to prevent runaway scans (default: 2000)"
+    )
+    args = parser.parse_args()
+    target_candidates = args.max
+    max_pages = args.max_pages
+    # Keep scanning beyond target so we have a rich pool to sort from
+    stop_after = max(target_candidates * 2, 500)
+
     print("=" * 60)
-    print(f"Data Journal Discovery — OpenAlex-Vollabzug")
+    print(f"Data Journal Discovery — OpenAlex Scan")
     print(f"  {datetime.now().isoformat()}")
+    print(f"  Target: at least {target_candidates} candidates")
+    print(f"  Max pages: {max_pages}")
     print("=" * 60)
 
     existing = load_existing()
-    print(f"  Bereits im Registry: {len(existing)} ISSNs")
+    print(f"  Already in registry: {len(existing)} ISSNs")
 
-    # OpenAlex Sources via Cursor-Pagination durchgehen
+    # OpenAlex Sources via Cursor-Pagination
     cursor = "*"
     page = 0
     candidates = {}
     total_processed = 0
     total_journals = 0
+    consecutive_errors = 0
+    max_retries = 3
 
-    while cursor:
+    while cursor and page < max_pages:
         url = (f"https://api.openalex.org/sources?cursor={cursor}&per_page=200"
                f"&select=id,display_name,issn,host_organization_name,homepage_url,"
                f"works_count,type,topics")
         try:
             r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
             if r.status_code != 200:
-                print(f"  Fehler {r.status_code}, warte 10s...")
-                time.sleep(10)
+                consecutive_errors += 1
+                if consecutive_errors > max_retries:
+                    print(f"  ⚠ Too many errors ({consecutive_errors}), "
+                          f"skipping remaining pages")
+                    break
+                wait = 10 * consecutive_errors
+                print(f"  HTTP {r.status_code} (attempt {consecutive_errors}/"
+                      f"{max_retries}), waiting {wait}s...")
+                time.sleep(wait)
                 continue
 
+            consecutive_errors = 0
             data = r.json()
             meta = data.get("meta", {})
             cursor = meta.get("next_cursor")
@@ -184,47 +223,75 @@ def main():
                 if result:
                     candidates[normalized] = result
 
-            if page % 50 == 0:
-                print(f"  Seite {page}: {total_processed:,} verarbeitet, "
-                      f"{total_journals:,} Journals, {len(candidates)} Kandidaten")
+            if page % 50 == 0 or page == max_pages:
+                print(f"  Page {page}: {total_processed:,} processed, "
+                      f"{total_journals:,} journals, {len(candidates)} candidates")
 
-            time.sleep(0.15)  # Rate-Limiting
+            # Early exit once we have enough candidates
+            if len(candidates) >= stop_after:
+                print(f"  ✓ Reached {len(candidates)} candidates, stopping scan")
+                cursor = None  # break the while loop
 
+            time.sleep(0.15)  # Rate limiting
+
+        except requests.exceptions.Timeout:
+            consecutive_errors += 1
+            if consecutive_errors > max_retries:
+                print(f"  ⚠ Too many timeouts ({consecutive_errors}), giving up")
+                break
+            print(f"  ⏱ Timeout (attempt {consecutive_errors}/{max_retries}), "
+                  f"retrying...")
+            time.sleep(5 * consecutive_errors)
         except Exception as e:
-            print(f"  Fehler: {e}")
-            time.sleep(5)
+            consecutive_errors += 1
+            if consecutive_errors > max_retries:
+                print(f"  ⚠ Too many errors ({consecutive_errors}), giving up: {e}")
+                break
+            print(f"  Error: {e} (attempt {consecutive_errors}/{max_retries})")
+            time.sleep(5 * consecutive_errors)
 
     # Sortieren nach Score
     sorted_candidates = sorted(candidates.values(), key=lambda c: -c["score"])
 
     print(f"\n{'='*60}")
-    print(f"VERARBEITET: {total_processed:,} Sources")
-    print(f"  → {total_journals:,} Journals")
-    print(f"  → {len(sorted_candidates)} Kandidaten (Score ≥ 1.5, nicht im Registry)")
+    print(f"RESULTS")
+    print(f"  {total_processed:,} sources processed")
+    print(f"  → {total_journals:,} journals")
+    print(f"  → {len(sorted_candidates)} candidates (score ≥ 1.5, not in registry)")
+    print(f"  Scanned {page} pages")
+    # Only report early stop if applicable
+    if len(candidates) >= stop_after:
+        print(f"  ⏹ Early stop at page {page} (hit candidate target)")
+    elif page >= max_pages:
+        print(f"  ⏹ Stopped at page limit ({max_pages})")
     print(f"{'='*60}")
 
-    # Top-Liste
+    # Top list
     for c in sorted_candidates[:30]:
         signals = "; ".join(c["signals"][:3])
         w = c.get("works_count", 0) or 0
         print(f"\n  S{c['score']:.1f} {c['issn']:<12} {c['journal_title'][:60]}")
-        print(f"      {c.get('publisher','?'):<50} Werke:{w:<8}")
-        print(f"      Signale: {signals}")
+        print(f"      {c.get('publisher','?'):<50} Works:{w:<8}")
+        print(f"      Signals: {signals}")
 
-    # Speichern
+    # Save results (trim to max target)
+    trimmed = sorted_candidates[:target_candidates]
     output = {
         "generated": datetime.now().isoformat(),
-        "method": "Full OpenAlex sources API scan via cursor pagination",
+        "method": "OpenAlex sources API scan via cursor pagination",
         "total_sources_processed": total_processed,
         "total_journals": total_journals,
+        "pages_scanned": page,
         "existing_count": len(existing),
-        "candidates": sorted_candidates,
+        "candidates": trimmed,
+        "verified_candidates": len(trimmed),
+        "unverified_candidates": 0,
         "note": "Alle Kandidaten benötigen manuelle Prüfung pro CONTRIBUTING.md-Kriterien.",
     }
     os.makedirs(os.path.dirname(CANDIDATES_PATH), exist_ok=True)
     with open(CANDIDATES_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n→ Gespeichert: {CANDIDATES_PATH}")
+    print(f"\n→ Saved: {CANDIDATES_PATH} ({len(trimmed)} candidates)")
     return 0
 
 
