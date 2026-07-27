@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T04:06:35.059235",
+  "generated": "2026-07-27T09:54:15.724162",
   "method": "OpenAlex sources API scan via cursor pagination",
   "total_sources_processed": 198200,
   "total_journals": 171999,
