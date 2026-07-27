@@ -1,1370 +1,4374 @@
 {
+  "generated": "2026-07-27T04:06:35.059235",
+  "method": "OpenAlex sources API scan via cursor pagination",
+  "total_sources_processed": 198200,
+  "total_journals": 171999,
+  "pages_scanned": 991,
+  "existing_count": 146,
   "candidates": [
     {
-      "issn": "2399-4908",
-      "journal_title": "International Journal for Population Data Science",
-      "publisher": "Swansea University",
-      "url": "https://ijpds.org",
-      "works_count": 3058
-    },
-    {
-      "issn": "1866-3508",
-      "journal_title": "Earth system science data",
-      "publisher": "Copernicus Publications",
-      "url": "http://www.earth-system-science-data.net/",
-      "works_count": 2248
-    },
-    {
-      "issn": "2196-1115",
-      "journal_title": "Journal Of Big Data",
-      "publisher": "Springer Science+Business Media",
-      "url": "https://journalofbigdata.springeropen.com",
-      "works_count": 1444
-    },
-    {
-      "issn": "2364-415X",
-      "journal_title": "International Journal of Data Science and Analytics",
-      "publisher": "Springer International Publishing",
-      "url": "https://link.springer.com/journal/41060",
-      "works_count": 1149
-    },
-    {
-      "issn": "2096-2223",
-      "journal_title": "China Scientific Data",
-      "publisher": "?",
-      "url": "",
-      "works_count": 1063
-    },
-    {
-      "issn": "1680-743X",
-      "journal_title": "Journal of Data Science",
-      "publisher": "People's University of China",
-      "url": "https://jds-online.org",
-      "works_count": 1056
-    },
-    {
-      "issn": "1748-5673",
-      "journal_title": "International Journal of Data Mining and Bioinformatics",
-      "publisher": "Inderscience Publishers",
-      "url": "http://www.inderscience.com/jhome.php?jcode=ijdmb",
-      "works_count": 1007
-    },
-    {
-      "issn": "1932-1864",
-      "journal_title": "Statistical Analysis and Data Mining The ASA Data Science Journal",
-      "publisher": "Wiley",
-      "url": "https://onlinelibrary.wiley.com/journal/19321872",
-      "works_count": 954
-    },
-    {
-      "issn": "2561-8148",
-      "journal_title": "International Journal of Data and Network Science",
-      "publisher": "Growing Science",
-      "url": "http://growingscience.com/ijds/ijds.html",
-      "works_count": 943
-    },
-    {
-      "issn": "0974-9683",
-      "journal_title": "CiiT international journal of data mining and knowledge engineering",
-      "publisher": "?",
-      "url": "",
-      "works_count": 747
-    },
-    {
-      "issn": "2193-1127",
-      "journal_title": "EPJ Data Science",
-      "publisher": "Springer Nature",
-      "url": "https://epjdatascience.springeropen.com",
-      "works_count": 674
-    },
-    {
-      "issn": "2583-9888",
-      "journal_title": "Journal of Artificial Intelligence Machine Learning and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 670
-    },
-    {
-      "issn": "1746-8256",
-      "journal_title": "International Journal of Digital Curation",
-      "publisher": "University of Edinburgh",
-      "url": "http://www.ijdc.net/",
-      "works_count": 616
-    },
-    {
-      "issn": "2723-6471",
-      "journal_title": "Journal of Applied Data Sciences",
-      "publisher": "?",
-      "url": "",
-      "works_count": 613
-    },
-    {
-      "issn": "1755-8050",
-      "journal_title": "International Journal of Data Analysis Techniques and Strategies",
-      "publisher": "Inderscience Publishers",
-      "url": "",
-      "works_count": 556
-    },
-    {
-      "issn": "1759-1163",
-      "journal_title": "International Journal of Data Mining Modelling and Management",
-      "publisher": "Inderscience Publishers",
-      "url": "http://www.inderscience.com/jhome.php?jcode=ijdmmm",
-      "works_count": 531
-    },
-    {
-      "issn": "3050-9254",
-      "journal_title": "International Journal of Artificial Intelligence Data Science and Machine Learning",
-      "publisher": "?",
-      "url": "",
-      "works_count": 516
-    },
-    {
-      "issn": "1548-3924",
-      "journal_title": "International Journal of Data Warehousing and Mining",
-      "publisher": "IGI Global",
-      "url": "http://www.igi-global.com/journal/international-journal-data-warehousing-mining/1085",
-      "works_count": 498
-    },
-    {
-      "issn": "2096-7004",
-      "journal_title": "Data Intelligence",
-      "publisher": "The MIT Press",
-      "url": "https://www.mitpressjournals.org/loi/dint",
-      "works_count": 489
-    },
-    {
-      "issn": "0022-0310",
-      "journal_title": "The Journal of Data Education",
+      "issn": "2693-9169",
+      "journal_title": "Journal of Statistics and Data Science Education",
       "publisher": "Taylor & Francis",
-      "url": "https://www.tandfonline.com/toc/ucis19/current",
-      "works_count": 450
+      "url": "https://www.tandfonline.com/toc/ujse21/current",
+      "works_count": 278,
+      "type": "journal",
+      "score": 4.3,
+      "signals": [
+        "title:data science",
+        "pub:taylor & francis",
+        "topic:scientific computing and data management",
+        "topic:research data management practices",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "1936-1955",
       "journal_title": "Journal of Data and Information Quality",
       "publisher": "Association for Computing Machinery",
       "url": "",
-      "works_count": 409
-    },
-    {
-      "issn": "2053-0811",
-      "journal_title": "International Journal of Data Science",
-      "publisher": "?",
-      "url": "http://www.inderscience.com/jhome.php?jcode=ijds",
-      "works_count": 396
-    },
-    {
-      "issn": "2577-0187",
-      "journal_title": "SIAM Journal on Mathematics of Data Science",
-      "publisher": "Society for Industrial and Applied Mathematics",
-      "url": "http://epubs.siam.org/journal/simods",
-      "works_count": 368
-    },
-    {
-      "issn": "2153-0602",
-      "journal_title": "Journal of Data Mining in Genomics & Proteomics",
-      "publisher": "OMICS Publishing Group",
-      "url": "http://www.omicsonline.org/jdmgphome.php",
-      "works_count": 355
-    },
-    {
-      "issn": "2520-8756",
-      "journal_title": "Japanese Journal of Statistics and Data Science",
-      "publisher": "Springer Science+Business Media",
-      "url": "https://www.springer.com/journal/42081",
-      "works_count": 350
-    },
-    {
-      "issn": "2230-9608",
-      "journal_title": "International Journal of Data Mining & Knowledge Management Process",
-      "publisher": "?",
-      "url": "http://airccse.org/journal/ijdkp/ijdkp.html",
-      "works_count": 345
-    },
-    {
-      "issn": "2398-1679",
-      "journal_title": "Journal of data protection & privacy.",
-      "publisher": "Henry Stewart Publications",
-      "url": "https://www.henrystewartpublications.com/jdpp",
-      "works_count": 327
-    },
-    {
-      "issn": "2096-157X",
-      "journal_title": "Journal of Data and Information Science",
-      "publisher": "Chinese Academy of Sciences",
-      "url": "https://sciendo.com/journal/JDIS",
-      "works_count": 326
-    },
-    {
-      "issn": "2583-5564",
-      "journal_title": "REST Journal on Data Analytics and Artificial Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 312
-    },
-    {
-      "issn": "2163-145X",
-      "journal_title": "Hans Journal of Data Mining",
-      "publisher": "?",
-      "url": "",
-      "works_count": 303
-    },
-    {
-      "issn": "2640-3943",
-      "journal_title": "The Journal of Financial Data Science",
-      "publisher": "?",
-      "url": "https://jfds.pm-research.com",
-      "works_count": 283
-    },
-    {
-      "issn": "2959-0590",
-      "journal_title": "Journal of big data and computing.",
-      "publisher": "?",
-      "url": "",
-      "works_count": 278
-    },
-    {
-      "issn": "2693-9169",
-      "journal_title": "Journal of Statistics and Data Science Education",
-      "publisher": "Taylor & Francis",
-      "url": "https://www.tandfonline.com/toc/ujse21/current",
-      "works_count": 264
-    },
-    {
-      "issn": "2053-1389",
-      "journal_title": "International Journal of Big Data Intelligence",
-      "publisher": "?",
-      "url": "http://www.inderscience.com/jhome.php?jcode=ijbdi",
-      "works_count": 253
-    },
-    {
-      "issn": "2327-7203",
-      "journal_title": "Journal of Data Analysis and Information Processing",
-      "publisher": "Scientific Research Publishing",
-      "url": "",
-      "works_count": 252
-    },
-    {
-      "issn": "3068-272X",
-      "journal_title": "International Journal of Data Science and IoT Management System",
-      "publisher": "?",
-      "url": "",
-      "works_count": 233
-    },
-    {
-      "issn": "2985-475X",
-      "journal_title": "UNP Journal of Statistics and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 232
-    },
-    {
-      "issn": "2278-2419",
-      "journal_title": "International Journal of Data Mining Techniques and Applications",
-      "publisher": "?",
-      "url": "",
-      "works_count": 231
-    },
-    {
-      "issn": "2752-6305",
-      "journal_title": "Biomedical Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 228
-    },
-    {
-      "issn": "0090-550X",
-      "journal_title": "Nuclear Data Current Sheets Section B",
-      "publisher": "Elsevier BV",
-      "url": "",
-      "works_count": 212
-    },
-    {
-      "issn": "2574-3414",
-      "journal_title": "Annual Review of Biomedical Data Science",
-      "publisher": "Annual Reviews",
-      "url": "http://www.annualreviews.org/journal/biodatasci",
-      "works_count": 186
-    },
-    {
-      "issn": "2416-5999",
-      "journal_title": "Journal of Data Mining & Digital Humanities",
-      "publisher": "Nicolas Turenne",
-      "url": "http://jdmdh.episciences.org/",
-      "works_count": 178
-    },
-    {
-      "issn": "2405-9188",
-      "journal_title": "The Journal of Finance and Data Science",
-      "publisher": "Elsevier BV",
-      "url": "https://www.sciencedirect.com/journal/the-journal-of-finance-and-data-science",
-      "works_count": 169
-    },
-    {
-      "issn": "2715-9930",
-      "journal_title": "Indonesian Journal of Data and Science",
-      "publisher": "?",
-      "url": "http://jurnal.yoctobrain.org/index.php/ijodas",
-      "works_count": 167
-    },
-    {
-      "issn": "2524-6356",
-      "journal_title": "Journal of Data Information and Management",
-      "publisher": "Springer Science+Business Media",
-      "url": "https://link.springer.com/journal/42488",
-      "works_count": 162
-    },
-    {
-      "issn": "2178-7107",
-      "journal_title": "Journal of Information and Data Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 161
+      "works_count": 409,
+      "type": "journal",
+      "score": 4.0,
+      "signals": [
+        "title:data and information",
+        "topic:scientific computing and data management",
+        "topic:research data management practices",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2583-5440",
       "journal_title": "Journal of Data Science Informetrics and Citation Studies",
       "publisher": "EManuscript Services",
       "url": "",
-      "works_count": 148
+      "works_count": 149,
+      "type": "journal",
+      "score": 4.0,
+      "signals": [
+        "title:data science",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2972-3841",
-      "journal_title": "Journal of Data Science and Intelligent Systems",
+      "issn": "2941-296X",
+      "journal_title": "Proceedings of the Conference on Research Data Infrastructure",
       "publisher": "?",
       "url": "",
-      "works_count": 146
+      "works_count": 136,
+      "type": "journal",
+      "score": 4.0,
+      "signals": [
+        "title:research data",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and information systems",
+        "topic:environmental monitoring and data manage"
+      ]
     },
     {
-      "issn": "2575-1883",
-      "journal_title": "International Journal of Data Science and Analysis",
-      "publisher": "Science Publishing Group",
-      "url": "",
-      "works_count": 137
+      "issn": "1932-1864",
+      "journal_title": "Statistical Analysis and Data Mining The ASA Data Science Journal",
+      "publisher": "Wiley",
+      "url": "https://onlinelibrary.wiley.com/journal/19321872",
+      "works_count": 970,
+      "type": "journal",
+      "score": 3.8,
+      "signals": [
+        "title:data science",
+        "pub:wiley",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2688-9994",
-      "journal_title": "American Journal Of Big Data",
+      "issn": "1942-4787",
+      "journal_title": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
+      "publisher": "Wiley",
+      "url": "https://onlinelibrary.wiley.com/journal/19424795",
+      "works_count": 798,
+      "type": "journal",
+      "score": 3.8,
+      "signals": [
+        "title:data mining",
+        "pub:wiley",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2096-157X",
+      "journal_title": "Journal of Data and Information Science",
+      "publisher": "Chinese Academy of Sciences",
+      "url": "https://sciendo.com/journal/JDIS",
+      "works_count": 336,
+      "type": "journal",
+      "score": 3.5,
+      "signals": [
+        "title:data and information",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2053-1389",
+      "journal_title": "International Journal of Big Data Intelligence",
       "publisher": "?",
-      "url": "",
-      "works_count": 137
-    },
-    {
-      "issn": "2986-4178",
-      "journal_title": "Emerging Statistics and Data Science Journal",
-      "publisher": "?",
-      "url": "",
-      "works_count": 119
-    },
-    {
-      "issn": "2694-4022",
-      "journal_title": "INFORMS Journal on Data Science",
-      "publisher": "Institute for Operations Research and the Management Sciences",
-      "url": "",
-      "works_count": 118
-    },
-    {
-      "issn": "2790-0932",
-      "journal_title": "International Journal of Big Data Intelligent Technology",
-      "publisher": "?",
-      "url": "",
-      "works_count": 116
-    },
-    {
-      "issn": "2623-0658",
-      "journal_title": "Journal of Data Analysis",
-      "publisher": "?",
-      "url": "http://jurnal.unsyiah.ac.id/jda",
-      "works_count": 112
-    },
-    {
-      "issn": "2249-3212",
-      "journal_title": "International Journal Of Data Mining And Emerging Technologies",
-      "publisher": "?",
-      "url": "http://indianjournals.com/ijor.aspx?target=ijor:ijdmet&type=home",
-      "works_count": 110
-    },
-    {
-      "issn": "2693-7166",
-      "journal_title": "The New England Journal of Statistics in Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 109
-    },
-    {
-      "issn": "2694-1473",
-      "journal_title": "Journal of the Society for Clinical Data Management",
-      "publisher": "?",
-      "url": "https://www.jscdm.org/",
-      "works_count": 104
-    },
-    {
-      "issn": "2688-240X",
-      "journal_title": "American Journal of Data Science and Analysis",
-      "publisher": "?",
-      "url": "",
-      "works_count": 102
-    },
-    {
-      "issn": "2809-8064",
-      "journal_title": "Journal of Dinda Data Science Information Technology and Data Analytics",
-      "publisher": "LPPM Institut Teknologi Telkom Purwokerto",
-      "url": "",
-      "works_count": 100
-    },
-    {
-      "issn": "2563-4429",
-      "journal_title": "International journal of data science and advanced analytics.",
-      "publisher": "?",
-      "url": "https://www.ijdsaa.com/",
-      "works_count": 96
-    },
-    {
-      "issn": "2772-4158",
-      "journal_title": "Journal of Computational Mathematics and Data Science",
-      "publisher": "Elsevier BV",
-      "url": "https://www.journals.elsevier.com/journal-of-computational-mathematics-and-data-science",
-      "works_count": 94
-    },
-    {
-      "issn": "2583-9292",
-      "journal_title": "ICTACT Journal on Data Science and Machine Learning",
-      "publisher": "?",
-      "url": "",
-      "works_count": 91
-    },
-    {
-      "issn": "2472-2200",
-      "journal_title": "International Journal on Data Science and Technology",
-      "publisher": "Science Publishing Group",
-      "url": "",
-      "works_count": 88
-    },
-    {
-      "issn": "2958-6453",
-      "journal_title": "Mesopotamian Journal of Big Data",
-      "publisher": "?",
-      "url": "",
-      "works_count": 84
-    },
-    {
-      "issn": "2583-6250",
-      "journal_title": "International Journal of Data Informatics and Intelligent Computing",
-      "publisher": "?",
-      "url": "",
-      "works_count": 84
-    },
-    {
-      "issn": "2574-1284",
-      "journal_title": "Journal of Behavioral Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 78
-    },
-    {
-      "issn": "2630-5348",
-      "journal_title": "International Journal of Big Data Mining for Global Warming",
-      "publisher": "World Scientific",
-      "url": "https://www.worldscientific.com/worldscinet/ijbdmgw",
-      "works_count": 77
-    },
-    {
-      "issn": "2752-2334",
-      "journal_title": "Journal of Nonlinear Complex and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 77
-    },
-    {
-      "issn": "3032-4696",
-      "journal_title": "Journal of Data Analytics Information and Computer Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 77
-    },
-    {
-      "issn": "2515-9100",
-      "journal_title": "International Journal of Business and Data Analytics",
-      "publisher": "?",
-      "url": "https://www.inderscience.com/jhome.php?jcode=ijbda",
-      "works_count": 76
-    },
-    {
-      "issn": "2379-7371",
-      "journal_title": "International Journal of Big Data and Analytics in Healthcare",
-      "publisher": "IGI Global",
-      "url": "",
-      "works_count": 75
-    },
-    {
-      "issn": "2773-0689",
-      "journal_title": "Journal of Data Science Statistics and Visualisation",
-      "publisher": "?",
-      "url": "",
-      "works_count": 72
-    },
-    {
-      "issn": "2579-0048",
-      "journal_title": "Journal on big data",
-      "publisher": "?",
-      "url": "http://techscience.com/JBD/index.html",
-      "works_count": 68
-    },
-    {
-      "issn": "2722-2039",
-      "journal_title": "International Journal on Data Science",
-      "publisher": "?",
-      "url": "http://ijods.org/index.php/ds",
-      "works_count": 67
-    },
-    {
-      "issn": "2577-610X",
-      "journal_title": "Journal of Data Intelligence",
-      "publisher": "Rinton Press",
-      "url": "http://www.rintonpress.com/journals/jdionline.html",
-      "works_count": 67
-    },
-    {
-      "issn": "2798-253X",
-      "journal_title": "Enthusiastic International Journal of Applied Statistics and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 67
-    },
-    {
-      "issn": "2996-671X",
-      "journal_title": "Open Access Journal of Data Science and Artificial Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 67
-    },
-    {
-      "issn": "2250-107X",
-      "journal_title": "Bonfring International Journal of Data Mining",
-      "publisher": "?",
-      "url": "http://www.bonfring.org/journals/dm/01special.html",
-      "works_count": 66
-    },
-    {
-      "issn": "2771-2389",
-      "journal_title": "Journal of Artificial Intelligence and Big Data",
-      "publisher": "?",
-      "url": "",
-      "works_count": 65
-    },
-    {
-      "issn": "2710-2599",
-      "journal_title": "International Journal of Data Science and Big Data Analytics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 65
-    },
-    {
-      "issn": "2584-1041",
-      "journal_title": "International Journal of Data Science and Artificial Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 65
-    },
-    {
-      "issn": "0550-306X",
-      "journal_title": "Nuclear Data Sheets Section A",
-      "publisher": "Elsevier BV",
-      "url": "http://www.sciencedirect.com/science/journal/0550306X",
-      "works_count": 62
-    },
-    {
-      "issn": "3006-6026",
-      "journal_title": "Journal of Big Data Privacy Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 61
-    },
-    {
-      "issn": "2523-3556",
-      "journal_title": "Journal of Big Data Analytics in Transportation",
-      "publisher": "Springer Science+Business Media",
-      "url": "https://link.springer.com/journal/42421",
-      "works_count": 60
-    },
-    {
-      "issn": "2090-4916",
-      "journal_title": "International Journal of Biomedical Data Mining",
-      "publisher": "OMICS Publishing Group",
-      "url": "http://www.ashdin.com/journals.aspx",
-      "works_count": 57
-    },
-    {
-      "issn": "2578-7810",
-      "journal_title": "American Journal of Data Mining and Knowledge Discovery",
-      "publisher": "Science Publishing Group",
-      "url": "",
-      "works_count": 55
-    },
-    {
-      "issn": "3031-0008",
-      "journal_title": "Data Journal of Information Systems and Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 53
-    },
-    {
-      "issn": "2582-760X",
-      "journal_title": "Indian Journal of Data Communication and Networking",
-      "publisher": "?",
-      "url": "",
-      "works_count": 51
+      "url": "http://www.inderscience.com/jhome.php?jcode=ijbdi",
+      "works_count": 253,
+      "type": "journal",
+      "score": 3.5,
+      "signals": [
+        "title:data intelligence",
+        "topic:scientific computing and data management",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2631-8679",
       "journal_title": "International Journal of Big Data Management",
       "publisher": "?",
       "url": "https://www.inderscience.com/jhome.php?jcode=ijbdm",
-      "works_count": 49
+      "works_count": 49,
+      "type": "journal",
+      "score": 3.5,
+      "signals": [
+        "title:big data",
+        "topic:scientific computing and data management",
+        "topic:research data management practices",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2644-1705",
-      "journal_title": "International Journal of Data Analytics",
+      "issn": "0002-8231",
+      "journal_title": "Journal of the American Society for Information Science",
+      "publisher": "Wiley",
+      "url": "",
+      "works_count": 3905,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:wiley",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:data management and algorithms",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0361-526X",
+      "journal_title": "The Serials Librarian",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wser20/current",
+      "works_count": 3560,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0953-1513",
+      "journal_title": "Learned Publishing",
+      "publisher": "Wiley",
+      "url": "https://onlinelibrary.wiley.com/journal/17414857",
+      "works_count": 2736,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:wiley",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0169-023X",
+      "journal_title": "Data & Knowledge Engineering",
+      "publisher": "Elsevier BV",
+      "url": "http://www.elsevier.com/locate/datak",
+      "works_count": 2681,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "title:data & knowledge",
+        "pub:elsevier",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "0194-262X",
+      "journal_title": "Science & Technology Libraries",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/loi/wstl20",
+      "works_count": 1498,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:scientific computing and data management",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "2053-9517",
+      "journal_title": "Big Data & Society",
+      "publisher": "SAGE Publishing",
+      "url": "https://us.sagepub.com/en-us/nam/journal/big-data-society",
+      "works_count": 1010,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "title:big data",
+        "pub:sage publishing",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0955-7490",
+      "journal_title": "Alexandria The Journal of National and International Library and Information Issues",
+      "publisher": "SAGE Publishing",
+      "url": "https://us.sagepub.com/en-us/nam/alexandria/journal202510",
+      "works_count": 801,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:sage publishing",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "2624-909X",
+      "journal_title": "Frontiers in Big Data",
+      "publisher": "Frontiers Media",
+      "url": "https://www.frontiersin.org/journals/big-data",
+      "works_count": 762,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "title:big data",
+        "pub:frontiers",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1361-4533",
+      "journal_title": "New Review of Academic Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/racl20/current",
+      "works_count": 599,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2214-5796",
+      "journal_title": "Big Data Research",
+      "publisher": "Elsevier BV",
+      "url": "https://www.journals.elsevier.com/big-data-research",
+      "works_count": 588,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "title:big data",
+        "pub:elsevier",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "1361-4576",
+      "journal_title": "New Review of Information Networking",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/rinn20/current",
+      "works_count": 422,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0737-7797",
+      "journal_title": "Resource Sharing & Information Networks",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wrsi20/current",
+      "works_count": 363,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and information",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1389-0166",
+      "journal_title": "Archival Science",
+      "publisher": "Springer Nature",
+      "url": "https://www.springer.com/journal/10502",
+      "works_count": 335,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:springer nature",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:information science and libraries",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1937-5034",
+      "journal_title": "Journal of Library Metadata",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wjlm20/current",
+      "works_count": 298,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and information literacy",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2405-9188",
+      "journal_title": "The Journal of Finance and Data Science",
+      "publisher": "Elsevier BV",
+      "url": "https://www.sciencedirect.com/journal/the-journal-of-finance-and-data-science",
+      "works_count": 175,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "title:data science",
+        "pub:elsevier",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2772-4158",
+      "journal_title": "Journal of Computational Mathematics and Data Science",
+      "publisher": "Elsevier BV",
+      "url": "https://www.journals.elsevier.com/journal-of-computational-mathematics-and-data-science",
+      "works_count": 96,
+      "type": "journal",
+      "score": 3.3,
+      "signals": [
+        "title:data science",
+        "pub:elsevier",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2399-4908",
+      "journal_title": "International Journal for Population Data Science",
+      "publisher": "Swansea University",
+      "url": "https://ijpds.org",
+      "works_count": 3323,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:research data management practices",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2196-1115",
+      "journal_title": "Journal Of Big Data",
+      "publisher": "Springer Science+Business Media",
+      "url": "https://journalofbigdata.springeropen.com",
+      "works_count": 1465,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2364-415X",
+      "journal_title": "International Journal of Data Science and Analytics",
+      "publisher": "Springer International Publishing",
+      "url": "https://link.springer.com/journal/41060",
+      "works_count": 1201,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1027-3689",
+      "journal_title": "Scientific and Technical Libraries",
+      "publisher": "?",
+      "url": "http://ellib.gpntb.ru/subscribe/index_ntb.php",
+      "works_count": 1168,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "topic:library science and information",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1743-8187",
+      "journal_title": "International Journal of Business Intelligence and Data Mining",
+      "publisher": "Inderscience Publishers",
+      "url": "",
+      "works_count": 1094,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2167-6461",
+      "journal_title": "Big Data",
+      "publisher": "Mary Ann Liebert, Inc.",
+      "url": "",
+      "works_count": 950,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0974-9683",
+      "journal_title": "CiiT international journal of data mining and knowledge engineering",
+      "publisher": "?",
+      "url": "",
+      "works_count": 747,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2583-9888",
+      "journal_title": "Journal of Artificial Intelligence Machine Learning and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 676,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1746-8256",
+      "journal_title": "International Journal of Digital Curation",
+      "publisher": "University of Edinburgh",
+      "url": "http://www.ijdc.net/",
+      "works_count": 618,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:digital curation",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "3050-9254",
+      "journal_title": "International Journal of Artificial Intelligence Data Science and Machine Learning",
+      "publisher": "?",
+      "url": "",
+      "works_count": 552,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1759-1163",
+      "journal_title": "International Journal of Data Mining Modelling and Management",
+      "publisher": "Inderscience Publishers",
+      "url": "http://www.inderscience.com/jhome.php?jcode=ijdmmm",
+      "works_count": 537,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2096-7004",
+      "journal_title": "Data Intelligence",
+      "publisher": "The MIT Press",
+      "url": "https://www.mitpressjournals.org/loi/dint",
+      "works_count": 527,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data intelligence",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2053-0811",
+      "journal_title": "International Journal of Data Science",
+      "publisher": "?",
+      "url": "http://www.inderscience.com/jhome.php?jcode=ijds",
+      "works_count": 396,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2230-9608",
+      "journal_title": "International Journal of Data Mining & Knowledge Management Process",
+      "publisher": "?",
+      "url": "http://airccse.org/journal/ijdkp/ijdkp.html",
+      "works_count": 347,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2163-145X",
+      "journal_title": "Hans Journal of Data Mining",
+      "publisher": "?",
+      "url": "",
+      "works_count": 307,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2451-8484",
+      "journal_title": "Data Science",
+      "publisher": "IOS Press",
+      "url": "",
+      "works_count": 306,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2543-9251",
+      "journal_title": "Data and Information Management",
+      "publisher": "De Gruyter",
+      "url": "https://www.sciencedirect.com/journal/data-and-information-management",
+      "works_count": 225,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data and information",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1084-4627",
+      "journal_title": "Proceedings - International Conference on Data Engineering",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "url": "",
+      "works_count": 215,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data engineering",
+        "topic:data management and algorithms",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2058-6345",
+      "journal_title": "Big Data Analytics",
+      "publisher": "Springer Science+Business Media",
+      "url": "https://link.springer.com/journal/41044",
+      "works_count": 213,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:big data",
+        "topic:scientific computing and data management",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "2574-3414",
+      "journal_title": "Annual Review of Biomedical Data Science",
+      "publisher": "Annual Reviews",
+      "url": "http://www.annualreviews.org/journal/biodatasci",
+      "works_count": 186,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1755-2087",
+      "journal_title": "International Journal of Knowledge Engineering and Data Mining",
+      "publisher": "?",
+      "url": "http://www.inderscience.com/browse/index.php?journalCODE=ijkedm",
+      "works_count": 185,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2416-5999",
+      "journal_title": "Journal of Data Mining & Digital Humanities",
+      "publisher": "Nicolas Turenne",
+      "url": "http://jdmdh.episciences.org/",
+      "works_count": 178,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:research data management practices",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2694-6106",
+      "journal_title": "Data Science and Informetrics",
+      "publisher": "?",
+      "url": "",
+      "works_count": 143,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2249-3212",
+      "journal_title": "International Journal Of Data Mining And Emerging Technologies",
+      "publisher": "?",
+      "url": "http://indianjournals.com/ijor.aspx?target=ijor:ijdmet&type=home",
+      "works_count": 110,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3072-2926",
+      "journal_title": "Bulletin of Computer and Data Sciences",
+      "publisher": "?",
+      "url": "",
+      "works_count": 79,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2579-0048",
+      "journal_title": "Journal on big data",
+      "publisher": "?",
+      "url": "http://techscience.com/JBD/index.html",
+      "works_count": 69,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2577-610X",
+      "journal_title": "Journal of Data Intelligence",
+      "publisher": "Rinton Press",
+      "url": "http://www.rintonpress.com/journals/jdionline.html",
+      "works_count": 67,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data intelligence",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2523-3556",
+      "journal_title": "Journal of Big Data Analytics in Transportation",
+      "publisher": "Springer Science+Business Media",
+      "url": "https://link.springer.com/journal/42421",
+      "works_count": 60,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3143-2328",
+      "journal_title": "International Journal of Intelligent Systems and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 38,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2326-4411",
+      "journal_title": "Services Transactions on Big Data",
+      "publisher": "?",
+      "url": "",
+      "works_count": 35,
+      "type": "journal",
+      "score": 3.0,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0098-7913",
+      "journal_title": "Serials Review",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/usrv20/current",
+      "works_count": 5661,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "0099-1333",
+      "journal_title": "The Journal of Academic Librarianship",
+      "publisher": "Elsevier BV",
+      "url": "http://www.elsevier.com/wps/find/journaldescription.cws_home/620207/description#description",
+      "works_count": 5381,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0165-5515",
+      "journal_title": "Journal of Information Science",
+      "publisher": "SAGE Publishing",
+      "url": "http://jis.sagepub.com/",
+      "works_count": 3437,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:sage publishing",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "0340-0352",
+      "journal_title": "IFLA Journal",
+      "publisher": "SAGE Publishing",
+      "url": "http://ifl.sagepub.com/",
+      "works_count": 3369,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:sage publishing",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0193-0826",
+      "journal_title": "Journal of Library Administration",
+      "publisher": "Taylor & Francis",
+      "url": "http://www.tandfonline.com/action/aboutThisJournal?journalCode=wjla20",
+      "works_count": 2727,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0163-9374",
+      "journal_title": "Cataloging & Classification Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "http://www.tandfonline.com/toc/wccq20/current",
+      "works_count": 2364,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1866-3508",
+      "journal_title": "Earth system science data",
+      "publisher": "Copernicus Publications",
+      "url": "http://www.earth-system-science-data.net/",
+      "works_count": 2311,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "title:earth system science data",
+        "pub:copernicus"
+      ]
+    },
+    {
+      "issn": "0731-7131",
+      "journal_title": "Technical Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wtsq20/current",
+      "works_count": 2285,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0961-0006",
+      "journal_title": "Journal of Librarianship and Information Science",
+      "publisher": "SAGE Publishing",
+      "url": "http://lis.sagepub.com/",
+      "works_count": 2192,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:sage publishing",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1057-2317",
+      "journal_title": "The International Information & Library Review",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/ulbr20/current",
+      "works_count": 1811,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1464-9055",
+      "journal_title": "Library Collections Acquisitions and Technical Services",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/ulca20/current",
+      "works_count": 1798,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0146-2679",
+      "journal_title": "Collection Management",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wcol20/current",
+      "works_count": 1578,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1532-3269",
+      "journal_title": "Journal of Hospital Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/whos20/current",
+      "works_count": 1319,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0096-946X",
+      "journal_title": "American Documentation",
+      "publisher": "Wiley",
+      "url": "http://books.google.com/books?id=UrgaAAAAMAAJ",
+      "works_count": 1230,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:wiley",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1056-4942",
+      "journal_title": "Public & Access Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/loi/wpsq20",
+      "works_count": 1147,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1941-126X",
+      "journal_title": "Journal of Electronic Resources Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wacq20/current",
+      "works_count": 1088,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1072-303X",
+      "journal_title": "Journal of Interlibrary Loan Document Delivery & Electronic Reserve",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wild20/current",
+      "works_count": 851,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1542-4065",
+      "journal_title": "Journal of Electronic Resources in Medical Libraries",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/werm20/current",
+      "works_count": 845,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1087-5301",
+      "journal_title": "Internet Reference Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wirs20/current",
+      "works_count": 831,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1069-1316",
+      "journal_title": "College & Undergraduate Libraries",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wcul20/current",
+      "works_count": 808,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1522-8886",
+      "journal_title": "Slavic & East European Information Resources",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wsee20/current",
+      "works_count": 769,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information",
+        "topic:library science and administration",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "2475-0158",
+      "journal_title": "Journal of the Australian Library and Information Association",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/ualj21/current",
+      "works_count": 766,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1932-2909",
+      "journal_title": "Journal of Web Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wjwl20/current",
+      "works_count": 748,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0163-9269",
+      "journal_title": "Behavioral & Social Sciences Librarian",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wbss20/current",
+      "works_count": 710,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1536-7967",
+      "journal_title": "Journal of Access Services",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wjas20/current",
+      "works_count": 693,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2193-1127",
+      "journal_title": "EPJ Data Science",
+      "publisher": "Springer Nature",
+      "url": "https://epjdatascience.springeropen.com",
+      "works_count": 684,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "title:data science",
+        "pub:springer nature"
+      ]
+    },
+    {
+      "issn": "0020-0271",
+      "journal_title": "Information Storage and Retrieval",
+      "publisher": "Elsevier BV",
+      "url": "https://www.sciencedirect.com/journal/information-storage-and-retrieval",
+      "works_count": 472,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "1533-2748",
+      "journal_title": "Journal of Archival Organization",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wjao20/current",
+      "works_count": 443,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1542-0353",
+      "journal_title": "Journal of Map & Geography Libraries",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wmgl20/current",
+      "works_count": 388,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:data management and algorithms",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0090-550X",
+      "journal_title": "Nuclear Data Current Sheets Section B",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "works_count": 212,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "title:nuclear data",
+        "pub:elsevier"
+      ]
+    },
+    {
+      "issn": "0550-306X",
+      "journal_title": "Nuclear Data Sheets Section A",
+      "publisher": "Elsevier BV",
+      "url": "http://www.sciencedirect.com/science/journal/0550306X",
+      "works_count": 62,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "title:nuclear data",
+        "pub:elsevier"
+      ]
+    },
+    {
+      "issn": "2754-1231",
+      "journal_title": "Transactions in Urban Data Science and Technology",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "works_count": 57,
+      "type": "journal",
+      "score": 2.8,
+      "signals": [
+        "title:data science",
+        "pub:sage publishing"
+      ]
+    },
+    {
+      "issn": "1041-4347",
+      "journal_title": "IEEE Transactions on Knowledge and Data Engineering",
+      "publisher": "IEEE Computer Society",
+      "url": "https://www.computer.org/web/tkde",
+      "works_count": 8057,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data engineering",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "0010-0870",
+      "journal_title": "College & Research Libraries",
+      "publisher": "Association of College and Research Libraries",
+      "url": "http://crl.acrl.org/",
+      "works_count": 7784,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "1598-9402",
+      "journal_title": "Journal of the Korean Data and Information Science Society",
+      "publisher": "The Korean Data and Information Science Society (KDISS)",
+      "url": "",
+      "works_count": 2774,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data and information",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "0143-5124",
+      "journal_title": "Library Management",
+      "publisher": "Emerald Publishing Limited",
+      "url": "https://www.emerald.com/insight/publication/issn/0143-5124",
+      "works_count": 2178,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0869-608X",
+      "journal_title": "Bibliotekovedenie [Russian Journal of Library Science]",
+      "publisher": "Russian State Library",
+      "url": "",
+      "works_count": 2046,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0167-5265",
+      "journal_title": "Information Services & Use",
+      "publisher": "IOS Press",
+      "url": "http://www.iospress.nl/loadtop/load.php?isbn=01675265",
+      "works_count": 1727,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management",
+        "topic:library science and information literacy",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "0033-0337",
+      "journal_title": "Program electronic library and information systems",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://info.emeraldinsight.com/products/journals/journals.htm?PHPSESSID=eqt7h2nv31850tv0folptojc16&id=prog",
+      "works_count": 1616,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0730-9295",
+      "journal_title": "Information Technology and Libraries",
+      "publisher": "American Library Association",
+      "url": "https://ejournals.bc.edu/index.php/ital/index",
+      "works_count": 1557,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1530-7131",
+      "journal_title": "portal Libraries and the Academy",
+      "publisher": "Johns Hopkins University Press",
+      "url": "http://www.press.jhu.edu/journals/portal_libraries_and_the_academy/",
+      "works_count": 1402,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1384-5810",
+      "journal_title": "Data Mining and Knowledge Discovery",
+      "publisher": "Springer Science+Business Media",
+      "url": "http://www.springer.com/computer/database+management+&+information+retrieval/journal/10618",
+      "works_count": 1385,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "0264-1615",
+      "journal_title": "Interlending & Document Supply",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 1371,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0095-4403",
+      "journal_title": "Bulletin of the American Society for Information Science and Technology",
+      "publisher": "Association for Information Science and Technology",
+      "url": "",
+      "works_count": 1359,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0953-0460",
+      "journal_title": "Serials The Journal for the Serials Community",
+      "publisher": "UKSG",
+      "url": "",
+      "works_count": 1283,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "1092-1206",
+      "journal_title": "Issues in Science and Technology Librarianship",
+      "publisher": "Association of College and Research Libraries",
+      "url": "http://www.istl.org",
+      "works_count": 1131,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:scientific computing and data management",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "2332-7790",
+      "journal_title": "IEEE Transactions on Big Data",
+      "publisher": "IEEE Computer Society",
+      "url": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687317",
+      "works_count": 1120,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "0023-2424",
+      "journal_title": "Knjižnica revija za področje bibliotekarstva in informacijske znanosti",
+      "publisher": "Slovenian Library Association",
+      "url": "https://knjiznica.zbds-zveza.si/knjiznica",
+      "works_count": 1102,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1680-743X",
+      "journal_title": "Journal of Data Science",
+      "publisher": "People's University of China",
+      "url": "https://jds-online.org",
+      "works_count": 1063,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1748-5673",
+      "journal_title": "International Journal of Data Mining and Bioinformatics",
+      "publisher": "Inderscience Publishers",
+      "url": "http://www.inderscience.com/jhome.php?jcode=ijdmb",
+      "works_count": 1030,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "0373-4447",
+      "journal_title": "Library and Information Science",
+      "publisher": "Keio University",
+      "url": "",
+      "works_count": 918,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "2287-5905",
+      "journal_title": "KIPS Transactions on Software and Data Engineering",
+      "publisher": "?",
+      "url": "http://ktsde.kips.or.kr",
+      "works_count": 767,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data engineering",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "1435-5205",
+      "journal_title": "LIBER Quarterly The Journal of the Association of European Research Libraries",
+      "publisher": "Utrecht University Library Open Access Journals (Publishing Services)",
+      "url": "https://liberquarterly.eu/",
+      "works_count": 750,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2723-6471",
+      "journal_title": "Journal of Applied Data Sciences",
+      "publisher": "?",
+      "url": "",
+      "works_count": 644,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1065-075X",
+      "journal_title": "OCLC Systems & Services",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 608,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2048-7754",
+      "journal_title": "Insights the UKSG journal",
+      "publisher": "UKSG",
+      "url": "http://insights.uksg.org/",
+      "works_count": 599,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1744-2621",
+      "journal_title": "International Journal of Metadata Semantics and Ontologies",
+      "publisher": "Inderscience Publishers",
+      "url": "http://www.inderscience.com/browse/index.php?journalID=152",
+      "works_count": 512,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and information systems",
+        "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "0309-314X",
+      "journal_title": "Online Review",
+      "publisher": "?",
+      "url": "",
+      "works_count": 492,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2377-620X",
+      "journal_title": "OCLC Micro",
+      "publisher": "?",
+      "url": "http://www.emeraldinsight.com/loi/oclcm",
+      "works_count": 425,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and administration",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "2162-3309",
+      "journal_title": "Journal of Librarianship and Scholarly Communication",
+      "publisher": "Pacific University Library",
+      "url": "http://jlsc-pub.org/",
+      "works_count": 411,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:scientific computing and data management",
+        "topic:library science and information systems",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2577-0187",
+      "journal_title": "SIAM Journal on Mathematics of Data Science",
+      "publisher": "Society for Industrial and Applied Mathematics",
+      "url": "http://epubs.siam.org/journal/simods",
+      "works_count": 383,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2618-7515",
+      "journal_title": "Proceedings of SPSTL SB RAS",
+      "publisher": "?",
+      "url": "",
+      "works_count": 373,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "2520-8756",
+      "journal_title": "Japanese Journal of Statistics and Data Science",
+      "publisher": "Springer Science+Business Media",
+      "url": "https://www.springer.com/journal/42081",
+      "works_count": 360,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2153-0602",
+      "journal_title": "Journal of Data Mining in Genomics & Proteomics",
+      "publisher": "OMICS Publishing Group",
+      "url": "http://www.omicsonline.org/jdmgphome.php",
+      "works_count": 355,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2364-1185",
+      "journal_title": "Data Science and Engineering",
+      "publisher": "Springer Science+Business Media",
+      "url": "https://link.springer.com/journal/41019",
+      "works_count": 353,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "2514-9288",
+      "journal_title": "Data Technologies and Applications",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://info.emeraldinsight.com/products/journals/journals.htm?PHPSESSID=eqt7h2nv31850tv0folptojc16&id=prog",
+      "works_count": 307,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data technologies",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2959-0590",
+      "journal_title": "Journal of big data and computing.",
+      "publisher": "?",
+      "url": "",
+      "works_count": 306,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3068-272X",
+      "journal_title": "International Journal of Data Science and IoT Management System",
+      "publisher": "?",
+      "url": "",
+      "works_count": 301,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2373-9223",
+      "journal_title": "Bulletin of the Association for Information Science and Technology",
+      "publisher": "Association for Information Science and Technology",
+      "url": "http://www.asis.org/Bulletin/index.html",
+      "works_count": 298,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2640-3943",
+      "journal_title": "The Journal of Financial Data Science",
+      "publisher": "?",
+      "url": "https://jfds.pm-research.com",
+      "works_count": 293,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1029-7200",
+      "journal_title": "Bibliotechnyi visnyk",
+      "publisher": "?",
+      "url": "http://bv.nbuv.gov.ua/en",
+      "works_count": 291,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2161-3974",
+      "journal_title": "Journal of eScience Librarianship",
+      "publisher": "University of Massachusetts Medical School, Lamar Soutter Library",
+      "url": "http://escholarship.umassmed.edu/jeslib/",
+      "works_count": 275,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "1947-8534",
+      "journal_title": "International Journal of Multimedia Data Engineering and Management",
+      "publisher": "IGI Global",
+      "url": "http://www.igi-global.com/IJMDEM",
+      "works_count": 262,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data engineering",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2985-475X",
+      "journal_title": "UNP Journal of Statistics and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 251,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1947-4911",
+      "journal_title": "Research Library Issues",
+      "publisher": "?",
+      "url": "http://bibpurl.oclc.org/web/39830",
+      "works_count": 249,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2278-2419",
+      "journal_title": "International Journal of Data Mining Techniques and Applications",
+      "publisher": "?",
+      "url": "",
+      "works_count": 231,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2998-4882",
+      "journal_title": "Katina :",
+      "publisher": "Annual Reviews",
+      "url": "https://katinamagazine.org",
+      "works_count": 214,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1058-6768",
+      "journal_title": "Library and Information Science Research E-Journal",
+      "publisher": "Nanyang Technological University",
+      "url": "http://www.libres-ejournal.info/",
+      "works_count": 213,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0041-5243",
+      "journal_title": "Unesco bulletin for libraries",
+      "publisher": "De Gruyter",
+      "url": "",
+      "works_count": 210,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2716-621X",
+      "journal_title": "Journal of Soft Computing and Data Mining",
+      "publisher": "Penerbit UTHM",
+      "url": "",
+      "works_count": 205,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2614-3372",
+      "journal_title": "Indonesian Journal of Artificial Intelligence and Data Mining",
+      "publisher": "Universitas Islam Negeri Sultan Syarif Kasim Riau",
+      "url": "http://ejournal.uin-suska.ac.id/index.php/IJAIDM/index",
+      "works_count": 190,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2721-3056",
+      "journal_title": "International Journal of Advances in Data and Information Systems",
+      "publisher": "?",
+      "url": "http://ijadis.org/",
+      "works_count": 174,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data and information",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2707-0476",
+      "journal_title": "UNIVERSITY LIBRARY AT A NEW STAGE OF SOCIAL COMMUNICATIONS DEVELOPMENT CONFERENCE PROCEEDINGS",
+      "publisher": "?",
+      "url": "http://unilibnsd.pp.ua/",
+      "works_count": 173,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "2972-3841",
+      "journal_title": "Journal of Data Science and Intelligent Systems",
+      "publisher": "?",
+      "url": "",
+      "works_count": 155,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "0974-567X",
+      "journal_title": "World Digital Libraries - An international journal",
+      "publisher": "?",
+      "url": "",
+      "works_count": 143,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "2369-9779",
+      "journal_title": "Ticker The Academic Business Librarianship Review",
+      "publisher": "?",
+      "url": "http://ticker.mcgill.ca/index",
+      "works_count": 142,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2575-1883",
+      "journal_title": "International Journal of Data Science and Analysis",
+      "publisher": "Science Publishing Group",
+      "url": "",
+      "works_count": 140,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2688-9994",
+      "journal_title": "American Journal Of Big Data",
+      "publisher": "?",
+      "url": "",
+      "works_count": 137,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2694-4022",
+      "journal_title": "INFORMS Journal on Data Science",
+      "publisher": "Institute for Operations Research and the Management Sciences",
+      "url": "",
+      "works_count": 120,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1829-4685",
+      "journal_title": "Bulletin of Armenian Libraries",
+      "publisher": "?",
+      "url": "",
+      "works_count": 120,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2986-4178",
+      "journal_title": "Emerging Statistics and Data Science Journal",
+      "publisher": "?",
+      "url": "",
+      "works_count": 119,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2790-0932",
+      "journal_title": "International Journal of Big Data Intelligent Technology",
+      "publisher": "?",
+      "url": "",
+      "works_count": 118,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2693-7166",
+      "journal_title": "The New England Journal of Statistics in Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 110,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2380-6966",
+      "journal_title": "Big Data and Information Analytics",
+      "publisher": "American Institute of Mathematical Sciences",
+      "url": "",
+      "works_count": 105,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "2688-240X",
+      "journal_title": "American Journal of Data Science and Analysis",
+      "publisher": "?",
+      "url": "",
+      "works_count": 102,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2583-9292",
+      "journal_title": "ICTACT Journal on Data Science and Machine Learning",
+      "publisher": "?",
+      "url": "",
+      "works_count": 101,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2809-8064",
+      "journal_title": "Journal of Dinda Data Science Information Technology and Data Analytics",
+      "publisher": "LPPM Institut Teknologi Telkom Purwokerto",
+      "url": "",
+      "works_count": 100,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1841-1940",
+      "journal_title": "Revista Română de Biblioteconomie și Știința Informării = Romanian Journal of Library and Information Science",
+      "publisher": "?",
+      "url": "http://www.rrbsi.ro",
+      "works_count": 96,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2563-4429",
+      "journal_title": "International journal of data science and advanced analytics.",
+      "publisher": "?",
+      "url": "https://www.ijdsaa.com/",
+      "works_count": 96,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2322-4444",
+      "journal_title": "Journal of artificial intelligence and data mining",
+      "publisher": "Shahrud University of Technology",
+      "url": "http://jad.shahroodut.ac.ir/",
+      "works_count": 94,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2737-4092",
+      "journal_title": "Cloud Computing and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 94,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2472-2200",
+      "journal_title": "International Journal on Data Science and Technology",
+      "publisher": "Science Publishing Group",
+      "url": "",
+      "works_count": 88,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2958-6453",
+      "journal_title": "Mesopotamian Journal of Big Data",
+      "publisher": "?",
+      "url": "",
+      "works_count": 84,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2752-2334",
+      "journal_title": "Journal of Nonlinear Complex and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 81,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2574-1284",
+      "journal_title": "Journal of Behavioral Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 80,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2630-5348",
+      "journal_title": "International Journal of Big Data Mining for Global Warming",
+      "publisher": "World Scientific",
+      "url": "https://www.worldscientific.com/worldscinet/ijbdmgw",
+      "works_count": 79,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "1055-4769",
+      "journal_title": "Academic and Library Computing",
+      "publisher": "?",
+      "url": "",
+      "works_count": 78,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2773-0689",
+      "journal_title": "Journal of Data Science Statistics and Visualisation",
+      "publisher": "?",
+      "url": "",
+      "works_count": 78,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2798-253X",
+      "journal_title": "Enthusiastic International Journal of Applied Statistics and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 78,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2577-3224",
+      "journal_title": "ACM/IMS Transactions on Data Science",
+      "publisher": "Association for Computing Machinery",
+      "url": "",
+      "works_count": 75,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "2379-7371",
+      "journal_title": "International Journal of Big Data and Analytics in Healthcare",
       "publisher": "IGI Global",
       "url": "",
-      "works_count": 49
+      "works_count": 75,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2584-1041",
+      "journal_title": "International Journal of Data Science and Artificial Intelligence",
+      "publisher": "?",
+      "url": "",
+      "works_count": 70,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2250-107X",
+      "journal_title": "Bonfring International Journal of Data Mining",
+      "publisher": "?",
+      "url": "http://www.bonfring.org/journals/dm/01special.html",
+      "works_count": 67,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2722-2039",
+      "journal_title": "International Journal on Data Science",
+      "publisher": "?",
+      "url": "http://ijods.org/index.php/ds",
+      "works_count": 67,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2996-671X",
+      "journal_title": "Open Access Journal of Data Science and Artificial Intelligence",
+      "publisher": "?",
+      "url": "",
+      "works_count": 67,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2658-3143",
+      "journal_title": "Scholarly Research and Information",
+      "publisher": "ANP Publishing",
+      "url": "https://www.neiconjournal.com",
+      "works_count": 66,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and information",
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2822-2067",
+      "journal_title": "Access An International Journal of Nepal Library Association",
+      "publisher": "?",
+      "url": "",
+      "works_count": 66,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "2710-2599",
+      "journal_title": "International Journal of Data Science and Big Data Analytics",
+      "publisher": "?",
+      "url": "",
+      "works_count": 65,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2771-2389",
+      "journal_title": "Journal of Artificial Intelligence and Big Data",
+      "publisher": "?",
+      "url": "",
+      "works_count": 65,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3006-6026",
+      "journal_title": "Journal of Big Data Privacy Management",
+      "publisher": "?",
+      "url": "",
+      "works_count": 61,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2721-0332",
+      "journal_title": "Journal of Applied Statistics and Data Mining",
+      "publisher": "?",
+      "url": "",
+      "works_count": 60,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2090-4916",
+      "journal_title": "International Journal of Biomedical Data Mining",
+      "publisher": "OMICS Publishing Group",
+      "url": "http://www.ashdin.com/journals.aspx",
+      "works_count": 57,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2578-7810",
+      "journal_title": "American Journal of Data Mining and Knowledge Discovery",
+      "publisher": "Science Publishing Group",
+      "url": "",
+      "works_count": 55,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3031-0008",
+      "journal_title": "Data Journal of Information Systems and Management",
+      "publisher": "?",
+      "url": "",
+      "works_count": 53,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data journal",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2692-5141",
       "journal_title": "International journal of data science and machine learning.",
       "publisher": "Academic Journals",
       "url": "http://www.academicpublishers.org/archives",
-      "works_count": 49
-    },
-    {
-      "issn": "3030-5225",
-      "journal_title": "International Journal of Advanced Research in Computational Thinking and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 47
+      "works_count": 49,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2564-3282",
       "journal_title": "Journal of Machine Intelligence and Data Science",
       "publisher": "?",
       "url": "",
-      "works_count": 46
+      "works_count": 47,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3030-5225",
+      "journal_title": "International Journal of Advanced Research in Computational Thinking and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 47,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2986-3473",
       "journal_title": "JDMIS Journal of Data Mining and Information System",
       "publisher": "?",
       "url": "",
-      "works_count": 45
-    },
-    {
-      "issn": "2829-4858",
-      "journal_title": "Journal of Data Science Theory and Application",
-      "publisher": "?",
-      "url": "",
-      "works_count": 41
-    },
-    {
-      "issn": "2998-3541",
-      "journal_title": "Journal of business intelligence and data analytics.",
-      "publisher": "?",
-      "url": "https://jbid.sciforce.org/JBID/index",
-      "works_count": 40
-    },
-    {
-      "issn": "2456-9437",
-      "journal_title": "Journal of Data Mining and Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 40
-    },
-    {
-      "issn": "2988-2109",
-      "journal_title": "Journal Of Data Insights",
-      "publisher": "?",
-      "url": "",
-      "works_count": 40
-    },
-    {
-      "issn": "2805-5160",
-      "journal_title": "Journal of Data Sciences",
-      "publisher": "?",
-      "url": "https://newinti.edu.my/events/journal-of-data-sciences-jods/",
-      "works_count": 38
-    },
-    {
-      "issn": "2208-1674",
-      "journal_title": "International Journal of Advanced Research in Big Data Management System",
-      "publisher": "?",
-      "url": "http://gvschoolpub.org/journals/IJARBMS/index.php",
-      "works_count": 38
-    },
-    {
-      "issn": "3078-7394",
-      "journal_title": "AI and Data Science Journal",
-      "publisher": "?",
-      "url": "",
-      "works_count": 38
-    },
-    {
-      "issn": "2983-3221",
-      "journal_title": "Journal of Big Data Service",
-      "publisher": "?",
-      "url": "",
-      "works_count": 38
+      "works_count": 45,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2597-9604",
       "journal_title": "Journal of Big Data Analytic and Artificial Intelligence",
       "publisher": "?",
       "url": "",
-      "works_count": 38
+      "works_count": 45,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2828-9986",
-      "journal_title": "Journal of Statistics and Data Science",
+      "issn": "3066-6813",
+      "journal_title": "International Journal of Computer Science and Data Engineering",
       "publisher": "?",
       "url": "",
-      "works_count": 35
+      "works_count": 45,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data engineering",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2798-9208",
-      "journal_title": "Internasional Journal of Data Science Engineering and Anaylitics",
+      "issn": "2829-4858",
+      "journal_title": "Journal of Data Science Theory and Application",
       "publisher": "?",
       "url": "",
-      "works_count": 35
+      "works_count": 41,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "3048-4391",
-      "journal_title": "Journal of Applied Statistics and Data Science.",
-      "publisher": "?",
-      "url": "https://jasds.ub.ac.id/index.php/jasds",
-      "works_count": 35
-    },
-    {
-      "issn": "2582-9246",
-      "journal_title": "Indian Journal of Data Mining",
-      "publisher": "?",
-      "url": "",
-      "works_count": 34
-    },
-    {
-      "issn": "3025-2792",
-      "journal_title": "Journal Of Data Science",
+      "issn": "3078-7394",
+      "journal_title": "AI and Data Science Journal",
       "publisher": "?",
       "url": "",
-      "works_count": 33
+      "works_count": 41,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2399-1275",
-      "journal_title": "International Journal of Spatio-Temporal Data Science",
-      "publisher": "?",
-      "url": "https://www.inderscience.com/jhome.php?jcode=ijstds",
-      "works_count": 32
-    },
-    {
-      "issn": "2810-9392",
-      "journal_title": "International Journal of Data Science in the Mathematical Sciences",
-      "publisher": "World Scientific",
-      "url": "",
-      "works_count": 32
-    },
-    {
-      "issn": "3021-8403",
-      "journal_title": "ESTIMATOR Journal of Applied Statistics Mathematics and Data Science",
+      "issn": "2456-9437",
+      "journal_title": "Journal of Data Mining and Management",
       "publisher": "?",
       "url": "",
-      "works_count": 32
+      "works_count": 40,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "3048-5460",
-      "journal_title": "i-manager's Journal on Data Science & Big Data Analytics (JDS).",
-      "publisher": "i-manager Publications",
-      "url": "http://www.imanagerpublications.com/journalsfulldetails/40/JournalonDataScience&BigDataAnalytics",
-      "works_count": 31
-    },
-    {
-      "issn": "3025-8618",
-      "journal_title": "Infolitika Journal of Data Science",
+      "issn": "3031-1268",
+      "journal_title": "Data Science Insights",
       "publisher": "?",
       "url": "",
-      "works_count": 30
+      "works_count": 39,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "topic:data management and algorithms"
+      ]
     },
     {
-      "issn": "2987-7423",
-      "journal_title": "INDONESIAN JOURNAL ON DATA SCIENCE",
+      "issn": "2208-1674",
+      "journal_title": "International Journal of Advanced Research in Big Data Management System",
       "publisher": "?",
-      "url": "",
-      "works_count": 30
+      "url": "http://gvschoolpub.org/journals/IJARBMS/index.php",
+      "works_count": 38,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2987-2030",
-      "journal_title": "Sigma&Mu Journal of Mathematics Statistics and Data Science",
+      "issn": "2983-3221",
+      "journal_title": "Journal of Big Data Service",
       "publisher": "?",
       "url": "",
-      "works_count": 30
+      "works_count": 38,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:big data",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2805-5160",
+      "journal_title": "Journal of Data Sciences",
+      "publisher": "?",
+      "url": "https://newinti.edu.my/events/journal-of-data-sciences-jods/",
+      "works_count": 38,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
       "issn": "2962-3693",
       "journal_title": "Journal of Technology and Data Science",
       "publisher": "?",
       "url": "",
-      "works_count": 30
+      "works_count": 36,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2692-7977",
-      "journal_title": "Journal of Big Data and Artificial Intelligence",
+      "issn": "2798-9208",
+      "journal_title": "Internasional Journal of Data Science Engineering and Anaylitics",
       "publisher": "?",
       "url": "",
-      "works_count": 29
+      "works_count": 35,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2207-3507",
-      "journal_title": "International Journal of Internet of Things and Big Data",
+      "issn": "2828-9986",
+      "journal_title": "Journal of Statistics and Data Science",
       "publisher": "?",
-      "url": "http://gvschoolpub.org/journals/IJITBD",
-      "works_count": 28
-    },
-    {
-      "issn": "2644-1675",
-      "journal_title": "International Journal of Big Data Intelligence and Applications",
-      "publisher": "IGI Global",
-      "url": "",
-      "works_count": 28
-    },
-    {
-      "issn": "2278-6481",
-      "journal_title": "Journal of Data Processing",
-      "publisher": "?",
-      "url": "http://www.dline.info/jdp",
-      "works_count": 28
-    },
-    {
-      "issn": "3080-3322",
-      "journal_title": "Journal of Data Analysis and Critical Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 27
-    },
-    {
-      "issn": "2988-0416",
-      "journal_title": "Indonesian Journal of Intelligence Data Science",
-      "publisher": "?",
-      "url": "https://ejournal.unsrat.ac.id/v3/index.php/IJIDS/index",
-      "works_count": 27
-    },
-    {
-      "issn": "2367-5322",
-      "journal_title": "Biomedical Data Journal",
-      "publisher": "Procon Ltd.",
-      "url": "http://www.biomed-data.eu",
-      "works_count": 26
-    },
-    {
-      "issn": "3007-9330",
-      "journal_title": "Societal Transformation AI and Big Data Journal",
-      "publisher": "?",
-      "url": "",
-      "works_count": 26
-    },
-    {
-      "issn": "2998-3592",
-      "journal_title": "Journal of data science and information technology.",
-      "publisher": "?",
-      "url": "https://jdit.sciforce.org/JDIT/index",
-      "works_count": 24
-    },
-    {
-      "issn": "3049-2122",
-      "journal_title": "Journal of Artificial Intelligence and Big Data Disciplines",
-      "publisher": "?",
-      "url": "",
-      "works_count": 24
-    },
-    {
-      "issn": "2583-7834",
-      "journal_title": "Journal of Big Data Technology and Business Analytics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 24
-    },
-    {
-      "issn": "3026-7315",
-      "journal_title": "International Journal of Informatics and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 24
-    },
-    {
-      "issn": "3139-3527",
-      "journal_title": "Interdisciplinary Journal of AI Machine Learning & Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 21
-    },
-    {
-      "issn": "2980-3357",
-      "journal_title": "Journal of Data Applications",
-      "publisher": "Istanbul University",
-      "url": "",
-      "works_count": 20
-    },
-    {
-      "issn": "2583-9845",
-      "journal_title": "Journal of Innovations in Data Science and Big Data Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 20
-    },
-    {
-      "issn": "2959-6912",
-      "journal_title": "Journal of computational science and data analytics.",
-      "publisher": "Addis Ababa Science and Technology University",
-      "url": "http://ejol.ethernet.edu.et/index.php/JCSDA",
-      "works_count": 20
-    },
-    {
-      "issn": "3089-1345",
-      "journal_title": "Journal of Digital Business and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 20
-    },
-    {
-      "issn": "2831-3194",
-      "journal_title": "ACM / IMS Journal of Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "3007-5467",
-      "journal_title": "Iraqi journal of data science.",
-      "publisher": "Middle East Technical University",
-      "url": "https://ijds.mtu.edu.iq/",
-      "works_count": 19
-    },
-    {
-      "issn": "2366-9934",
-      "journal_title": "The Oxford Journal of Intelligent Decision and Data Science",
-      "publisher": "International Scientific Publications and Consulting Services (ISPACS)",
-      "url": "http://www.ispacs.com/ojids/",
-      "works_count": 19
-    },
-    {
-      "issn": "2789-3146",
-      "journal_title": "American Journal of Data Information and Knowledge Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "2998-8713",
-      "journal_title": "Journal of Data Analytics and Engineering Decision Making",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "3067-5987",
-      "journal_title": "Journal of Business Venturing AI and Data Analytics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "3069-3632",
-      "journal_title": "American Journal of Data Science and Artificial Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "2786-9482",
-      "journal_title": "Ukrainian Journal of Information Systems and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "3089-8382",
-      "journal_title": "Indonesian Journal of Applied Statistics and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 19
-    },
-    {
-      "issn": "3062-2697",
-      "journal_title": "Journal of Data Analytics and Artificial Intelligence Applications",
-      "publisher": "?",
-      "url": "",
-      "works_count": 17
-    },
-    {
-      "issn": "2821-2282",
-      "journal_title": "Journal of Data Analytics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 16
-    },
-    {
-      "issn": "2974-9840",
-      "journal_title": "Journal of Intelligent Systems and Applied Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 16
-    },
-    {
-      "issn": "3062-6412",
-      "journal_title": "Journal of Intelligent Computing and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 13
-    },
-    {
-      "issn": "2942-8335",
-      "journal_title": "UBW Data Journal",
-      "publisher": "?",
-      "url": "",
-      "works_count": 13
-    },
-    {
-      "issn": "2614-7408",
-      "journal_title": "Journal of Data Science and Its Applications",
-      "publisher": "?",
-      "url": "",
-      "works_count": 12
-    },
-    {
-      "issn": "2205-8524",
-      "journal_title": "International journal of big data security intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 12
-    },
-    {
-      "issn": "2964-0415",
-      "journal_title": "Journal of Informatics and Data Science",
-      "publisher": "State University of Medan",
-      "url": "",
-      "works_count": 12
-    },
-    {
-      "issn": "3025-1605",
-      "journal_title": "Journal of Statistical Methods and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 12
-    },
-    {
-      "issn": "2768-0207",
-      "journal_title": "Journal of Big Data Research",
-      "publisher": "?",
-      "url": "",
-      "works_count": 10
-    },
-    {
-      "issn": "2746-9190",
-      "journal_title": "AGENTS Journal of Artificial Intelligence and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 10
-    },
-    {
-      "issn": "2997-9560",
-      "journal_title": "International journal of management information systems and data science.",
-      "publisher": "?",
-      "url": "https://www.globalmainstreamjournal.com/index.php/IJMISDS",
-      "works_count": 9
-    },
-    {
-      "issn": "2978-0047",
-      "journal_title": "Premier Journal of Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 9
-    },
-    {
-      "issn": "3048-6602",
-      "journal_title": "Journal of Knowledge in Data Science and Information Management",
-      "publisher": "?",
-      "url": "",
-      "works_count": 9
-    },
-    {
-      "issn": "3067-5073",
-      "journal_title": "International Journal of Machine Learning AI & Data Science Evolution",
-      "publisher": "?",
       "url": "",
-      "works_count": 8
+      "works_count": 35,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "3106-9967",
-      "journal_title": "Journal of Biomedicine and Big Data",
-      "publisher": "?",
-      "url": "",
-      "works_count": 8
-    },
-    {
-      "issn": "2998-4688",
-      "journal_title": "Journal of Applied Statistics Environmental Statistics and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 8
-    },
-    {
-      "issn": "2383-7047",
-      "journal_title": "International Journal of Big Data Security Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 7
-    },
-    {
-      "issn": "2533-0802",
-      "journal_title": "International Journal on Computer and Communications Networks Computational Intelligence and Data Analytics",
-      "publisher": "?",
-      "url": "http://www.praiseworthyprize.org/jsm/index.php?journal=ireci",
-      "works_count": 7
-    },
-    {
-      "issn": "3068-3661",
-      "journal_title": "Journal of Business and Data Analytics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 7
-    },
-    {
-      "issn": "2604-6083",
-      "journal_title": "Scientific Big Data",
-      "publisher": "?",
-      "url": "https://www.scientificbigdata.com/index.php",
-      "works_count": 7
-    },
-    {
-      "issn": "2985-5594",
-      "journal_title": "Journal of Data Science and Information Systems (DIMIS)",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "3029-2867",
-      "journal_title": "Journal of Data and Dynamic Systems",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "2775-5487",
-      "journal_title": "Journal of Data Science and Software Engineering",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "3026-4537",
-      "journal_title": "Journal of Data Science and Informatics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "3005-544X",
-      "journal_title": "Journal of Mathematics and Data Science (JMDS)",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "3123-948X",
-      "journal_title": "Journal of Data Science and Informatics Engineering",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "2736-979X",
-      "journal_title": "The Publication of International Journal of Data Analytics and Smart Education (IJDASE)",
-      "publisher": "?",
-      "url": "",
-      "works_count": 6
-    },
-    {
-      "issn": "3049-2440",
-      "journal_title": "International Journal of Data Structure Studies",
-      "publisher": "?",
-      "url": "",
-      "works_count": 5
-    },
-    {
-      "issn": "3048-9229",
-      "journal_title": "Journal of Big Data Analytics and Business Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 5
-    },
-    {
-      "issn": "3048-9237",
-      "journal_title": "Journal of Data Engineering and Knowledge Discovery",
-      "publisher": "?",
-      "url": "",
-      "works_count": 4
-    },
-    {
-      "issn": "1674-3393",
-      "journal_title": "Journal of Data and Information Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 3
-    },
-    {
-      "issn": "2988-4055",
-      "journal_title": "International Journal of Information System Technology and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 3
-    },
-    {
-      "issn": "3050-9572",
-      "journal_title": "European Data Science Journal",
-      "publisher": "?",
-      "url": "",
-      "works_count": 3
-    },
-    {
-      "issn": "3135-4467",
-      "journal_title": "Journal of Informatics and Advanced Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 3
-    },
-    {
-      "issn": "3049-5148",
-      "journal_title": "RSS Data Science and Artificial Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 3
-    },
-    {
-      "issn": "3107-8702",
-      "journal_title": "International Journal of Data Science Bioinformatics and Cyber Security",
-      "publisher": "?",
-      "url": "",
-      "works_count": 2
-    },
-    {
-      "issn": "3066-0688",
-      "journal_title": "Journal of Machine Learning Data Engineering and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 2
-    },
-    {
-      "issn": "3054-517X",
-      "journal_title": "International Journal of Applied Data Analytics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 2
-    },
-    {
-      "issn": "3107-457X",
-      "journal_title": "JANOLI International Journal of Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 2
-    },
-    {
-      "issn": "3089-1868",
-      "journal_title": "Journal of Data Science Technology and Artificial Intelligence",
-      "publisher": "?",
-      "url": "",
-      "works_count": 2
-    },
-    {
-      "issn": "2229-6662",
-      "journal_title": "Journal of Data Mining and Knowledge Discovery",
-      "publisher": "?",
-      "url": "http://bioinfo.in",
-      "works_count": 1
-    },
-    {
-      "issn": "3069-3497",
-      "journal_title": "ACM Journal of Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 1
-    },
-    {
-      "issn": "3067-4166",
-      "journal_title": "American Data Science Journal for Advanced Computations",
-      "publisher": "?",
-      "url": "",
-      "works_count": 1
-    },
-    {
-      "issn": "2809-171X",
-      "journal_title": "Journal of Data Science Technology and Computer Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 1
-    },
-    {
-      "issn": "2978-3232",
-      "journal_title": "African Journal of Computing Data Science and Informatics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 1
-    },
-    {
-      "issn": "2776-7582",
-      "journal_title": "International Journal of Data Science Computer Science and Informatics Technology (InJODACSIT)",
-      "publisher": "?",
+      "issn": "3025-8618",
+      "journal_title": "Infolitika Journal of Data Science",
+      "publisher": "?",
       "url": "",
-      "works_count": 1
+      "works_count": 35,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2775-5320",
-      "journal_title": "Journal of Data Science and Software Engineering",
+      "issn": "3048-4391",
+      "journal_title": "Journal of Applied Statistics and Data Science.",
       "publisher": "?",
-      "url": "",
-      "works_count": 0
-    },
-    {
-      "issn": "3025-5511",
-      "journal_title": "UNP Journal of Statistics and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 0
-    },
-    {
-      "issn": "2986-5271",
-      "journal_title": "JDMIS Journal of Data Mining and Information System",
-      "publisher": "?",
-      "url": "",
-      "works_count": 0
+      "url": "https://jasds.ub.ac.id/index.php/jasds",
+      "works_count": 35,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
     },
     {
-      "issn": "2988-2044",
-      "journal_title": "International Journal of Information System Technology and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 0
-    },
-    {
-      "issn": "2476-2040",
-      "journal_title": "JSM biomedical imaging data papers",
-      "publisher": "?",
-      "url": "",
-      "works_count": 0
-    },
-    {
-      "issn": "1866-3591",
-      "journal_title": "Earth System Science Data Discussions",
-      "publisher": "?",
-      "url": "http://www.earth-syst-sci-data-discuss.net",
-      "works_count": 0
+      "issn": "1865-6781",
+      "journal_title": "Transactions on machine learning and data mining",
+      "publisher": "?",
+      "url": "http://www.ibai-publishing.org/journal/mldm/content.php",
+      "works_count": 34,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "topic:data management and algorithms"
+      ]
+    },
+    {
+      "issn": "2582-9246",
+      "journal_title": "Indian Journal of Data Mining",
+      "publisher": "?",
+      "url": "",
+      "works_count": 34,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data mining",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3048-5460",
+      "journal_title": "i-manager's Journal on Data Science & Big Data Analytics (JDS).",
+      "publisher": "i-manager Publications",
+      "url": "http://www.imanagerpublications.com/journalsfulldetails/40/JournalonDataScience&BigDataAnalytics",
+      "works_count": 34,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3025-2792",
+      "journal_title": "Journal Of Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 33,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2399-1275",
+      "journal_title": "International Journal of Spatio-Temporal Data Science",
+      "publisher": "?",
+      "url": "https://www.inderscience.com/jhome.php?jcode=ijstds",
+      "works_count": 32,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2810-9392",
+      "journal_title": "International Journal of Data Science in the Mathematical Sciences",
+      "publisher": "World Scientific",
+      "url": "",
+      "works_count": 32,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3021-8403",
+      "journal_title": "ESTIMATOR Journal of Applied Statistics Mathematics and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 32,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "0740-624X",
+      "journal_title": "Government Information Quarterly",
+      "publisher": "Elsevier BV",
+      "url": "https://www.journals.elsevier.com/government-information-quarterly",
+      "works_count": 3223,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0004-9670",
+      "journal_title": "The Australian Library Journal",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/ualj20/current",
+      "works_count": 2347,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0276-3869",
+      "journal_title": "Medical Reference Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wmrs20/current",
+      "works_count": 2027,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0276-3877",
+      "journal_title": "The Reference Librarian",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wref20/current",
+      "works_count": 1993,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0740-8188",
+      "journal_title": "Library & Information Science Research",
+      "publisher": "Elsevier BV",
+      "url": "https://www.journals.elsevier.com/library-and-information-science-research",
+      "works_count": 1851,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0161-6846",
+      "journal_title": "Public Library Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wplq20/current",
+      "works_count": 1661,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0266-3821",
+      "journal_title": "Business Information Review",
+      "publisher": "SAGE Publishing",
+      "url": "http://www.uk.sagepub.com/journals/Journal201673/title",
+      "works_count": 1570,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:sage publishing",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0957-9656",
+      "journal_title": "Logos",
+      "publisher": "Brill",
+      "url": "",
+      "works_count": 1348,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:brill",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0896-3568",
+      "journal_title": "Journal of Business & Finance Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wbfl20/current",
+      "works_count": 1078,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1352-0237",
+      "journal_title": "Journal of Government Information",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "works_count": 1063,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1058-8167",
+      "journal_title": "Music Reference Services Quarterly",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wmus20/current",
+      "works_count": 965,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1049-6505",
+      "journal_title": "Journal of Agricultural & Food Information",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wafi20/current",
+      "works_count": 899,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1042-1467",
+      "journal_title": "Archives and Museum Informatics",
+      "publisher": "Springer Nature",
+      "url": "https://link.springer.com/journal/10505/volumes-and-issues",
+      "works_count": 870,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:springer nature",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0038-6723",
+      "journal_title": "Special libraries",
+      "publisher": "Elsevier BV",
+      "url": "",
+      "works_count": 782,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1570-8268",
+      "journal_title": "Journal of Web Semantics",
+      "publisher": "Elsevier BV",
+      "url": "http://www.elsevier.com/locate/websem",
+      "works_count": 768,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:data management and algorithms",
+        "topic:scientific computing and data management",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0276-3915",
+      "journal_title": "Community & Junior College Libraries",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "works_count": 734,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0022-2232",
+      "journal_title": "Journal of librarianship",
+      "publisher": "SAGE Publishing",
+      "url": "",
+      "works_count": 734,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:sage publishing",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1533-290X",
+      "journal_title": "Journal of Library & Information Services in Distance Learning",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wlis20/current",
+      "works_count": 499,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0093-061X",
+      "journal_title": "Government Publications Review (1973)",
+      "publisher": "Elsevier BV",
+      "url": "http://www.sciencedirect.com/science/journal/0093061X",
+      "works_count": 450,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0896-3576",
+      "journal_title": "The Acquisitions Librarian",
+      "publisher": "Taylor & Francis",
+      "url": "https://www.tandfonline.com/toc/wzze20/current",
+      "works_count": 431,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0164-0763",
+      "journal_title": "Library research",
+      "publisher": "Elsevier BV",
+      "url": "https://www.journals.elsevier.com/library-and-information-science-research",
+      "works_count": 319,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0196-335X",
+      "journal_title": "Government Publications Review Part A",
+      "publisher": "Elsevier BV",
+      "url": "http://www.sciencedirect.com/science/journal/0196335X",
+      "works_count": 241,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:elsevier",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0888-4463",
+      "journal_title": "Library administration & management",
+      "publisher": "Brill",
+      "url": "",
+      "works_count": 190,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:brill",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1042-4458",
+      "journal_title": "Journal of Interlibrary Loan & Information Supply",
+      "publisher": "Taylor & Francis",
+      "url": "http://books.google.com/books?id=0ccVAQAAIAAJ",
+      "works_count": 148,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0898-3283",
+      "journal_title": "Australian & New Zealand Journal of Serials Librarianship",
+      "publisher": "Taylor & Francis",
+      "url": "",
+      "works_count": 74,
+      "type": "journal",
+      "score": 2.3,
+      "signals": [
+        "pub:taylor & francis",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "0099-0086",
+      "journal_title": "College & Research Libraries News",
+      "publisher": "Association of College and Research Libraries",
+      "url": "http://crln.acrl.org/",
+      "works_count": 9027,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1043-2094",
+      "journal_title": "Against the grain",
+      "publisher": "Yale University Press",
+      "url": "http://catalog.hathitrust.org/api/volumes/oclc/19378899.html",
+      "works_count": 6455,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0024-2535",
+      "journal_title": "Library Review",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://info.emeraldinsight.com/products/journals/journals.htm?id=lr",
+      "works_count": 3565,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0264-0473",
+      "journal_title": "The Electronic Library",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 3305,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0307-4803",
+      "journal_title": "New Library World",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 3212,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0022-0418",
+      "journal_title": "Journal of Documentation",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://emeraldinsight.com/loi/jd",
+      "works_count": 3055,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0445-2429",
+      "journal_title": "Igaku Toshokan",
+      "publisher": "Japan Medical Library Association",
+      "url": "",
+      "works_count": 2888,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0001-253X",
+      "journal_title": "Aslib Proceedings",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://emeraldinsight.com/journals.htm?issn=ap",
+      "works_count": 2830,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1094-9054",
+      "journal_title": "Reference & User Services Quarterly",
+      "publisher": "American Library Association",
+      "url": "http://www.rusq.org/",
+      "works_count": 2748,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "0024-2667",
+      "journal_title": "Libri",
+      "publisher": "De Gruyter",
+      "url": "http://www.librijournal.org/issues.html",
+      "works_count": 2653,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "0741-9058",
+      "journal_title": "Library Hi Tech News",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 2430,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0737-8831",
+      "journal_title": "Library Hi Tech",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://www.emeraldinsight.com/0737-8831.htm",
+      "works_count": 2373,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2466-2542",
+      "journal_title": "Han-guk doseogwan·jeongbo hakoeji",
+      "publisher": "?",
+      "url": "",
+      "works_count": 2230,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0044-7870",
+      "journal_title": "Proceedings of the American Society for Information Science and Technology",
+      "publisher": "?",
+      "url": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1550-8390",
+      "works_count": 2213,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2373-9231",
+      "journal_title": "Proceedings of the Association for Information Science and Technology",
+      "publisher": "?",
+      "url": "",
+      "works_count": 2210,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:scientific computing and data management",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0090-7324",
+      "journal_title": "Reference Services Review",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 1998,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1053-8801",
+      "journal_title": "Publishing Research Quarterly",
+      "publisher": "Springer Science+Business Media",
+      "url": "https://www.springer.com/journal/12109",
+      "works_count": 1923,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0024-2527",
+      "journal_title": "Library Resources and Technical Services",
+      "publisher": "American Library Association",
+      "url": "",
+      "works_count": 1888,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1225-598X",
+      "journal_title": "Journal of the Korean Society for Library and Information Science",
+      "publisher": "Korean Society For Library And Information Science",
+      "url": "",
+      "works_count": 1831,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1536-5050",
+      "journal_title": "Journal of the Medical Library Association JMLA",
+      "publisher": "University Library System, University of Pittsburgh",
+      "url": "http://jmla.mlanet.org/ojs/jmla",
+      "works_count": 1821,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0364-6408",
+      "journal_title": "Library Acquisitions Practice & Theory",
+      "publisher": "Pergamon Press",
+      "url": "",
+      "works_count": 1728,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1715-720X",
+      "journal_title": "Evidence Based Library and Information Practice",
+      "publisher": "University of Alberta",
+      "url": "https://journals.library.ualberta.ca/eblip/index.php/EBLIP",
+      "works_count": 1621,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0974-0643",
+      "journal_title": "DESIDOC Journal of Library & Information Technology",
+      "publisher": "Defence Scientific Information & Documentation Centre",
+      "url": "https://publications.drdo.gov.in/ojs/index.php/djlit",
+      "works_count": 1597,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0748-5786",
+      "journal_title": "Journal of Education for Library and Information Science",
+      "publisher": "University of Toronto Press",
+      "url": "http://books.google.com/books?id=JkQPAQAAMAAJ",
+      "works_count": 1564,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2157-0396",
+      "journal_title": "Georgia Library Quarterly",
+      "publisher": "Georgia Library Association",
+      "url": "",
+      "works_count": 1559,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "0167-8329",
+      "journal_title": "Education for Information",
+      "publisher": "IOS Press",
+      "url": "",
+      "works_count": 1513,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0004-8623",
+      "journal_title": "Australian Academic & Research Libraries",
+      "publisher": "Routledge",
+      "url": "https://www.tandfonline.com/toc/uarl20/current",
+      "works_count": 1348,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2504-2289",
+      "journal_title": "Big Data and Cognitive Computing",
+      "publisher": "Multidisciplinary Digital Publishing Institute",
+      "url": "http://www.mdpi.com/journal/BDCC",
+      "works_count": 1334,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:big data"
+      ]
+    },
+    {
+      "issn": "1082-9873",
+      "journal_title": "D-Lib Magazine",
+      "publisher": "Corporation for National Research Initiatives",
+      "url": "http://www.dlib.org/",
+      "works_count": 1248,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:scientific computing and data management",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "1815-3186",
+      "journal_title": "Bibliosphere",
+      "publisher": "?",
+      "url": "https://www.bibliosphere.ru",
+      "works_count": 1215,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0972-2467",
+      "journal_title": "SRELS Journal of Information Management",
+      "publisher": "Sarada Ranganathan Endowment for Library Science (SRELS)",
+      "url": "https://www.indianjournals.com",
+      "works_count": 1185,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0024-2586",
+      "journal_title": "Library Technology Reports",
+      "publisher": "American Library Association",
+      "url": "",
+      "works_count": 1165,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1198-9742",
+      "journal_title": "Journal of Scholarly Publishing",
+      "publisher": "University of Toronto Press",
+      "url": "",
+      "works_count": 1163,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "0160-4953",
+      "journal_title": "Collection Building",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://catalog.hathitrust.org/api/volumes/oclc/3691824.html",
+      "works_count": 1143,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2096-2223",
+      "journal_title": "China Scientific Data",
+      "publisher": "?",
+      "url": "",
+      "works_count": 1117,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:scientific data"
+      ]
+    },
+    {
+      "issn": "0305-5728",
+      "journal_title": "VINE",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 1084,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0020-7837",
+      "journal_title": "International Library Review",
+      "publisher": "Academic Press",
+      "url": "https://www.tandfonline.com/toc/ulbr19/current",
+      "works_count": 1078,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:information science and libraries"
+      ]
+    },
+    {
+      "issn": "0024-2594",
+      "journal_title": "Library trends",
+      "publisher": "Johns Hopkins University Press",
+      "url": "http://www.press.jhu.edu/journals/library_trends/",
+      "works_count": 1049,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1525-4003",
+      "journal_title": "The Charleston Advisor",
+      "publisher": "?",
+      "url": "http://www.charlestonco.com/",
+      "works_count": 945,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2224-9516",
+      "journal_title": "Naukovì pracì Nacìonalʹnoï bìblìoteki Ukraïni ìmenì V Ì Vernadsʹkogo",
+      "publisher": "Vernadsky National Library of Ukraine",
+      "url": "http://np.nbuv.gov.ua/en",
+      "works_count": 914,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1041-7915",
+      "journal_title": "Computers in libraries",
+      "publisher": "?",
+      "url": "",
+      "works_count": 815,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1742-5921",
+      "journal_title": "eLucidate",
+      "publisher": "University of Alberta Library",
+      "url": "",
+      "works_count": 811,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "1229-2435",
+      "journal_title": "Journal of the Korean BIBLIA Society for library and Information Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 798,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1570-0844",
+      "journal_title": "Semantic Web",
+      "publisher": "IOS Press",
+      "url": "",
+      "works_count": 793,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:scientific computing and data management",
+        "topic:data management and algorithms",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0024-2292",
+      "journal_title": "Library Herald",
+      "publisher": "?",
+      "url": "http://www.indianjournals.com",
+      "works_count": 787,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0106-0503",
+      "journal_title": "Revy",
+      "publisher": "Danmarks Forskningsbiblioteksforening",
+      "url": "",
+      "works_count": 766,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "0973-7081",
+      "journal_title": "Pearl A Journal of Library and Information Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 763,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "0002-9769",
+      "journal_title": "American libraries",
+      "publisher": "American Library Association",
+      "url": "",
+      "works_count": 719,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1687-2215",
+      "journal_title": "Cybrarians Journal",
+      "publisher": "Cybrarians: The Arabic Portal for Librarianship and Information",
+      "url": "http://www.journal.cybrarians.org",
+      "works_count": 707,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "1756-0381",
+      "journal_title": "BioData Mining",
+      "publisher": "BioMed Central",
+      "url": "https://biodatamining.biomedcentral.com/",
+      "works_count": 692,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:data mining"
+      ]
+    },
+    {
+      "issn": "2198-5804",
+      "journal_title": "Annals of Data Science",
+      "publisher": "Springer Science+Business Media",
+      "url": "http://link.springer.com/journal/40745",
+      "works_count": 691,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:data science"
+      ]
+    },
+    {
+      "issn": "1911-9593",
+      "journal_title": "Partnership The Canadian Journal of Library and Information Practice and Research",
+      "publisher": "The Partnership",
+      "url": "http://journal.lib.uoguelph.ca//index.php/perj/",
+      "works_count": 676,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1080-2711",
+      "journal_title": "Journal of Electronic Publishing",
+      "publisher": "Michigan Publishing",
+      "url": "http://www.journalofelectronicpublishing.org/",
+      "works_count": 644,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:scientific computing and data management",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "0507-1925",
+      "journal_title": "Vjesnik bibliotekara Hrvatske",
+      "publisher": "?",
+      "url": "http://www.hkdrustvo.hr/vjesnik-bibliotekara-hrvatske/index.php/vbh",
+      "works_count": 591,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "1541-8820",
+      "journal_title": "Smart Libraries Newsletter",
+      "publisher": "American Library Association",
+      "url": "http://ejournals.ebsco.com/direct.asp?JournalID=114011",
+      "works_count": 587,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "1467-8047",
+      "journal_title": "Performance Measurement and Metrics",
+      "publisher": "Emerald Publishing Limited",
+      "url": "http://www.emeraldinsight.com/journals.htm?issn=1467-8047",
+      "works_count": 538,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "2730-6844",
+      "journal_title": "BMC Genomic Data",
+      "publisher": "BioMed Central",
+      "url": "https://bmcgenomdata.biomedcentral.com/",
+      "works_count": 532,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:genomic data"
+      ]
+    },
+    {
+      "issn": "1548-8489",
+      "journal_title": "Theology cataloging bulletin",
+      "publisher": "Atla",
+      "url": "https://serials.atla.com/tcb",
+      "works_count": 532,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "2573-2269",
+      "journal_title": "Proceedings of the ALISE Annual Conference",
+      "publisher": "?",
+      "url": "",
+      "works_count": 524,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "0972-5423",
+      "journal_title": "Annals of Library and Information Studies",
+      "publisher": "NISCAIR",
+      "url": "http://nopr.niscair.res.in/handle/123456789/66",
+      "works_count": 480,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "2356-8003",
+      "journal_title": "المجلة الدولية لعلوم المكتبات و المعلومات",
+      "publisher": "?",
+      "url": "",
+      "works_count": 471,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:library science and information"
+      ]
+    },
+    {
+      "issn": "1067-4993",
+      "journal_title": "Archival issues",
+      "publisher": "Midwest Archives Conference",
+      "url": "http://books.google.com/books?id=QL7hAAAAMAAJ",
+      "works_count": 465,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "1225-0902",
+      "journal_title": "Journal of Korean Library and Information Science Society",
+      "publisher": "?",
+      "url": "",
+      "works_count": 462,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:research data management practices"
+      ]
+    },
+    {
+      "issn": "1529-6407",
+      "journal_title": "RBM A Journal of Rare Books Manuscripts and Cultural Heritage",
+      "publisher": "Association of College and Research Libraries",
+      "url": "https://rbm.acrl.org/",
+      "works_count": 456,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "2096-0654",
+      "journal_title": "Big Data Mining and Analytics",
+      "publisher": "Tsinghua University Press",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8254253",
+      "works_count": 409,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:big data"
+      ]
+    },
+    {
+      "issn": "2059-5816",
+      "journal_title": "Digital Library Perspectives",
+      "publisher": "Emerald Publishing Limited",
+      "url": "",
+      "works_count": 380,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:scientific computing and data management"
+      ]
+    },
+    {
+      "issn": "2959-0795",
+      "journal_title": "The Asian Bulletin of Big Data Management",
+      "publisher": "?",
+      "url": "",
+      "works_count": 373,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "title:big data"
+      ]
+    },
+    {
+      "issn": "0355-0036",
+      "journal_title": "Signum",
+      "publisher": "?",
+      "url": "",
+      "works_count": 356,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information literacy"
+      ]
+    },
+    {
+      "issn": "2471-3880",
+      "journal_title": "Journal of New Librarianship",
+      "publisher": "University of Colorado Boulder",
+      "url": "http://www.heinonline.org",
+      "works_count": 317,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information literacy",
+        "topic:library science and administration",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
+    },
+    {
+      "issn": "1353-2642",
+      "journal_title": "Online and CD-Rom Review",
+      "publisher": "?",
+      "url": "http://www.emeraldinsight.com/journal/ocrr",
+      "works_count": 306,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and information systems",
+        "topic:research data management practices",
+        "topic:library science and information literacy",
+        "topic:library science and administration"
+      ]
+    },
+    {
+      "issn": "2474-3542",
+      "journal_title": "International Journal of Librarianship",
+      "publisher": "Chinese American Librarians Association",
+      "url": "http://ojs.calaijol.org/index.php/ijol",
+      "works_count": 305,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
+        "topic:library science and information systems"
+      ]
     }
   ],
-  "total": 195
+  "verified_candidates": 300,
+  "unverified_candidates": 0,
+  "note": "Alle Kandidaten benötigen manuelle Prüfung pro CONTRIBUTING.md-Kriterien."
 }
