@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-10T07:41:00.906373",
+  "generated": "2026-08-17T06:57:14.123078",
   "method": "OpenAlex sources API scan via cursor pagination",
-  "total_sources_processed": 184400,
-  "total_journals": 159916,
-  "pages_scanned": 922,
+  "total_sources_processed": 183800,
+  "total_journals": 159423,
+  "pages_scanned": 919,
   "existing_count": 146,
   "candidates": [
     {
@@ -11,7 +11,7 @@
       "journal_title": "Data Technologies and Applications",
       "publisher": "Emerald Publishing Limited",
       "url": "http://info.emeraldinsight.com/products/journals/journals.htm?PHPSESSID=eqt7h2nv31850tv0folptojc16&id=prog",
-      "works_count": 1921,
+      "works_count": 1922,
       "type": "journal",
       "score": 4.5,
       "signals": [
@@ -28,7 +28,7 @@
       "journal_title": "Journal of Statistics and Data Science Education",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/ujse21/current",
-      "works_count": 279,
+      "works_count": 280,
       "type": "journal",
       "score": 4.3,
       "signals": [
@@ -44,7 +44,7 @@
       "journal_title": "Journal of Data and Information Quality",
       "publisher": "Association for Computing Machinery",
       "url": "",
-      "works_count": 410,
+      "works_count": 411,
       "type": "journal",
       "score": 4.0,
       "signals": [
@@ -52,22 +52,6 @@
         "topic:scientific computing and data management",
         "topic:research data management practices",
         "topic:data management and algorithms",
-        "pattern:journal-of-data"
-      ]
-    },
-    {
-      "issn": "2583-5440",
-      "journal_title": "Journal of Data Science Informetrics and Citation Studies",
-      "publisher": "EManuscript Services",
-      "url": "",
-      "works_count": 160,
-      "type": "journal",
-      "score": 4.0,
-      "signals": [
-        "title:data science",
-        "topic:library science and information literacy",
-        "topic:research data management practices",
-        "topic:scientific computing and data management",
         "pattern:journal-of-data"
       ]
     },
@@ -107,7 +91,7 @@
       "journal_title": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
       "publisher": "Wiley",
       "url": "https://onlinelibrary.wiley.com/journal/19424795",
-      "works_count": 807,
+      "works_count": 809,
       "type": "journal",
       "score": 3.8,
       "signals": [
@@ -122,7 +106,7 @@
       "journal_title": "Harvard Data Science Review",
       "publisher": "The MIT Press",
       "url": "https://hdsr.mitpress.mit.edu",
-      "works_count": 717,
+      "works_count": 718,
       "type": "journal",
       "score": 3.5,
       "signals": [
@@ -159,6 +143,21 @@
         "title:data intelligence",
         "topic:scientific computing and data management",
         "topic:data management and algorithms",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2583-5440",
+      "journal_title": "Journal of Data Science Informetrics and Citation Studies",
+      "publisher": "EManuscript Services",
+      "url": "",
+      "works_count": 179,
+      "type": "journal",
+      "score": 3.5,
+      "signals": [
+        "title:data science",
+        "topic:library science and information literacy",
+        "topic:research data management practices",
         "pattern:journal-of-data"
       ]
     },
@@ -214,7 +213,7 @@
       "journal_title": "The Serials Librarian",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wser20/current",
-      "works_count": 3560,
+      "works_count": 3561,
       "type": "journal",
       "score": 3.3,
       "signals": [
@@ -231,7 +230,7 @@
       "journal_title": "Learned Publishing",
       "publisher": "Wiley",
       "url": "https://onlinelibrary.wiley.com/journal/17414857",
-      "works_count": 2744,
+      "works_count": 2745,
       "type": "journal",
       "score": 3.3,
       "signals": [
@@ -248,7 +247,7 @@
       "journal_title": "Data & Knowledge Engineering",
       "publisher": "Elsevier BV",
       "url": "http://www.elsevier.com/locate/datak",
-      "works_count": 2686,
+      "works_count": 2687,
       "type": "journal",
       "score": 3.3,
       "signals": [
@@ -262,7 +261,7 @@
       "journal_title": "Science & Technology Libraries",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/loi/wstl20",
-      "works_count": 1498,
+      "works_count": 1500,
       "type": "journal",
       "score": 3.3,
       "signals": [
@@ -310,7 +309,7 @@
       "journal_title": "Frontiers in Big Data",
       "publisher": "Frontiers Media",
       "url": "https://www.frontiersin.org/journals/big-data",
-      "works_count": 764,
+      "works_count": 766,
       "type": "journal",
       "score": 3.3,
       "signals": [
@@ -389,7 +388,7 @@
       "journal_title": "Archival Science",
       "publisher": "Springer Nature",
       "url": "https://www.springer.com/journal/10502",
-      "works_count": 337,
+      "works_count": 338,
       "type": "journal",
       "score": 3.3,
       "signals": [
@@ -451,7 +450,7 @@
       "journal_title": "International Journal for Population Data Science",
       "publisher": "Swansea University",
       "url": "https://ijpds.org",
-      "works_count": 3340,
+      "works_count": 3341,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -465,7 +464,7 @@
       "journal_title": "Journal Of Big Data",
       "publisher": "Springer Science+Business Media",
       "url": "https://journalofbigdata.springeropen.com",
-      "works_count": 1485,
+      "works_count": 1489,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -479,7 +478,7 @@
       "journal_title": "International Journal of Data Science and Analytics",
       "publisher": "Springer International Publishing",
       "url": "https://link.springer.com/journal/41060",
-      "works_count": 1228,
+      "works_count": 1235,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -510,7 +509,7 @@
       "journal_title": "International Journal of Business Intelligence and Data Mining",
       "publisher": "Inderscience Publishers",
       "url": "",
-      "works_count": 1110,
+      "works_count": 1111,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -566,7 +565,7 @@
       "journal_title": "International Journal of Digital Curation",
       "publisher": "University of Edinburgh",
       "url": "http://www.ijdc.net/",
-      "works_count": 618,
+      "works_count": 621,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -608,7 +607,7 @@
       "journal_title": "Data Intelligence",
       "publisher": "The MIT Press",
       "url": "https://www.mitpressjournals.org/loi/dint",
-      "works_count": 527,
+      "works_count": 531,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -622,7 +621,7 @@
       "journal_title": "International Journal of Data Science",
       "publisher": "?",
       "url": "http://www.inderscience.com/jhome.php?jcode=ijds",
-      "works_count": 397,
+      "works_count": 398,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -720,7 +719,7 @@
       "journal_title": "Annual Review of Biomedical Data Science",
       "publisher": "Annual Reviews",
       "url": "http://www.annualreviews.org/journal/biodatasci",
-      "works_count": 185,
+      "works_count": 186,
       "type": "journal",
       "score": 3.0,
       "signals": [
@@ -876,7 +875,7 @@
       "journal_title": "The Journal of Academic Librarianship",
       "publisher": "Elsevier BV",
       "url": "http://www.elsevier.com/wps/find/journaldescription.cws_home/620207/description#description",
-      "works_count": 5389,
+      "works_count": 5393,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -892,7 +891,7 @@
       "journal_title": "Journal of Information Science",
       "publisher": "SAGE Publishing",
       "url": "http://jis.sagepub.com/",
-      "works_count": 3442,
+      "works_count": 3445,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -908,7 +907,7 @@
       "journal_title": "IFLA Journal",
       "publisher": "SAGE Publishing",
       "url": "http://ifl.sagepub.com/",
-      "works_count": 3373,
+      "works_count": 3374,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -924,7 +923,7 @@
       "journal_title": "Journal of Librarianship and Information Science",
       "publisher": "SAGE Publishing",
       "url": "http://lis.sagepub.com/",
-      "works_count": 2933,
+      "works_count": 2934,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -940,7 +939,7 @@
       "journal_title": "Journal of Library Administration",
       "publisher": "Taylor & Francis",
       "url": "http://www.tandfonline.com/action/aboutThisJournal?journalCode=wjla20",
-      "works_count": 2728,
+      "works_count": 2737,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -956,7 +955,7 @@
       "journal_title": "Cataloging & Classification Quarterly",
       "publisher": "Taylor & Francis",
       "url": "http://www.tandfonline.com/toc/wccq20/current",
-      "works_count": 2364,
+      "works_count": 2366,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -972,7 +971,7 @@
       "journal_title": "Earth system science data",
       "publisher": "Copernicus Publications",
       "url": "http://www.earth-system-science-data.net/",
-      "works_count": 2328,
+      "works_count": 2333,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -985,7 +984,7 @@
       "journal_title": "Technical Services Quarterly",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wtsq20/current",
-      "works_count": 2285,
+      "works_count": 2294,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -1081,7 +1080,7 @@
       "journal_title": "Public & Access Services Quarterly",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/loi/wpsq20",
-      "works_count": 1147,
+      "works_count": 1148,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -1161,7 +1160,7 @@
       "journal_title": "College & Undergraduate Libraries",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wcul20/current",
-      "works_count": 810,
+      "works_count": 813,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -1177,7 +1176,7 @@
       "journal_title": "Journal of the Australian Library and Information Association",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/ualj21/current",
-      "works_count": 773,
+      "works_count": 775,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -1193,7 +1192,7 @@
       "journal_title": "Slavic & East European Information Resources",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wsee20/current",
-      "works_count": 769,
+      "works_count": 770,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -1257,7 +1256,7 @@
       "journal_title": "EPJ Data Science",
       "publisher": "Springer Nature",
       "url": "https://epjdatascience.springeropen.com",
-      "works_count": 687,
+      "works_count": 689,
       "type": "journal",
       "score": 2.8,
       "signals": [
@@ -1341,7 +1340,7 @@
       "journal_title": "IEEE Transactions on Knowledge and Data Engineering",
       "publisher": "IEEE Computer Society",
       "url": "https://www.computer.org/web/tkde",
-      "works_count": 8100,
+      "works_count": 8111,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1370,7 +1369,7 @@
       "journal_title": "Journal of the Korean Data and Information Science Society",
       "publisher": "The Korean Data and Information Science Society (KDISS)",
       "url": "",
-      "works_count": 2786,
+      "works_count": 2798,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1383,7 +1382,7 @@
       "journal_title": "Library Management",
       "publisher": "Emerald Publishing Limited",
       "url": "https://www.emerald.com/insight/publication/issn/0143-5124",
-      "works_count": 2179,
+      "works_count": 2180,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1463,7 +1462,7 @@
       "journal_title": "Data Mining and Knowledge Discovery",
       "publisher": "Springer Science+Business Media",
       "url": "http://www.springer.com/computer/database+management+&+information+retrieval/journal/10618",
-      "works_count": 1389,
+      "works_count": 1391,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1569,7 +1568,7 @@
       "journal_title": "Journal of Data Science",
       "publisher": "People's University of China",
       "url": "https://jds-online.org",
-      "works_count": 1064,
+      "works_count": 1065,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1699,7 +1698,7 @@
     {
       "issn": "0309-314X",
       "journal_title": "Online Review",
-      "publisher": "?",
+      "publisher": "Emerald Publishing Limited",
       "url": "",
       "works_count": 492,
       "type": "journal",
@@ -1715,7 +1714,7 @@
     {
       "issn": "2377-620X",
       "journal_title": "OCLC Micro",
-      "publisher": "?",
+      "publisher": "Emerald Publishing Limited",
       "url": "http://www.emeraldinsight.com/loi/oclcm",
       "works_count": 425,
       "type": "journal",
@@ -1733,7 +1732,7 @@
       "journal_title": "Journal of Librarianship and Scholarly Communication",
       "publisher": "Pacific University Library",
       "url": "http://jlsc-pub.org/",
-      "works_count": 414,
+      "works_count": 415,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1778,7 +1777,7 @@
       "journal_title": "Japanese Journal of Statistics and Data Science",
       "publisher": "Springer Science+Business Media",
       "url": "https://www.springer.com/journal/42081",
-      "works_count": 366,
+      "works_count": 367,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1817,7 +1816,7 @@
       "journal_title": "International Journal of Data Science and IoT Management System",
       "publisher": "?",
       "url": "",
-      "works_count": 327,
+      "works_count": 338,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1859,7 +1858,7 @@
       "journal_title": "The Journal of Financial Data Science",
       "publisher": "?",
       "url": "https://jfds.pm-research.com",
-      "works_count": 294,
+      "works_count": 298,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1946,7 +1945,7 @@
       "journal_title": "International Journal of Data Mining Techniques and Applications",
       "publisher": "?",
       "url": "",
-      "works_count": 231,
+      "works_count": 236,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -1959,7 +1958,7 @@
       "journal_title": "Katina :",
       "publisher": "Annual Reviews",
       "url": "https://katinamagazine.org",
-      "works_count": 219,
+      "works_count": 221,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -2003,6 +2002,19 @@
       ]
     },
     {
+      "issn": "2721-3056",
+      "journal_title": "International Journal of Advances in Data and Information Systems",
+      "publisher": "?",
+      "url": "http://ijadis.org/",
+      "works_count": 207,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data and information",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
       "issn": "2716-621X",
       "journal_title": "Journal of Soft Computing and Data Mining",
       "publisher": "Penerbit UTHM",
@@ -2012,19 +2024,6 @@
       "score": 2.5,
       "signals": [
         "title:data mining",
-        "pattern:journal-of-data"
-      ]
-    },
-    {
-      "issn": "2721-3056",
-      "journal_title": "International Journal of Advances in Data and Information Systems",
-      "publisher": "?",
-      "url": "http://ijadis.org/",
-      "works_count": 201,
-      "type": "journal",
-      "score": 2.5,
-      "signals": [
-        "title:data and information",
         "pattern:journal-of-data"
       ]
     },
@@ -2062,12 +2061,25 @@
       "journal_title": "Journal of Data Science and Intelligent Systems",
       "publisher": "?",
       "url": "",
-      "works_count": 162,
+      "works_count": 167,
       "type": "journal",
       "score": 2.5,
       "signals": [
         "title:data science",
         "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2694-6106",
+      "journal_title": "Data Science and Informetrics",
+      "publisher": "?",
+      "url": "",
+      "works_count": 145,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "topic:research data management practices"
       ]
     },
     {
@@ -2081,19 +2093,6 @@
       "signals": [
         "title:data science",
         "pattern:journal-of-data"
-      ]
-    },
-    {
-      "issn": "2694-6106",
-      "journal_title": "Data Science and Informetrics",
-      "publisher": "?",
-      "url": "",
-      "works_count": 144,
-      "type": "journal",
-      "score": 2.5,
-      "signals": [
-        "title:data science",
-        "topic:research data management practices"
       ]
     },
     {
@@ -2115,7 +2114,7 @@
     {
       "issn": "2369-9779",
       "journal_title": "Ticker The Academic Business Librarianship Review",
-      "publisher": "?",
+      "publisher": "University of Michigan Library",
       "url": "http://ticker.mcgill.ca/index",
       "works_count": 142,
       "type": "journal",
@@ -2305,7 +2304,20 @@
       "journal_title": "International Journal on Data Science and Technology",
       "publisher": "Science Publishing Group",
       "url": "",
-      "works_count": 90,
+      "works_count": 91,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "2752-2334",
+      "journal_title": "Journal of Nonlinear Complex and Data Science",
+      "publisher": "?",
+      "url": "",
+      "works_count": 87,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -2327,24 +2339,11 @@
       ]
     },
     {
-      "issn": "2752-2334",
-      "journal_title": "Journal of Nonlinear Complex and Data Science",
-      "publisher": "?",
-      "url": "",
-      "works_count": 85,
-      "type": "journal",
-      "score": 2.5,
-      "signals": [
-        "title:data science",
-        "pattern:journal-of-data"
-      ]
-    },
-    {
       "issn": "2958-6453",
       "journal_title": "Mesopotamian Journal of Big Data",
       "publisher": "?",
       "url": "",
-      "works_count": 84,
+      "works_count": 85,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -2381,7 +2380,7 @@
     {
       "issn": "1055-4769",
       "journal_title": "Academic and Library Computing",
-      "publisher": "?",
+      "publisher": "Emerald Publishing Limited",
       "url": "",
       "works_count": 78,
       "type": "journal",
@@ -2546,7 +2545,7 @@
     {
       "issn": "2771-2389",
       "journal_title": "Journal of Artificial Intelligence and Big Data",
-      "publisher": "?",
+      "publisher": "Science Publications",
       "url": "",
       "works_count": 65,
       "type": "journal",
@@ -2626,7 +2625,7 @@
       "journal_title": "International journal of data science and machine learning.",
       "publisher": "Academic Journals",
       "url": "http://www.academicpublishers.org/archives",
-      "works_count": 52,
+      "works_count": 53,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -2653,6 +2652,19 @@
       "publisher": "?",
       "url": "",
       "works_count": 47,
+      "type": "journal",
+      "score": 2.5,
+      "signals": [
+        "title:data science",
+        "pattern:journal-of-data"
+      ]
+    },
+    {
+      "issn": "3078-7394",
+      "journal_title": "AI and Data Science Journal",
+      "publisher": "?",
+      "url": "",
+      "works_count": 46,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -2700,11 +2712,11 @@
       ]
     },
     {
-      "issn": "3078-7394",
-      "journal_title": "AI and Data Science Journal",
+      "issn": "2829-4858",
+      "journal_title": "Journal of Data Science Theory and Application",
       "publisher": "?",
       "url": "",
-      "works_count": 42,
+      "works_count": 41,
       "type": "journal",
       "score": 2.5,
       "signals": [
@@ -2713,10 +2725,10 @@
       ]
     },
     {
-      "issn": "2829-4858",
-      "journal_title": "Journal of Data Science Theory and Application",
+      "issn": "2988-0416",
+      "journal_title": "Indonesian Journal of Intelligence Data Science",
       "publisher": "?",
-      "url": "",
+      "url": "https://ejournal.unsrat.ac.id/v3/index.php/IJIDS/index",
       "works_count": 41,
       "type": "journal",
       "score": 2.5,
@@ -2754,7 +2766,7 @@
     {
       "issn": "2208-1674",
       "journal_title": "International Journal of Advanced Research in Big Data Management System",
-      "publisher": "?",
+      "publisher": "Global Vision Press",
       "url": "http://gvschoolpub.org/journals/IJARBMS/index.php",
       "works_count": 38,
       "type": "journal",
@@ -2951,7 +2963,7 @@
       "journal_title": "Government Information Quarterly",
       "publisher": "Elsevier BV",
       "url": "https://www.journals.elsevier.com/government-information-quarterly",
-      "works_count": 3224,
+      "works_count": 3228,
       "type": "journal",
       "score": 2.3,
       "signals": [
@@ -2981,7 +2993,7 @@
       "journal_title": "Medical Reference Services Quarterly",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wmrs20/current",
-      "works_count": 2018,
+      "works_count": 2019,
       "type": "journal",
       "score": 2.3,
       "signals": [
@@ -2996,7 +3008,7 @@
       "journal_title": "The Reference Librarian",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wref20/current",
-      "works_count": 1994,
+      "works_count": 1996,
       "type": "journal",
       "score": 2.3,
       "signals": [
@@ -3026,7 +3038,7 @@
       "journal_title": "Public Library Quarterly",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wplq20/current",
-      "works_count": 1664,
+      "works_count": 1666,
       "type": "journal",
       "score": 2.3,
       "signals": [
@@ -3071,7 +3083,7 @@
       "journal_title": "Journal of Business & Finance Librarianship",
       "publisher": "Taylor & Francis",
       "url": "https://www.tandfonline.com/toc/wbfl20/current",
-      "works_count": 1078,
+      "works_count": 1079,
       "type": "journal",
       "score": 2.3,
       "signals": [
@@ -3326,7 +3338,7 @@
       "journal_title": "Global Knowledge, Memory and Communication",
       "publisher": "Emerald Publishing Limited",
       "url": "",
-      "works_count": 4139,
+      "works_count": 4155,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3386,7 +3398,7 @@
       "journal_title": "Journal of Documentation",
       "publisher": "Emerald Publishing Limited",
       "url": "http://emeraldinsight.com/loi/jd",
-      "works_count": 3057,
+      "works_count": 3061,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3431,7 +3443,7 @@
       "journal_title": "Libri",
       "publisher": "De Gruyter",
       "url": "http://www.librijournal.org/issues.html",
-      "works_count": 2654,
+      "works_count": 2655,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3446,7 +3458,7 @@
       "journal_title": "Library Hi Tech News",
       "publisher": "Emerald Publishing Limited",
       "url": "",
-      "works_count": 2430,
+      "works_count": 2431,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3461,7 +3473,7 @@
       "journal_title": "Library Hi Tech",
       "publisher": "Emerald Publishing Limited",
       "url": "http://www.emeraldinsight.com/0737-8831.htm",
-      "works_count": 2380,
+      "works_count": 2390,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3521,7 +3533,7 @@
       "journal_title": "Reference Services Review",
       "publisher": "Emerald Publishing Limited",
       "url": "",
-      "works_count": 1998,
+      "works_count": 1999,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3536,7 +3548,7 @@
       "journal_title": "Publishing Research Quarterly",
       "publisher": "Springer Science+Business Media",
       "url": "https://www.springer.com/journal/12109",
-      "works_count": 1924,
+      "works_count": 1925,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3637,6 +3649,21 @@
       ]
     },
     {
+      "issn": "2157-0396",
+      "journal_title": "Georgia Library Quarterly",
+      "publisher": "Georgia Library Association",
+      "url": "",
+      "works_count": 1575,
+      "type": "journal",
+      "score": 2.0,
+      "signals": [
+        "topic:library science and administration",
+        "topic:library science and information literacy",
+        "topic:library science and information systems",
+        "topic:library science and information"
+      ]
+    },
+    {
       "issn": "0748-5786",
       "journal_title": "Journal of Education for Library and Information Science",
       "publisher": "University of Toronto Press",
@@ -3652,26 +3679,11 @@
       ]
     },
     {
-      "issn": "2157-0396",
-      "journal_title": "Georgia Library Quarterly",
-      "publisher": "Georgia Library Association",
-      "url": "",
-      "works_count": 1559,
-      "type": "journal",
-      "score": 2.0,
-      "signals": [
-        "topic:library science and administration",
-        "topic:library science and information literacy",
-        "topic:library science and information systems",
-        "topic:library science and information"
-      ]
-    },
-    {
       "issn": "0167-8329",
       "journal_title": "Education for Information",
       "publisher": "IOS Press",
       "url": "",
-      "works_count": 1514,
+      "works_count": 1515,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3686,7 +3698,7 @@
       "journal_title": "Big Data and Cognitive Computing",
       "publisher": "Multidisciplinary Digital Publishing Institute",
       "url": "http://www.mdpi.com/journal/BDCC",
-      "works_count": 1352,
+      "works_count": 1362,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -3803,7 +3815,7 @@
       "journal_title": "China Scientific Data",
       "publisher": "?",
       "url": "",
-      "works_count": 1118,
+      "works_count": 1121,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4022,7 +4034,7 @@
       "journal_title": "BioData Mining",
       "publisher": "BioMed Central",
       "url": "https://biodatamining.biomedcentral.com/",
-      "works_count": 691,
+      "works_count": 693,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4064,7 +4076,7 @@
       "journal_title": "Vjesnik bibliotekara Hrvatske",
       "publisher": "?",
       "url": "http://www.hkdrustvo.hr/vjesnik-bibliotekara-hrvatske/index.php/vbh",
-      "works_count": 596,
+      "works_count": 604,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4094,7 +4106,7 @@
       "journal_title": "Performance Measurement and Metrics",
       "publisher": "Emerald Publishing Limited",
       "url": "http://www.emeraldinsight.com/journals.htm?issn=1467-8047",
-      "works_count": 538,
+      "works_count": 541,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4223,7 +4235,7 @@
       "journal_title": "Digital Library Perspectives",
       "publisher": "Emerald Publishing Limited",
       "url": "",
-      "works_count": 381,
+      "works_count": 382,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4265,7 +4277,7 @@
       "journal_title": "Journal of New Librarianship",
       "publisher": "University of Colorado Boulder",
       "url": "http://www.heinonline.org",
-      "works_count": 317,
+      "works_count": 331,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4278,7 +4290,7 @@
     {
       "issn": "1353-2642",
       "journal_title": "Online and CD-Rom Review",
-      "publisher": "?",
+      "publisher": "Emerald Publishing Limited",
       "url": "http://www.emeraldinsight.com/journal/ocrr",
       "works_count": 306,
       "type": "journal",
@@ -4325,7 +4337,7 @@
       "journal_title": "Relevant Tomorrow",
       "publisher": "?",
       "url": "",
-      "works_count": 283,
+      "works_count": 284,
       "type": "journal",
       "score": 2.0,
       "signals": [
@@ -4348,21 +4360,6 @@
         "topic:library science and information literacy",
         "topic:library science and information systems",
         "topic:research data management practices"
-      ]
-    },
-    {
-      "issn": "0855-3033",
-      "journal_title": "Ghana Library Journal",
-      "publisher": "African Journals OnLine",
-      "url": "https://www.ajol.info/index.php/glj/index",
-      "works_count": 271,
-      "type": "journal",
-      "score": 2.0,
-      "signals": [
-        "topic:library science and information literacy",
-        "topic:library science and administration",
-        "topic:research data management practices",
-        "topic:library science and information systems"
       ]
     }
   ],
