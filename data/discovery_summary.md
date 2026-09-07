@@ -1,6 +1,6 @@
 ## 🔍 Data Journal Discovery Results
 
-Generated: 2026-08-31T12:44:20.152657
+Generated: 2026-09-07T11:38:04.731506
 
 ### Verified Candidates (300)
 
